@@ -1,0 +1,5 @@
+Using device: cuda
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\PG.py", line 109, in <module>
+    policy_probs = F.softmax(logits, dim=-1)
+NameError: name 'policy_probs' is not defined

@@ -1,0 +1,20 @@
+Using device: cuda
+Episode: 16, Reward: -14.6875, Loss: -0.00000000, Time: 21120.74ms
+Episode: 32, Reward: -15.875, Loss: -0.00002935, Time: 26666.26ms
+Episode: 48, Reward: -16.125, Loss: -0.00000311, Time: 28417.53ms
+Episode: 64, Reward: -16.625, Loss: -0.00007429, Time: 22615.96ms
+Episode: 80, Reward: -14.375, Loss: -0.00002827, Time: 23376.00ms
+Episode: 96, Reward: -17.1875, Loss: -0.00003709, Time: 29461.81ms
+Episode: 112, Reward: -16.5, Loss: -0.00030512, Time: 29262.65ms
+Episode: 128, Reward: -15.1875, Loss: -0.00036893, Time: 27274.41ms
+Episode: 144, Reward: -16.875, Loss: -0.00033707, Time: 29526.46ms
+Episode: 160, Reward: -15.9375, Loss: -0.00053760, Time: 29495.90ms
+Episode: 176, Reward: -14.3125, Loss: -0.00027403, Time: 28133.40ms
+Episode: 192, Reward: -16.5625, Loss: 0.00019054, Time: 30220.24ms
+Episode: 208, Reward: -15.0, Loss: -0.00120538, Time: 23749.48ms
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\PG.py", line 98, in <module>
+    curr_x = pre_process(observations)
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\PG.py", line 41, in pre_process
+    observations = torch.tensor(observations, dtype=torch.float32, device=device)
+KeyboardInterrupt

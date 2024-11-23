@@ -1,0 +1,21 @@
+Using device: cuda
+Episode: 1, Reward: [-21. -21. -21. -21. -21. -21. -21. -21.], Loss: -0.00000000, Time: 12955.95ms
+Episode: 2, Reward: [-21. -21. -21. -21. -21. -21. -21. -21.], Loss: -0.00000000, Time: 19355.95ms
+Episode: 3, Reward: [-21. -21. -21. -21. -21. -21. -21. -21.], Loss: -0.00000000, Time: 17139.82ms
+Episode: 4, Reward: [-21. -21. -21. -21. -21. -21. -21. -21.], Loss: -0.00000000, Time: 20746.70ms
+Episode: 5, Reward: [-21. -21. -21. -21. -21. -21. -21. -21.], Loss: -0.00000000, Time: 10154.62ms
+Episode: 6, Reward: [-21. -21. -21. -21. -21. -21. -21. -21.], Loss: -0.00000000, Time: 12829.80ms
+Episode: 7, Reward: [-21. -21. -21. -21. -21. -21. -21. -21.], Loss: -0.00000000, Time: 16788.07ms
+Episode: 8, Reward: [-21. -21. -21. -21. -21. -21. -21. -21.], Loss: -0.00000000, Time: 10432.86ms
+Episode: 9, Reward: [-21. -21. -21. -21. -21. -21. -21. -21.], Loss: -0.00000000, Time: 10599.53ms
+Episode: 10, Reward: [-21. -21. -21. -21. -21. -21. -21. -21.], Loss: -0.00000000, Time: 11165.27ms
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\PG.py", line 133, in <module>
+    scaler.scale(loss).backward()
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\autograd\__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\autograd\graph.py", line 768, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

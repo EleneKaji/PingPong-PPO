@@ -1,0 +1,16 @@
+{"time":"2024-11-22T21:53:00.3948781-07:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-22T21:53:00.3948781-07:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Elene2004\\Python\\Files\\PingPong-PPO\\wandb\\run-20241122_215300-d3njevln\\logs\\debug-core.log"}
+{"time":"2024-11-22T21:53:00.5043885-07:00","level":"INFO","msg":"created new stream","id":"d3njevln"}
+{"time":"2024-11-22T21:53:00.5043885-07:00","level":"INFO","msg":"stream: started","id":"d3njevln"}
+{"time":"2024-11-22T21:53:00.5043885-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"d3njevln"}
+{"time":"2024-11-22T21:53:00.505054-07:00","level":"INFO","msg":"sender: started","stream_id":"d3njevln"}
+{"time":"2024-11-22T21:53:00.505054-07:00","level":"INFO","msg":"handler: started","stream_id":"d3njevln"}
+{"time":"2024-11-22T21:53:00.7922813-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-22T21:53:25.6213688-07:00","level":"INFO","msg":"stream: closing","id":"d3njevln"}
+{"time":"2024-11-22T21:53:25.6213688-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-22T21:53:25.6218719-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-22T21:53:26.0295339-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-22T21:53:26.4349027-07:00","level":"INFO","msg":"handler: closed","stream_id":"d3njevln"}
+{"time":"2024-11-22T21:53:26.4349027-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"d3njevln"}
+{"time":"2024-11-22T21:53:26.4349027-07:00","level":"INFO","msg":"sender: closed","stream_id":"d3njevln"}
+{"time":"2024-11-22T21:53:26.4354613-07:00","level":"INFO","msg":"stream: closed","id":"d3njevln"}

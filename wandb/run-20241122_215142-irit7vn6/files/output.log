@@ -1,0 +1,6 @@
+Using device: cuda
+torch.Size([824, 8, 1]) torch.Size([824, 8])
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\PG.py", line 134, in <module>
+    loss /= batch_size # divide by batch size
+RuntimeError: The size of tensor a (8) must match the size of tensor b (824) at non-singleton dimension 1

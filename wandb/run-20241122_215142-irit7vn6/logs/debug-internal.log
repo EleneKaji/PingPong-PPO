@@ -1,0 +1,16 @@
+{"time":"2024-11-22T21:51:42.1063044-07:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-22T21:51:42.1063044-07:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Elene2004\\Python\\Files\\PingPong-PPO\\wandb\\run-20241122_215142-irit7vn6\\logs\\debug-core.log"}
+{"time":"2024-11-22T21:51:42.218475-07:00","level":"INFO","msg":"created new stream","id":"irit7vn6"}
+{"time":"2024-11-22T21:51:42.218475-07:00","level":"INFO","msg":"stream: started","id":"irit7vn6"}
+{"time":"2024-11-22T21:51:42.218475-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"irit7vn6"}
+{"time":"2024-11-22T21:51:42.218475-07:00","level":"INFO","msg":"sender: started","stream_id":"irit7vn6"}
+{"time":"2024-11-22T21:51:42.218475-07:00","level":"INFO","msg":"handler: started","stream_id":"irit7vn6"}
+{"time":"2024-11-22T21:51:42.7291585-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-22T21:51:50.988427-07:00","level":"INFO","msg":"stream: closing","id":"irit7vn6"}
+{"time":"2024-11-22T21:51:50.988427-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-22T21:51:50.9891661-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-22T21:51:51.5938982-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-22T21:51:51.8071882-07:00","level":"INFO","msg":"handler: closed","stream_id":"irit7vn6"}
+{"time":"2024-11-22T21:51:51.8071882-07:00","level":"INFO","msg":"sender: closed","stream_id":"irit7vn6"}
+{"time":"2024-11-22T21:51:51.8071882-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"irit7vn6"}
+{"time":"2024-11-22T21:51:51.8078509-07:00","level":"INFO","msg":"stream: closed","id":"irit7vn6"}

@@ -1,0 +1,44 @@
+Using device: cuda
+Episode: 1, Reward: [-21. -13. -20. -21. -17. -15. -15. -17.], Loss: 9.38729862, Time: 8610.35ms
+Episode: 2, Reward: [-21. -20. -15. -14. -17. -19. -17. -19.], Loss: -1.70345288, Time: 18804.02ms
+Episode: 3, Reward: [-13. -21. -10. -14. -16. -14. -16. -15.], Loss: -2.72508047, Time: 18027.38ms
+Episode: 4, Reward: [-14. -19. -17. -13. -17. -21. -18. -15.], Loss: -12.92214129, Time: 13682.87ms
+Episode: 5, Reward: [-14. -13. -17. -15. -14. -19. -21. -15.], Loss: -6.20412622, Time: 14114.16ms
+Episode: 6, Reward: [-19. -18. -13. -21. -15. -15. -14. -14.], Loss: -6.34854112, Time: 10583.31ms
+Episode: 7, Reward: [-12. -15. -17. -15. -13. -12. -12. -21.], Loss: 0.87387112, Time: 11181.07ms
+Episode: 8, Reward: [-21.  -9. -10. -12. -13. -12. -17. -17.], Loss: 0.11607604, Time: 18779.63ms
+Episode: 9, Reward: [-13. -12. -17. -21. -19. -19. -11. -14.], Loss: 0.14363185, Time: 18441.00ms
+Episode: 10, Reward: [-21. -11. -13. -14. -14. -13.  -9. -17.], Loss: -4.85011250, Time: 8957.28ms
+Episode: 11, Reward: [-19. -13. -21. -18. -19. -15. -14. -15.], Loss: -2.07369397, Time: 8806.91ms
+Episode: 12, Reward: [-19. -15. -12. -15. -21. -12. -21. -19.], Loss: -2.01810672, Time: 9344.91ms
+Episode: 13, Reward: [-16. -21. -17. -17. -19. -21. -15. -17.], Loss: -4.28341350, Time: 11249.26ms
+Episode: 14, Reward: [ -9. -17. -21. -12. -13. -17. -13. -17.], Loss: -0.63351866, Time: 9961.66ms
+Episode: 15, Reward: [-19. -13. -15.  -8.  -8. -21. -10. -15.], Loss: 1.84658080, Time: 10223.24ms
+Episode: 16, Reward: [-15. -19. -21. -15. -11. -14. -12. -20.], Loss: 9.55459622, Time: 13377.07ms
+Episode: 17, Reward: [-19. -21. -19. -18. -14. -17. -19. -16.], Loss: 0.12229994, Time: 10378.05ms
+Episode: 18, Reward: [-15. -21. -21. -14. -21. -17. -12. -17.], Loss: 0.84033601, Time: 10813.99ms
+Episode: 19, Reward: [-19. -15.  -4.  -9. -19. -19. -21. -13.], Loss: -0.89741615, Time: 12018.72ms
+Episode: 20, Reward: [-21. -17. -15. -21. -12. -18. -15. -15.], Loss: -5.93030852, Time: 10798.32ms
+Episode: 21, Reward: [-17. -13. -19. -14. -21. -17. -17. -17.], Loss: -9.83407247, Time: 10997.99ms
+Episode: 22, Reward: [-19. -17. -17. -17. -15. -21. -15. -15.], Loss: -7.16784834, Time: 11172.58ms
+Episode: 23, Reward: [-21. -15. -17. -15. -14. -20. -15. -14.], Loss: 3.69644154, Time: 13853.14ms
+Episode: 24, Reward: [-13. -17. -13. -21. -19. -15. -21. -15.], Loss: -1.19650185, Time: 10738.44ms
+Episode: 25, Reward: [-21. -17. -20. -19. -15. -16. -17. -15.], Loss: -1.86107650, Time: 19090.86ms
+Episode: 26, Reward: [-21. -21. -17. -13. -19. -19. -19. -15.], Loss: -0.66791262, Time: 15106.92ms
+Episode: 27, Reward: [-21.  -8. -17. -17. -19. -17. -14. -14.], Loss: 6.87089295, Time: 11910.70ms
+Episode: 28, Reward: [-12. -20. -14. -20. -18. -16. -10. -15.], Loss: 2.17527865, Time: 18489.61ms
+Episode: 29, Reward: [-17. -15. -17. -21. -15. -15. -17. -15.], Loss: -0.48021687, Time: 18031.45ms
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\PG.py", line 114, in <module>
+    observations, rewards, terminateds, truncateds, _ = envs.step(actions)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\vector\sync_vector_env.py", line 222, in step
+    ) = self.envs[i].step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\wrappers\common.py", line 393, in step
+    return super().step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\core.py", line 322, in step
+    return self.env.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\wrappers\common.py", line 285, in step
+    return self.env.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\ale_py\env.py", line 299, in step
+    reward += self.ale.act(action_idx, strength)
+KeyboardInterrupt

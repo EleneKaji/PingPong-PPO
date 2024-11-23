@@ -1,0 +1,11 @@
+Using device: cuda
+Episode: 1, Reward: [-18. -13. -15. -19. -13. -11. -19. -21.], Loss: -0.00931491, Time: 7572.18ms
+Episode: 2, Reward: [-18. -13. -19. -21. -20. -20. -20. -18.], Loss: 0.00632286, Time: 13985.78ms
+Episode: 3, Reward: [-13. -15. -21. -21. -17. -15. -15. -19.], Loss: -0.00124566, Time: 15863.03ms
+Episode: 4, Reward: [-10. -20. -17. -12. -17. -15. -19. -21.], Loss: 0.01599096, Time: 9525.33ms
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\PG.py", line 100, in <module>
+    curr_x = pre_process(observations)
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\PG.py", line 32, in pre_process
+    observations = torch.tensor(observations, dtype=torch.float32, device=device)
+KeyboardInterrupt

@@ -1,0 +1,44 @@
+Using device: cuda
+Episode: 1, Reward: [-17. -19. -17. -19. -12. -14. -17. -21.], Loss: 18.60684369, Time: 14914.19ms
+Episode: 2, Reward: [-14. -21. -17. -13. -17. -17. -17. -14.], Loss: -12.86171371, Time: 10583.27ms
+Episode: 3, Reward: [-12. -17. -14. -17. -21. -21. -19.  -6.], Loss: -13.79964479, Time: 13118.29ms
+Episode: 4, Reward: [-17. -14. -19. -19. -15. -17. -21. -15.], Loss: -2.02720464, Time: 15881.85ms
+Episode: 5, Reward: [-18. -21. -17. -14. -19. -15. -17. -15.], Loss: -13.52156602, Time: 11201.75ms
+Episode: 6, Reward: [ -6. -19. -15. -13. -17. -18. -21. -21.], Loss: 9.40845768, Time: 12627.89ms
+Episode: 7, Reward: [-13. -15. -19. -21. -13. -12. -15. -14.], Loss: -9.82131542, Time: 16355.28ms
+Episode: 8, Reward: [-17. -17. -17. -17. -16. -15. -13. -21.], Loss: -10.08510653, Time: 20934.74ms
+Episode: 9, Reward: [-15. -17. -13. -19. -19. -14. -21. -14.], Loss: 5.62724498, Time: 15676.57ms
+Episode: 10, Reward: [-12. -19. -13. -19. -19. -13. -20. -21.], Loss: 6.69219315, Time: 11788.36ms
+Episode: 11, Reward: [-17. -21. -16. -19. -12. -15. -17. -17.], Loss: 3.56546532, Time: 10956.55ms
+Episode: 12, Reward: [-19. -17. -14. -14. -19. -21. -15. -17.], Loss: 16.06655222, Time: 12621.74ms
+Episode: 13, Reward: [-12. -17. -19. -21. -10. -13. -21. -17.], Loss: -7.21232528, Time: 12224.23ms
+Episode: 14, Reward: [-21. -15. -19. -17. -20. -19. -12. -15.], Loss: -18.59672343, Time: 10204.71ms
+Episode: 15, Reward: [-17. -15. -17. -18. -20. -21. -18. -17.], Loss: 2.09761138, Time: 14158.22ms
+Episode: 16, Reward: [-13. -11. -17. -14. -21. -19. -12. -12.], Loss: -16.18419931, Time: 10567.88ms
+Episode: 17, Reward: [-17. -17. -13. -21. -15. -15. -15. -15.], Loss: -2.51160716, Time: 13023.10ms
+Episode: 18, Reward: [-15. -17. -17. -21. -17. -19. -15. -13.], Loss: 10.48619372, Time: 15231.92ms
+Episode: 19, Reward: [-14. -18. -11. -15. -11. -21. -17. -10.], Loss: -16.70486483, Time: 11324.92ms
+Episode: 20, Reward: [-12. -14. -21. -19. -15. -13. -15. -14.], Loss: 23.94853012, Time: 12464.17ms
+Episode: 21, Reward: [-21. -14. -10. -15. -14. -16. -12. -19.], Loss: 8.78231948, Time: 11136.98ms
+Episode: 22, Reward: [-19.  -6. -18. -14. -17. -21. -12. -18.], Loss: -4.36492710, Time: 11235.55ms
+Episode: 23, Reward: [-17. -21. -15. -16. -16. -17. -20. -17.], Loss: -12.93806060, Time: 12201.59ms
+Episode: 24, Reward: [-15. -19. -12. -21. -16. -17. -19. -14.], Loss: 13.94552553, Time: 11138.55ms
+Episode: 25, Reward: [-13.  -6. -12. -19. -21. -17. -15. -15.], Loss: -1.46991447, Time: 10788.24ms
+Episode: 26, Reward: [-10. -12. -13. -15. -15. -13. -18. -21.], Loss: 5.15796317, Time: 12898.05ms
+Episode: 27, Reward: [-21. -20. -19. -18. -17. -18. -19. -11.], Loss: 11.71357846, Time: 13727.62ms
+Episode: 28, Reward: [-17. -21.  -8. -15. -17. -15. -12. -18.], Loss: -16.00220272, Time: 12420.98ms
+Episode: 29, Reward: [-18. -20. -16. -14. -20. -16. -12. -20.], Loss: -5.00723150, Time: 13621.43ms
+Episode: 30, Reward: [-19. -15. -21. -13. -16. -12. -15. -16.], Loss: -13.50945158, Time: 12296.46ms
+Episode: 31, Reward: [-21. -17. -17. -16. -19. -15. -17. -21.], Loss: -4.80784528, Time: 19242.37ms
+Episode: 32, Reward: [-21. -13. -17. -17. -14. -20. -17. -13.], Loss: -14.61311158, Time: 12638.01ms
+Episode: 33, Reward: [-18. -18. -17. -10. -17. -21. -15. -17.], Loss: 0.25802286, Time: 10093.21ms
+Episode: 34, Reward: [-21. -12. -19. -15. -17. -12. -10. -19.], Loss: -18.69836877, Time: 11439.73ms
+Episode: 35, Reward: [-17. -15. -16. -19. -15. -10. -21. -13.], Loss: 10.67128863, Time: 13642.37ms
+Episode: 36, Reward: [-17. -13.  -2. -16. -17. -21. -10. -17.], Loss: -1.60017001, Time: 11152.78ms
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\PG.py", line 113, in <module>
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\vector\sync_vector_env.py", line 222, in step
+    ) = self.envs[i].step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\wrappers\common.py", line 393, in step
+    return super().step(action)
+KeyboardInterrupt

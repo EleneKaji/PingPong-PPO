@@ -1,0 +1,16 @@
+{"time":"2024-11-22T20:22:08.7863345-07:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-22T20:22:08.7863345-07:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Elene2004\\Python\\Files\\PingPong-PPO\\wandb\\run-20241122_202208-w55ibmjr\\logs\\debug-core.log"}
+{"time":"2024-11-22T20:22:09.3766321-07:00","level":"INFO","msg":"created new stream","id":"w55ibmjr"}
+{"time":"2024-11-22T20:22:09.3773233-07:00","level":"INFO","msg":"stream: started","id":"w55ibmjr"}
+{"time":"2024-11-22T20:22:09.3773233-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"w55ibmjr"}
+{"time":"2024-11-22T20:22:09.3773233-07:00","level":"INFO","msg":"handler: started","stream_id":"w55ibmjr"}
+{"time":"2024-11-22T20:22:09.3773233-07:00","level":"INFO","msg":"sender: started","stream_id":"w55ibmjr"}
+{"time":"2024-11-22T20:22:09.8245076-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-22T20:30:08.0746025-07:00","level":"INFO","msg":"stream: closing","id":"w55ibmjr"}
+{"time":"2024-11-22T20:30:08.0746025-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-22T20:30:08.0751124-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-22T20:30:09.2732832-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-22T20:30:09.5285997-07:00","level":"INFO","msg":"handler: closed","stream_id":"w55ibmjr"}
+{"time":"2024-11-22T20:30:09.5285997-07:00","level":"INFO","msg":"sender: closed","stream_id":"w55ibmjr"}
+{"time":"2024-11-22T20:30:09.5285997-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"w55ibmjr"}
+{"time":"2024-11-22T20:30:09.5292859-07:00","level":"INFO","msg":"stream: closed","id":"w55ibmjr"}

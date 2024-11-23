@@ -1,0 +1,21 @@
+Using device: cuda
+Episode: 1, Reward: [-14. -21. -15. -15. -14. -14. -17. -17.], Loss: -39.49813795, Time: 12402.11ms
+Episode: 2, Reward: [-21. -13. -13. -13. -17. -17. -18. -19.], Loss: -1.87079622, Time: 18639.11ms
+Episode: 3, Reward: [-15. -21. -19. -17. -18. -19. -11. -19.], Loss: 9.95273817, Time: 10798.01ms
+Episode: 4, Reward: [-17. -17. -15. -21. -13. -17. -13. -14.], Loss: -14.14902829, Time: 10774.81ms
+Episode: 5, Reward: [-15. -21. -13. -15. -15. -14. -17. -17.], Loss: -14.36978136, Time: 12213.45ms
+Episode: 6, Reward: [-15. -15. -11. -18. -13. -21. -19. -15.], Loss: -10.34467929, Time: 11528.57ms
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\PG.py", line 114, in <module>
+    observations, rewards, terminateds, truncateds, _ = envs.step(actions)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\vector\sync_vector_env.py", line 222, in step
+    ) = self.envs[i].step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\wrappers\common.py", line 393, in step
+    return super().step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\core.py", line 322, in step
+    return self.env.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\wrappers\common.py", line 285, in step
+    return self.env.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\ale_py\env.py", line 298, in step
+    for _ in range(frameskip):
+KeyboardInterrupt

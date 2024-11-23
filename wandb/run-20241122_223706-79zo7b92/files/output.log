@@ -1,0 +1,107 @@
+Using device: cuda
+Episode: 1, Reward: [-17. -17. -15. -19. -15. -15. -18. -21.], Loss: -0.04848798, Time: 8437.52ms
+Episode: 2, Reward: [-14. -13. -15. -10. -21.  -7. -10. -17.], Loss: 0.15458331, Time: 9200.84ms
+Episode: 3, Reward: [-18. -19. -17. -12. -19. -19. -21. -13.], Loss: 0.05120989, Time: 14420.02ms
+Episode: 4, Reward: [-19. -13. -20. -20. -20. -19. -18. -21.], Loss: -0.04750568, Time: 15167.30ms
+Episode: 5, Reward: [-21.  -8. -14. -17. -15.  -6. -21. -17.], Loss: 0.03147411, Time: 10398.66ms
+Episode: 6, Reward: [-21. -17. -15. -14. -15. -15. -14. -15.], Loss: 0.08720535, Time: 13503.83ms
+Episode: 7, Reward: [-17. -14. -19. -15. -17. -21. -17. -19.], Loss: -0.04000622, Time: 16294.43ms
+Episode: 8, Reward: [ -8. -13. -15. -17. -11. -12. -21. -19.], Loss: 0.01724978, Time: 10168.37ms
+Episode: 9, Reward: [-21. -19. -16. -17. -15. -10. -12. -19.], Loss: 0.05718344, Time: 10615.58ms
+Episode: 10, Reward: [-17. -15. -15. -19. -19. -19. -12. -21.], Loss: 0.00049095, Time: 13454.52ms
+Episode: 11, Reward: [-19. -17. -21. -20. -21. -15. -20. -13.], Loss: 0.06763200, Time: 18820.09ms
+Episode: 12, Reward: [-19. -19. -17. -20. -20. -21. -15.  -8.], Loss: -0.10790865, Time: 19227.33ms
+Episode: 13, Reward: [-14. -15. -15. -21. -15. -11. -19. -15.], Loss: -0.08493904, Time: 18119.65ms
+Episode: 14, Reward: [-15. -17. -21. -19. -10. -13. -13. -17.], Loss: 0.00998372, Time: 17825.89ms
+Episode: 15, Reward: [-17. -15. -19. -13. -21. -12. -18. -20.], Loss: 0.02588957, Time: 17920.73ms
+Episode: 16, Reward: [-15. -15. -21. -20. -10. -19. -17. -15.], Loss: 0.03269078, Time: 17733.02ms
+Episode: 17, Reward: [-19. -20. -15. -10. -15. -13. -21. -17.], Loss: -0.06135720, Time: 20228.80ms
+Episode: 18, Reward: [-14. -14. -17. -14. -15. -15. -17. -21.], Loss: 0.07546345, Time: 16440.03ms
+Episode: 19, Reward: [-21. -17. -17. -17. -15. -13. -19. -15.], Loss: -0.09326311, Time: 19495.00ms
+Episode: 20, Reward: [-13. -20. -21. -15. -20. -18. -18. -17.], Loss: 0.00817953, Time: 19165.43ms
+Episode: 21, Reward: [-14. -17. -15.  -9. -21. -19. -12. -17.], Loss: 0.06670040, Time: 17650.68ms
+Episode: 22, Reward: [-16. -18. -16. -20. -16. -18. -13. -18.], Loss: -0.02577631, Time: 20427.80ms
+Episode: 23, Reward: [-21. -14. -21. -15. -17. -21. -15. -17.], Loss: 0.06013042, Time: 18122.40ms
+Episode: 24, Reward: [-17. -19. -21. -14. -19. -15. -19. -15.], Loss: 0.04548502, Time: 19469.64ms
+Episode: 25, Reward: [-13. -14. -13. -19. -15. -20. -16. -21.], Loss: -0.03790322, Time: 21246.06ms
+Episode: 26, Reward: [-13. -19. -14. -15. -15. -17. -21. -18.], Loss: -0.05957752, Time: 18010.14ms
+Episode: 27, Reward: [-12. -21. -16. -14. -17. -17. -19. -16.], Loss: -0.01724117, Time: 17947.02ms
+Episode: 28, Reward: [-15. -15. -12. -15. -15. -21. -13. -13.], Loss: -0.01714476, Time: 18102.21ms
+Episode: 29, Reward: [-14. -15. -15. -15. -17. -21. -16. -13.], Loss: -0.00432727, Time: 17937.69ms
+Episode: 30, Reward: [-21. -17. -15. -19. -17. -15. -17. -10.], Loss: 0.01654278, Time: 19536.05ms
+Episode: 31, Reward: [-13. -18. -17. -15. -17. -19. -21. -15.], Loss: 0.10387718, Time: 19443.87ms
+Episode: 32, Reward: [-20. -17. -15. -21. -17. -20. -20. -16.], Loss: -0.00515212, Time: 17715.78ms
+Episode: 33, Reward: [-17. -19. -17. -19. -21. -17. -17. -17.], Loss: 0.04079457, Time: 18050.96ms
+Episode: 34, Reward: [-12. -19. -19. -15. -15. -21. -19. -12.], Loss: 0.05640883, Time: 17880.25ms
+Episode: 35, Reward: [-11. -19. -17. -13. -21.  -8. -16. -17.], Loss: 0.02336370, Time: 16239.37ms
+Episode: 36, Reward: [-19. -21. -17. -21. -19. -19. -17. -17.], Loss: 0.00293707, Time: 18779.66ms
+Episode: 37, Reward: [-21. -17. -16.  -6. -19. -13. -17. -12.], Loss: -0.05921237, Time: 17947.29ms
+Episode: 38, Reward: [-15. -20. -17. -10. -21. -19. -14. -10.], Loss: 0.04207655, Time: 18884.69ms
+Episode: 39, Reward: [-10. -13. -17. -21. -15. -15. -15. -17.], Loss: 0.03667704, Time: 18686.43ms
+Episode: 40, Reward: [-15. -13. -21. -19. -19. -21. -13. -21.], Loss: 0.09548487, Time: 17497.84ms
+Episode: 41, Reward: [-14. -17. -21.  -6. -10. -10. -19. -14.], Loss: 0.01891482, Time: 15956.46ms
+Episode: 42, Reward: [-12. -17. -21. -16. -12. -13. -19. -15.], Loss: 0.01046987, Time: 17579.64ms
+Episode: 43, Reward: [-18. -12. -19. -19. -17. -21. -15. -13.], Loss: 0.02180444, Time: 19004.27ms
+Episode: 44, Reward: [-17. -14. -15. -12. -20. -21. -14. -14.], Loss: -0.02312949, Time: 20629.80ms
+Episode: 45, Reward: [-17. -19. -21. -17. -15. -14. -13. -21.], Loss: 0.00833091, Time: 17836.52ms
+Episode: 46, Reward: [-12. -18. -11. -15. -17. -14. -21. -17.], Loss: -0.02183820, Time: 17575.50ms
+Episode: 47, Reward: [-17. -14. -17. -21. -15. -17. -17. -17.], Loss: -0.00456835, Time: 17632.63ms
+Episode: 48, Reward: [-19. -13. -15. -17. -21. -19. -13. -21.], Loss: 0.09718770, Time: 18026.30ms
+Episode: 49, Reward: [-15. -18. -19. -15. -17. -20. -17. -21.], Loss: 0.02128647, Time: 19242.69ms
+Episode: 50, Reward: [-15. -15. -15. -15. -21. -15. -15. -19.], Loss: 0.04176410, Time: 16284.82ms
+Episode: 51, Reward: [-14. -17. -20. -19. -15. -21. -17. -15.], Loss: -0.05993765, Time: 17642.31ms
+Episode: 52, Reward: [-12. -17. -15. -15. -17. -15.  -7. -21.], Loss: 0.03474237, Time: 17963.64ms
+Episode: 53, Reward: [-12. -17. -21. -19. -17. -13. -15. -17.], Loss: 0.05731019, Time: 19225.99ms
+Episode: 54, Reward: [-15. -17. -17. -15. -21. -15. -13. -19.], Loss: 0.01427052, Time: 17452.52ms
+Episode: 55, Reward: [ -8. -21. -15. -21. -17. -19. -12. -19.], Loss: -0.02547099, Time: 17238.59ms
+Episode: 56, Reward: [-21. -17. -17. -21. -17. -19. -13. -15.], Loss: -0.00814583, Time: 15830.80ms
+Episode: 57, Reward: [-16. -18. -20. -18. -18. -16. -13. -16.], Loss: -0.09914544, Time: 12002.36ms
+Episode: 58, Reward: [-17. -21. -19. -19. -15. -15. -12. -17.], Loss: 0.08482395, Time: 10965.65ms
+Episode: 59, Reward: [-12. -12. -21. -15. -17. -17. -17. -19.], Loss: 0.01061213, Time: 11005.84ms
+Episode: 60, Reward: [-12. -21. -17. -15. -13. -16. -19. -12.], Loss: -0.01431029, Time: 10592.75ms
+Episode: 61, Reward: [-19. -17. -13. -19. -16. -21. -14. -18.], Loss: -0.07536002, Time: 15083.87ms
+Episode: 62, Reward: [-17. -15. -13. -19. -21. -15. -10. -16.], Loss: -0.00040577, Time: 10888.79ms
+Episode: 63, Reward: [-10. -17. -18. -19. -21. -17. -19. -17.], Loss: 0.00065543, Time: 10786.22ms
+Episode: 64, Reward: [-11. -19. -19. -21. -11. -13. -20. -17.], Loss: 0.06831880, Time: 16356.13ms
+Episode: 65, Reward: [-14. -11. -13. -13. -17. -19.  -9. -21.], Loss: -0.14107689, Time: 19868.92ms
+Episode: 66, Reward: [-12. -19. -16. -12. -19. -19. -21. -20.], Loss: 0.21524957, Time: 18013.79ms
+Episode: 67, Reward: [-19. -17. -13. -15. -20. -17. -21. -15.], Loss: -0.08298716, Time: 11162.27ms
+Episode: 68, Reward: [-19. -17. -17. -17. -13. -21. -15. -15.], Loss: 0.04125419, Time: 12548.24ms
+Episode: 69, Reward: [-20. -17. -19. -13. -20. -20. -20. -21.], Loss: 0.05730841, Time: 19992.61ms
+Episode: 70, Reward: [-14. -21. -19. -18. -15.  -8. -12. -11.], Loss: 0.03187332, Time: 17391.32ms
+Episode: 71, Reward: [-19. -15. -15. -17. -19. -21. -14. -20.], Loss: 0.10471538, Time: 18746.33ms
+Episode: 72, Reward: [-10.  -9. -19. -17.  -9. -16. -21. -15.], Loss: 0.04293287, Time: 17126.38ms
+Episode: 73, Reward: [-15. -19. -21. -15. -17. -13. -13. -17.], Loss: -0.03720594, Time: 17088.35ms
+Episode: 74, Reward: [-21. -15. -20. -17. -19. -12. -15. -17.], Loss: 0.01544987, Time: 17467.54ms
+Episode: 75, Reward: [-18. -21. -17. -17. -15. -19. -19. -19.], Loss: 0.08740729, Time: 20003.86ms
+Episode: 76, Reward: [-17. -15. -11. -12. -19. -21. -19. -13.], Loss: 0.02081474, Time: 17206.83ms
+Episode: 77, Reward: [-10. -19. -21. -14. -19. -15. -17. -13.], Loss: -0.07613354, Time: 16777.17ms
+Episode: 78, Reward: [-12. -15. -17. -17. -15. -16. -15. -21.], Loss: -0.03515880, Time: 18851.73ms
+Episode: 79, Reward: [-21. -12. -21. -17. -17. -17. -19. -20.], Loss: 0.00054957, Time: 17346.63ms
+Episode: 80, Reward: [-15. -19. -19. -19. -20. -21. -20. -21.], Loss: 0.03237942, Time: 17503.75ms
+Episode: 81, Reward: [-21. -19. -19. -15. -17. -11. -14. -19.], Loss: 0.05044826, Time: 18464.20ms
+Episode: 82, Reward: [-12. -18. -16. -17. -17. -21. -19. -14.], Loss: 0.06000267, Time: 18168.45ms
+Episode: 83, Reward: [-17. -16. -12. -21. -10. -13. -12. -14.], Loss: 0.01905704, Time: 15981.57ms
+Episode: 84, Reward: [-21. -18. -15. -16. -12. -19. -17.  -8.], Loss: 0.01604698, Time: 17234.51ms
+Episode: 85, Reward: [-15. -17. -17.  -7. -17. -15. -15. -21.], Loss: 0.03567681, Time: 18403.96ms
+Episode: 86, Reward: [-21. -17. -13. -20. -17.  -6. -14. -10.], Loss: -0.01190580, Time: 17387.38ms
+Episode: 87, Reward: [-17. -17. -15. -21. -18. -15. -15. -15.], Loss: 0.05251221, Time: 17245.13ms
+Episode: 88, Reward: [-20. -20. -14. -16. -18. -18. -20. -13.], Loss: 0.04859165, Time: 20010.56ms
+Episode: 89, Reward: [-15. -19. -17. -19. -15. -19. -21. -21.], Loss: 0.07554610, Time: 18469.05ms
+Episode: 90, Reward: [-15. -19. -19. -17. -15. -10. -20. -21.], Loss: -0.02492775, Time: 18555.89ms
+Episode: 91, Reward: [-11. -19. -17. -19. -21. -19. -19. -15.], Loss: 0.01299976, Time: 18533.19ms
+Episode: 92, Reward: [-17. -21. -17. -20. -19. -13. -19. -19.], Loss: -0.03618463, Time: 18430.64ms
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\PG.py", line 113, in <module>
+    observations, rewards, terminateds, truncateds, _ = envs.step(actions)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\vector\sync_vector_env.py", line 222, in step
+    ) = self.envs[i].step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\wrappers\common.py", line 393, in step
+    return super().step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\core.py", line 322, in step
+    return self.env.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\wrappers\common.py", line 285, in step
+    return self.env.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\ale_py\env.py", line 299, in step
+    reward += self.ale.act(action_idx, strength)
+KeyboardInterrupt

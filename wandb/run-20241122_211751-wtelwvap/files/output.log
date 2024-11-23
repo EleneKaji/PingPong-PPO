@@ -1,0 +1,4880 @@
+Using device: cuda
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5083],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5088],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5093],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078],
+        [0.5078]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093],
+        [0.5093]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098],
+        [0.5098]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083],
+        [0.5083]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+tensor([2, 2, 2, 2, 2, 2, 2, 2], device='cuda:0')
+tensor([[0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088],
+        [0.5088]], device='cuda:0', dtype=torch.float16,
+       grad_fn=<SigmoidBackward0>)
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\PG.py", line 112, in <module>
+    print(actions)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\_tensor.py", line 463, in __repr__
+    return torch._tensor_str._str(self, tensor_contents=tensor_contents)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\_tensor_str.py", line 698, in _str
+    return _str_intern(self, tensor_contents=tensor_contents)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\_tensor_str.py", line 634, in _str_intern
+    if grad_fn_name is None and grad_fn is not None:  # type: ignore[possibly-undefined]
+KeyboardInterrupt
