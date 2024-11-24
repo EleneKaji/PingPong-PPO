@@ -1,0 +1,49 @@
+Using device: cuda
+Episode: 16, Reward: -16.125, Advantage: 1.0515431607443344e-16, Logits: 0.5, Loss: -0.00000610, Time: 29.50s, Total Time: 0.49m
+Episode: 32, Reward: -15.0625, Advantage: 4.766402514097531e-17, Logits: 0.5, Loss: -0.00000897, Time: 23.97s, Total Time: 0.89m
+Episode: 48, Reward: -17.125, Advantage: -1.9247207289212646e-16, Logits: 0.5, Loss: 0.00004656, Time: 27.90s, Total Time: 1.36m
+Episode: 64, Reward: -15.5, Advantage: -7.329627735389382e-17, Logits: 0.5, Loss: -0.00004272, Time: 25.52s, Total Time: 1.78m
+Episode: 80, Reward: -15.8125, Advantage: 2.243696793221521e-16, Logits: 0.5, Loss: -0.00004619, Time: 24.13s, Total Time: 2.18m
+Episode: 96, Reward: -16.3125, Advantage: 3.4411101077387053e-16, Logits: 0.5, Loss: 0.00010422, Time: 24.41s, Total Time: 2.59m
+Episode: 112, Reward: -16.4375, Advantage: 1.265955666088414e-16, Logits: 0.5, Loss: 0.00000328, Time: 28.40s, Total Time: 3.06m
+Episode: 128, Reward: -16.75, Advantage: -1.153338481892153e-16, Logits: 0.5, Loss: 0.00001191, Time: 27.99s, Total Time: 3.53m
+Episode: 144, Reward: -14.8125, Advantage: -1.164117346208902e-16, Logits: 0.5, Loss: 0.00005242, Time: 30.38s, Total Time: 4.04m
+Episode: 160, Reward: -16.5, Advantage: -6.45947941600091e-17, Logits: 0.5, Loss: 0.00000893, Time: 30.18s, Total Time: 4.54m
+Episode: 176, Reward: -16.125, Advantage: -2.0156476272320802e-16, Logits: 0.5, Loss: -0.00001819, Time: 31.06s, Total Time: 5.06m
+Episode: 192, Reward: -16.8125, Advantage: -3.168986109124233e-16, Logits: 0.5, Loss: -0.00004047, Time: 29.26s, Total Time: 5.55m
+Episode: 208, Reward: -16.1875, Advantage: -1.3796946325438837e-16, Logits: 0.5, Loss: 0.00000176, Time: 26.88s, Total Time: 5.99m
+Episode: 224, Reward: -15.875, Advantage: -1.627552077984523e-17, Logits: 0.5, Loss: 0.00000362, Time: 23.83s, Total Time: 6.39m
+Episode: 240, Reward: -13.875, Advantage: 9.765312467907137e-17, Logits: 0.5, Loss: -0.00003551, Time: 22.98s, Total Time: 6.77m
+Episode: 256, Reward: -15.5, Advantage: -6.036164017379492e-17, Logits: 0.5, Loss: 0.00004791, Time: 27.84s, Total Time: 7.24m
+Episode: 272, Reward: -15.75, Advantage: 1.522923730114089e-16, Logits: 0.5, Loss: -0.00001974, Time: 21.37s, Total Time: 7.59m
+Episode: 288, Reward: -15.25, Advantage: 8.428394689562708e-17, Logits: 0.5, Loss: 0.00003005, Time: 19.57s, Total Time: 7.92m
+Episode: 304, Reward: -17.25, Advantage: -1.1210018889419056e-16, Logits: 0.5, Loss: -0.00000248, Time: 23.02s, Total Time: 8.30m
+Episode: 320, Reward: -16.4375, Advantage: -9.765312467907137e-17, Logits: 0.5, Loss: -0.00010759, Time: 19.56s, Total Time: 8.63m
+Episode: 336, Reward: -17.6875, Advantage: 3.9083869373681986e-16, Logits: 0.5, Loss: -0.00000608, Time: 22.87s, Total Time: 9.01m
+Episode: 352, Reward: -16.6875, Advantage: -9.416551308339024e-17, Logits: 0.5, Loss: -0.00007776, Time: 23.01s, Total Time: 9.39m
+Episode: 368, Reward: -17.75, Advantage: -3.9558432042469167e-16, Logits: 0.5, Loss: 0.00004843, Time: 25.75s, Total Time: 9.82m
+Episode: 384, Reward: -16.0, Advantage: 8.719028989202801e-17, Logits: 0.5, Loss: -0.00009246, Time: 19.57s, Total Time: 10.15m
+Episode: 400, Reward: -15.375, Advantage: -2.716273807820771e-16, Logits: 0.5, Loss: -0.00005360, Time: 22.62s, Total Time: 10.53m
+Episode: 416, Reward: -16.9375, Advantage: 1.1790834298521794e-16, Logits: 0.5, Loss: -0.00003537, Time: 25.99s, Total Time: 10.96m
+Episode: 432, Reward: -15.0, Advantage: 3.069098204199386e-16, Logits: 0.50048828125, Loss: 0.00016943, Time: 21.37s, Total Time: 11.32m
+Episode: 448, Reward: -15.75, Advantage: 1.395044638272448e-16, Logits: 0.5, Loss: 0.00007869, Time: 27.01s, Total Time: 11.77m
+Episode: 464, Reward: -16.6875, Advantage: -3.2713853201333494e-16, Logits: 0.50048828125, Loss: -0.00004834, Time: 28.65s, Total Time: 12.24m
+Episode: 480, Reward: -15.625, Advantage: -2.436023335585295e-16, Logits: 0.5, Loss: 0.00009015, Time: 27.56s, Total Time: 12.70m
+Episode: 496, Reward: -15.5, Advantage: 2.325074397120747e-18, Logits: 0.5, Loss: -0.00009508, Time: 25.62s, Total Time: 13.13m
+Episode: 512, Reward: -15.1875, Advantage: 1.8077453437613805e-16, Logits: 0.50048828125, Loss: -0.00000409, Time: 26.14s, Total Time: 13.57m
+Episode: 528, Reward: -16.5, Advantage: -1.0994441603084073e-16, Logits: 0.5, Loss: 0.00002249, Time: 28.26s, Total Time: 14.04m
+Episode: 544, Reward: -16.8125, Advantage: 1.9469673832974496e-16, Logits: 0.5, Loss: -0.00004928, Time: 25.66s, Total Time: 14.46m
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\PG.py", line 117, in <module>
+    observations, rewards, terminateds, truncateds, _ = envs.step(actions)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\vector\sync_vector_env.py", line 222, in step
+    ) = self.envs[i].step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\wrappers\common.py", line 393, in step
+    return super().step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\core.py", line 322, in step
+    return self.env.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\wrappers\common.py", line 285, in step
+    return self.env.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\ale_py\env.py", line 299, in step
+    reward += self.ale.act(action_idx, strength)
+KeyboardInterrupt

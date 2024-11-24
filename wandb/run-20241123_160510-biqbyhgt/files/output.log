@@ -1,0 +1,8 @@
+Using device: cuda
+Episode: 16, Reward: -16.5, Advantage: 2.4716277290297604e-16, Probabilites: 0.49755859375, Loss: 0.00000002, Time: 23.90s
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\PG.py", line 99, in <module>
+    curr_x = pre_process(observations)
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\PG.py", line 41, in pre_process
+    observations = torch.tensor(observations, dtype=torch.float32, device=device)
+KeyboardInterrupt

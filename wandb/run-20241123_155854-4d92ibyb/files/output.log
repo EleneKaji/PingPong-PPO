@@ -1,0 +1,12 @@
+Using device: cuda
+Episode: 16, Reward: -16.0, Loss: 0.00000159, Time: 19.58s
+Episode: 32, Reward: -16.5, Loss: 0.00000185, Time: 19.55s
+Episode: 48, Reward: -17.25, Loss: 0.00000020, Time: 28.42s
+Episode: 64, Reward: -16.8125, Loss: -0.00000048, Time: 28.62s
+Episode: 80, Reward: -17.625, Loss: -0.00000032, Time: 26.37s
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\PG.py", line 99, in <module>
+    curr_x = pre_process(observations)
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\PG.py", line 41, in pre_process
+    observations = torch.tensor(observations, dtype=torch.float32, device=device)
+KeyboardInterrupt

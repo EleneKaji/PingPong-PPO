@@ -1,0 +1,18 @@
+{"time":"2024-11-23T15:44:17.4218541-07:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-23T15:44:17.4218541-07:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Elene2004\\Python\\Files\\PingPong-PPO\\wandb\\run-20241123_154417-wj1rqlut\\logs\\debug-core.log"}
+{"time":"2024-11-23T15:44:17.5375448-07:00","level":"INFO","msg":"created new stream","id":"wj1rqlut"}
+{"time":"2024-11-23T15:44:17.5375448-07:00","level":"INFO","msg":"stream: started","id":"wj1rqlut"}
+{"time":"2024-11-23T15:44:17.5375448-07:00","level":"INFO","msg":"handler: started","stream_id":"wj1rqlut"}
+{"time":"2024-11-23T15:44:17.5375448-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"wj1rqlut"}
+{"time":"2024-11-23T15:44:17.5375448-07:00","level":"INFO","msg":"sender: started","stream_id":"wj1rqlut"}
+{"time":"2024-11-23T15:44:17.7758351-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-23T15:44:58.2684791-07:00","level":"WARN","msg":"handler: ignoring partial history record","step":16,"current":825}
+{"time":"2024-11-23T15:45:34.8510666-07:00","level":"WARN","msg":"handler: ignoring partial history record","step":32,"current":1651}
+{"time":"2024-11-23T15:45:47.4734043-07:00","level":"INFO","msg":"stream: closing","id":"wj1rqlut"}
+{"time":"2024-11-23T15:45:47.4734043-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-23T15:45:47.473909-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-23T15:45:52.5003175-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-23T15:45:52.723009-07:00","level":"INFO","msg":"handler: closed","stream_id":"wj1rqlut"}
+{"time":"2024-11-23T15:45:52.723009-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"wj1rqlut"}
+{"time":"2024-11-23T15:45:52.723009-07:00","level":"INFO","msg":"sender: closed","stream_id":"wj1rqlut"}
+{"time":"2024-11-23T15:45:52.723009-07:00","level":"INFO","msg":"stream: closed","id":"wj1rqlut"}

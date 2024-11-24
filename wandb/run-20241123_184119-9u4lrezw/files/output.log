@@ -1,0 +1,21 @@
+Using device: cuda
+tensor([[-1.3863],
+        [-1.3863],
+        [-1.3863],
+        [-1.3863],
+        [-1.3863],
+        [-1.3863],
+        [-1.3863],
+        [-1.3863],
+        [-1.3863],
+        [-1.3863],
+        [-1.3863],
+        [-1.3863],
+        [-1.3863],
+        [-1.3863],
+        [-1.3863],
+        [-1.3863]], device='cuda:0', grad_fn=<AddBackward0>)
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\PG.py", line 139, in <module>
+    loss = torch.mean(log_probs * discounted_epr)
+RuntimeError: The size of tensor a (16) must match the size of tensor b (764) at non-singleton dimension 0

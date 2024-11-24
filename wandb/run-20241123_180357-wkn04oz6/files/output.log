@@ -1,0 +1,88 @@
+Using device: cuda
+Episode: 16, Reward: -16.6875, Advantage: -2.479138792852291e-16, Logits: 0.0035858154296875, Loss: -0.00002785, Time: 30.24s, Total Time: 0.50m
+Episode: 32, Reward: -16.9375, Advantage: -2.5114753858025385e-16, Logits: -0.004917144775390625, Loss: 0.00327529, Time: 27.46s, Total Time: 0.96m
+Episode: 48, Reward: -17.3125, Advantage: -2.8887356368887565e-16, Logits: -5.066394805908203e-06, Loss: 0.00125611, Time: 25.59s, Total Time: 1.39m
+Episode: 64, Reward: -16.1875, Advantage: 1.9530624935814273e-16, Logits: -0.00021028518676757812, Loss: 0.01363854, Time: 23.59s, Total Time: 1.78m
+Episode: 80, Reward: -16.75, Advantage: 6.236603915569886e-17, Logits: 0.002300262451171875, Loss: -0.00000669, Time: 25.83s, Total Time: 2.21m
+Episode: 96, Reward: -15.5625, Advantage: 4.417641354529419e-17, Logits: 0.00015676021575927734, Loss: -0.00911377, Time: 23.66s, Total Time: 2.61m
+Episode: 112, Reward: -16.25, Advantage: -2.328234692417804e-16, Logits: -0.0025310516357421875, Loss: -0.00355029, Time: 25.90s, Total Time: 3.04m
+Episode: 128, Reward: -15.6875, Advantage: -3.239048727183102e-16, Logits: 0.00110626220703125, Loss: -0.00115313, Time: 25.76s, Total Time: 3.47m
+Episode: 144, Reward: -16.6875, Advantage: 2.3082602997856364e-17, Logits: -0.001102447509765625, Loss: -0.00282666, Time: 29.27s, Total Time: 3.96m
+Episode: 160, Reward: -16.125, Advantage: -1.075276537167222e-17, Logits: -0.0008883476257324219, Loss: 0.00263449, Time: 27.06s, Total Time: 4.41m
+Episode: 176, Reward: -16.125, Advantage: -1.4982621400281237e-16, Logits: -0.003971099853515625, Loss: 0.00366709, Time: 27.82s, Total Time: 4.87m
+Episode: 192, Reward: -14.375, Advantage: 1.7670565418117676e-16, Logits: 5.030632019042969e-05, Loss: 0.00191959, Time: 25.59s, Total Time: 5.30m
+Episode: 208, Reward: -16.25, Advantage: -1.0832758638332837e-16, Logits: 4.5299530029296875e-06, Loss: -0.00533755, Time: 27.00s, Total Time: 5.75m
+Episode: 224, Reward: -14.3125, Advantage: 4.882656233953568e-17, Logits: -8.26120376586914e-05, Loss: -0.00836690, Time: 24.84s, Total Time: 6.16m
+Episode: 240, Reward: -15.3125, Advantage: -1.8970801197478402e-16, Logits: -0.00014483928680419922, Loss: -0.00337727, Time: 28.26s, Total Time: 6.63m
+Episode: 256, Reward: -16.9375, Advantage: -5.475663072908539e-16, Logits: 0.00548553466796875, Loss: 0.00091213, Time: 28.27s, Total Time: 7.10m
+Episode: 272, Reward: -17.625, Advantage: 2.692667607235674e-16, Logits: -0.0014667510986328125, Loss: 0.00610089, Time: 29.64s, Total Time: 7.60m
+Episode: 288, Reward: -16.375, Advantage: 4.40863380238561e-17, Logits: 0.010406494140625, Loss: -0.00483190, Time: 27.93s, Total Time: 8.06m
+Episode: 304, Reward: -15.9375, Advantage: 1.2555401744452033e-16, Logits: -0.003124237060546875, Loss: 0.00203482, Time: 26.91s, Total Time: 8.51m
+Episode: 320, Reward: -15.4375, Advantage: 1.032265475680533e-16, Logits: 0.004756927490234375, Loss: 0.00893501, Time: 29.25s, Total Time: 9.00m
+Episode: 336, Reward: -15.6875, Advantage: 3.8363727552492324e-17, Logits: 0.001338958740234375, Loss: -0.00284845, Time: 25.66s, Total Time: 9.43m
+Episode: 352, Reward: -15.75, Advantage: -2.6300428932867784e-16, Logits: 0.006916046142578125, Loss: -0.00553138, Time: 25.37s, Total Time: 9.85m
+Episode: 368, Reward: -17.3125, Advantage: 2.773045744765097e-16, Logits: -4.369020462036133e-05, Loss: -0.00553595, Time: 27.44s, Total Time: 10.31m
+Episode: 384, Reward: -13.875, Advantage: 2.1505530743344438e-18, Logits: -0.004474639892578125, Loss: 0.00622193, Time: 26.23s, Total Time: 10.74m
+Episode: 400, Reward: -16.375, Advantage: 1.4869955442943275e-16, Logits: 0.00078582763671875, Loss: 0.00202378, Time: 30.81s, Total Time: 11.26m
+Episode: 416, Reward: -14.9375, Advantage: -1.4986757759048387e-16, Logits: 0.000949859619140625, Loss: -0.00315824, Time: 29.92s, Total Time: 11.76m
+Episode: 432, Reward: -15.75, Advantage: 2.2480448137042717e-16, Logits: 0.0023517608642578125, Loss: 0.00288457, Time: 27.26s, Total Time: 12.21m
+Episode: 448, Reward: -13.875, Advantage: -2.231224913567062e-16, Logits: 0.0018301010131835938, Loss: 0.00628901, Time: 25.65s, Total Time: 12.64m
+Episode: 464, Reward: -15.75, Advantage: -1.5737141902453673e-16, Logits: -0.0008740425109863281, Loss: 0.00384169, Time: 25.28s, Total Time: 13.06m
+Episode: 480, Reward: -15.75, Advantage: -1.0826554100182113e-16, Logits: -0.00514984130859375, Loss: -0.00561575, Time: 27.26s, Total Time: 13.51m
+Episode: 496, Reward: -14.0, Advantage: -1.7138394263631055e-16, Logits: -0.003749847412109375, Loss: 0.00165876, Time: 25.83s, Total Time: 13.94m
+Episode: 512, Reward: -12.75, Advantage: 2.017002039502248e-16, Logits: 0.00252532958984375, Loss: -0.00300497, Time: 23.52s, Total Time: 14.34m
+Episode: 528, Reward: -15.3125, Advantage: -1.9046715546616679e-16, Logits: 0.0037097930908203125, Loss: 0.00234913, Time: 28.18s, Total Time: 14.80m
+Episode: 544, Reward: -17.5625, Advantage: -4.9343245538895844e-17, Logits: 6.771087646484375e-05, Loss: 0.00054151, Time: 32.28s, Total Time: 15.34m
+Episode: 560, Reward: -16.125, Advantage: -1.1428029327970009e-16, Logits: 0.0043792724609375, Loss: 0.00152890, Time: 44.52s, Total Time: 16.08m
+Episode: 576, Reward: -15.6875, Advantage: -2.910521248488783e-17, Logits: 0.0023059844970703125, Loss: -0.00544034, Time: 52.79s, Total Time: 16.96m
+Episode: 592, Reward: -15.5, Advantage: 2.1790479025693752e-16, Logits: -0.00177764892578125, Loss: 0.00057561, Time: 45.30s, Total Time: 17.72m
+Episode: 608, Reward: -17.0, Advantage: -1.28490436640884e-16, Logits: 0.0064239501953125, Loss: -0.00178710, Time: 51.99s, Total Time: 18.59m
+Episode: 624, Reward: -17.0625, Advantage: -3.0017958518692104e-16, Logits: -0.004909515380859375, Loss: 0.00237925, Time: 55.46s, Total Time: 19.51m
+Episode: 640, Reward: -16.5625, Advantage: -1.8570150697003673e-16, Logits: -0.00493621826171875, Loss: -0.00563932, Time: 52.18s, Total Time: 20.38m
+Episode: 656, Reward: -13.875, Advantage: -8.397323240801184e-17, Logits: 0.0006089210510253906, Loss: 0.00512433, Time: 45.66s, Total Time: 21.14m
+Episode: 672, Reward: -14.625, Advantage: 2.150115178912068e-16, Logits: 0.0003437995910644531, Loss: -0.00455137, Time: 33.42s, Total Time: 21.70m
+Episode: 688, Reward: -14.1875, Advantage: -2.457581064218793e-16, Logits: 0.0052490234375, Loss: 0.00138179, Time: 27.10s, Total Time: 22.15m
+Episode: 704, Reward: -16.25, Advantage: 3.95164127408954e-17, Logits: -6.079673767089844e-06, Loss: 0.00412250, Time: 28.35s, Total Time: 22.62m
+Episode: 720, Reward: -15.4375, Advantage: -9.423111902010357e-17, Logits: -0.0017557144165039062, Loss: -0.00422234, Time: 21.72s, Total Time: 22.98m
+Episode: 736, Reward: -17.0625, Advantage: 5.4004333879703597e-17, Logits: 0.0094451904296875, Loss: -0.00165705, Time: 22.20s, Total Time: 23.35m
+Episode: 752, Reward: -15.6875, Advantage: -8.028731477515257e-18, Logits: 0.0102691650390625, Loss: -0.00408544, Time: 21.39s, Total Time: 23.71m
+Episode: 768, Reward: -16.1875, Advantage: -1.034953667023451e-17, Logits: -0.0031261444091796875, Loss: 0.00265037, Time: 23.40s, Total Time: 24.10m
+Episode: 784, Reward: -15.25, Advantage: 7.741991067603998e-17, Logits: -0.0020008087158203125, Loss: -0.00107164, Time: 19.57s, Total Time: 24.43m
+Episode: 800, Reward: -14.875, Advantage: -1.0455498387246619e-16, Logits: 0.0016565322875976562, Loss: -0.00049128, Time: 20.00s, Total Time: 24.76m
+Episode: 816, Reward: -16.8125, Advantage: -2.1773305919833165e-16, Logits: -0.0020503997802734375, Loss: 0.00519744, Time: 19.78s, Total Time: 25.09m
+Episode: 832, Reward: -15.3125, Advantage: 6.724062612419028e-17, Logits: -0.001129150390625, Loss: -0.00624366, Time: 21.61s, Total Time: 25.45m
+Episode: 848, Reward: -15.375, Advantage: -3.44088491893511e-17, Logits: 0.00653839111328125, Loss: -0.00795440, Time: 20.78s, Total Time: 25.80m
+Episode: 864, Reward: -16.3125, Advantage: -2.034510639786391e-16, Logits: 0.00490570068359375, Loss: -0.00294959, Time: 20.79s, Total Time: 26.14m
+Episode: 880, Reward: -14.875, Advantage: -2.824062450988262e-16, Logits: 0.00795745849609375, Loss: -0.00796259, Time: 20.80s, Total Time: 26.49m
+Episode: 896, Reward: -17.875, Advantage: 1.293463718009891e-17, Logits: -0.007808685302734375, Loss: 0.00021962, Time: 21.48s, Total Time: 26.85m
+Episode: 912, Reward: -17.3125, Advantage: -3.664813867694691e-17, Logits: 0.00019562244415283203, Loss: -0.00270685, Time: 20.90s, Total Time: 27.20m
+Episode: 928, Reward: -17.1875, Advantage: -3.821107400287553e-16, Logits: 0.00017321109771728516, Loss: -0.00498443, Time: 21.18s, Total Time: 27.55m
+Episode: 944, Reward: -16.25, Advantage: -7.760782308059346e-17, Logits: 0.0003972053527832031, Loss: 0.00410490, Time: 21.22s, Total Time: 27.90m
+Episode: 960, Reward: -17.4375, Advantage: -2.1988883206168147e-16, Logits: 0.00202178955078125, Loss: -0.00468626, Time: 20.98s, Total Time: 28.25m
+Episode: 976, Reward: -18.125, Advantage: -7.329627735389382e-17, Logits: 0.005496978759765625, Loss: -0.00739606, Time: 20.79s, Total Time: 28.60m
+Episode: 992, Reward: -18.0625, Advantage: -1.164117346208902e-16, Logits: 0.0014858245849609375, Loss: -0.00523823, Time: 21.01s, Total Time: 28.95m
+Episode: 1008, Reward: -18.375, Advantage: -3.287553616608473e-16, Logits: 0.0007014274597167969, Loss: -0.00705705, Time: 21.18s, Total Time: 29.30m
+Episode: 1024, Reward: -17.75, Advantage: -4.0312952544641603e-16, Logits: 0.0038280487060546875, Loss: -0.00042268, Time: 20.79s, Total Time: 29.65m
+Episode: 1040, Reward: -18.0625, Advantage: -1.2072328034758983e-16, Logits: -0.003345489501953125, Loss: 0.00246471, Time: 21.39s, Total Time: 30.01m
+Episode: 1056, Reward: -17.375, Advantage: -5.82058673104451e-17, Logits: 0.00017511844635009766, Loss: 0.00020179, Time: 23.00s, Total Time: 30.39m
+Episode: 1072, Reward: -19.5625, Advantage: -3.0180820086897456e-16, Logits: 0.0009393692016601562, Loss: -0.00256931, Time: 28.23s, Total Time: 30.86m
+Episode: 1088, Reward: -16.875, Advantage: 2.476204232933595e-16, Logits: 0.00322723388671875, Loss: -0.00209340, Time: 29.59s, Total Time: 31.35m
+Episode: 1104, Reward: -19.125, Advantage: -4.796594620953346e-16, Logits: -0.004825592041015625, Loss: -0.00263872, Time: 27.13s, Total Time: 31.80m
+Episode: 1120, Reward: -19.5, Advantage: -2.8887356368887565e-16, Logits: 0.004486083984375, Loss: -0.00289128, Time: 27.13s, Total Time: 32.26m
+Episode: 1136, Reward: -17.9375, Advantage: -3.255104155969046e-17, Logits: -0.006183624267578125, Loss: 0.00032502, Time: 27.31s, Total Time: 32.71m
+Episode: 1152, Reward: -17.875, Advantage: 3.2434787839834417e-16, Logits: -0.006198883056640625, Loss: 0.00119725, Time: 27.85s, Total Time: 33.18m
+Episode: 1168, Reward: -19.9375, Advantage: -9.162034669236728e-17, Logits: -0.004856109619140625, Loss: 0.00075827, Time: 29.85s, Total Time: 33.67m
+Episode: 1184, Reward: -18.375, Advantage: 4.3595144946014003e-16, Logits: 0.003231048583984375, Loss: 0.00404031, Time: 30.59s, Total Time: 34.18m
+Episode: 1200, Reward: -18.0625, Advantage: -2.2088206772647095e-17, Logits: 0.002155303955078125, Loss: 0.00257521, Time: 23.66s, Total Time: 34.58m
+Episode: 1216, Reward: -18.5, Advantage: 4.882656233953569e-16, Logits: -0.0014820098876953125, Loss: 0.00393643, Time: 19.36s, Total Time: 34.90m
+Episode: 1232, Reward: -19.375, Advantage: 4.034004079004496e-16, Logits: 0.0021305084228515625, Loss: 0.00306292, Time: 19.59s, Total Time: 35.23m
+Episode: 1248, Reward: -19.5, Advantage: -1.976313237552635e-17, Logits: 0.000400543212890625, Loss: 0.00008530, Time: 21.41s, Total Time: 35.58m
+Episode: 1264, Reward: -19.0, Advantage: 4.4060159825438153e-16, Logits: -0.001476287841796875, Loss: -0.00107123, Time: 21.59s, Total Time: 35.94m
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\PG.py", line 118, in <module>
+    reward_sum += rewards
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\vector\sync_vector_env.py", line 234, in step
+    deepcopy(self._observations) if self.copy else self._observations,
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\copy.py", line 153, in deepcopy
+    y = copier(memo)
+KeyboardInterrupt

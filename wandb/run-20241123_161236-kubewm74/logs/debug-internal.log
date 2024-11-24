@@ -1,0 +1,16 @@
+{"time":"2024-11-23T16:12:36.7507582-07:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-23T16:12:36.7507582-07:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Elene2004\\Python\\Files\\PingPong-PPO\\wandb\\run-20241123_161236-kubewm74\\logs\\debug-core.log"}
+{"time":"2024-11-23T16:12:36.8617698-07:00","level":"INFO","msg":"created new stream","id":"kubewm74"}
+{"time":"2024-11-23T16:12:36.8617698-07:00","level":"INFO","msg":"stream: started","id":"kubewm74"}
+{"time":"2024-11-23T16:12:36.8617698-07:00","level":"INFO","msg":"handler: started","stream_id":"kubewm74"}
+{"time":"2024-11-23T16:12:36.8623655-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"kubewm74"}
+{"time":"2024-11-23T16:12:36.8623655-07:00","level":"INFO","msg":"sender: started","stream_id":"kubewm74"}
+{"time":"2024-11-23T16:12:37.1360059-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-23T17:30:48.2918863-07:00","level":"INFO","msg":"stream: closing","id":"kubewm74"}
+{"time":"2024-11-23T17:30:48.2918863-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-23T17:30:48.2923912-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-23T17:30:49.7942617-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-23T17:30:49.9491498-07:00","level":"INFO","msg":"handler: closed","stream_id":"kubewm74"}
+{"time":"2024-11-23T17:30:49.9491498-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"kubewm74"}
+{"time":"2024-11-23T17:30:49.9491498-07:00","level":"INFO","msg":"sender: closed","stream_id":"kubewm74"}
+{"time":"2024-11-23T17:30:49.9491498-07:00","level":"INFO","msg":"stream: closed","id":"kubewm74"}

@@ -58,7 +58,12 @@ def discount_rewards(rewards, gamma=0.99):
     discounted_rewards = discounted_rewards.flip(dims=[0])
 
     discounted_rewards -= torch.mean(discounted_rewards)
-    # discounted_rewards /= torch.std(discounted_rewards)
+    discounted_rewards /= torch.std(discounted_rewards)
+
+    # check for nan values
+    if torch.isnan(discounted_rewards).any():
+        print("Nan in discounted rewards")
+        discount_rewards = torch.torch.nan_to_num(discount_rewards, nan=0.0)
     
     return discounted_rewards
 
@@ -66,9 +71,11 @@ def discount_rewards(rewards, gamma=0.99):
 
 if __name__ == "__main__":
 
-    wandb.init(
+    plotting = True
+
+    if plotting: wandb.init(
         project="PG-Pong",
-        name="PG-16envs",
+        name="PG-final-run2",
     )
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -83,13 +90,14 @@ if __name__ == "__main__":
     envs = gym.make_vec("ALE/Pong-v5", num_envs=num_envs, vectorization_mode="sync")
     observations, info = envs.reset()
 
-    dprops, drs = [], []
+    dprops, drs, dys, drprops = [], [], [], []
     done = [False] * num_envs
     prev_x = [None] * num_envs
     reward_sum = [0] * num_envs
     episode_number = 0
 
     loss = 0
+    total_time = 0
 
     start_time = time.time()
     while episode_number < (5000 * num_envs):
@@ -104,9 +112,19 @@ if __name__ == "__main__":
 
         with autocast(device_type="cuda"):
             policy_probs = model(delta_x)
-            random_values = torch.rand(policy_probs.size(0), device=device)
-            actions = torch.where(random_values.unsqueeze(1) < policy_probs, torch.tensor(2).to(device), torch.tensor(3).to(device))
-        dprops.append(policy_probs) 
+
+        drprops.append(policy_probs)
+        random_values = torch.rand(policy_probs.size(0), device=device)
+        actions = torch.where(random_values.unsqueeze(1) < policy_probs, 2, 3)
+        y = torch.where(actions == 2, 1, 0) # 1 is up, 0 is down
+        log_prob = y * torch.log(policy_probs) + (1 - y) * torch.log((1 - policy_probs))
+
+        # check for nan values
+        if torch.isnan(log_prob).any():
+            print("Nan in log_prob")
+            log_prob = torch.torch.nan_to_num(log_prob, nan=0.0)
+        
+        dprops.append(log_prob) 
 
         observations, rewards, terminateds, truncateds, _ = envs.step(actions)
         done = any(terminateds) or any(truncateds) 
@@ -117,7 +135,8 @@ if __name__ == "__main__":
         if done:
             episode_number += num_envs
 
-            epprops = torch.stack(dprops).squeeze(-1)
+            epprops = torch.stack(dprops).squeeze(-1).to(device)
+            erprops = torch.stack(drprops).squeeze(-1).to(device)
             epr = torch.tensor(np.concatenate(drs)).view(-1, num_envs).to(device)
 
             dprops.clear() 
@@ -125,11 +144,18 @@ if __name__ == "__main__":
             
             discounted_epr = discount_rewards(epr)
             
+            optimizer.zero_grad()
             with autocast(device_type="cuda"):
-                loss = torch.mean(torch.log(epprops) * discounted_epr)
+                loss = -torch.mean(epprops * discounted_epr)
+
+            # check for nan values
+            if torch.isnan(loss).any():
+                print("Nan in loss")
+                loss = torch.nan_to_num(loss, nan=0.0)
+
             scaler.scale(loss).backward()
             
-            # print(clip_grad_norm_(model.parameters(), max_norm=1))            
+            clip_grad_norm_(model.parameters(), max_norm=1)          
             scaler.unscale_(optimizer)
             scaler.step(optimizer)
             scaler.update()
@@ -139,17 +165,30 @@ if __name__ == "__main__":
                 torch.save(model.state_dict(), 'PGmodel.pth')
 
             end_time = time.time()
-            time_diff_ms = (end_time - start_time) * 1000
+            time_diff = end_time - start_time
+            total_time += (time_diff / 60)
             start_time = time.time()
+
+            average_adv = discounted_epr.mean()
+            average_logs = epprops.mean()
+            average_logits = erprops.mean()
 
             # reset the environment and variables
             average_reward = reward_sum.mean()
-            print(f"Episode: {episode_number}, Reward: {average_reward}, Loss: {loss.item():.8f}, Time: {time_diff_ms:.2f}ms")
-            wandb.log({"loss": loss, "average reward": average_reward}, step=episode_number)
+            print(f"Episode: {episode_number}, Reward: {average_reward}, Advantage: {average_adv}, Logits: {average_logits}, BCE: {average_logs}, Loss: {loss.item():.8f}, Time: {time_diff:.2f}s, Total Time: {total_time:.2f}m")
+ 
+            if plotting: wandb.log({"loss": loss, 
+                       "average reward": average_reward, 
+                       "average advantage": average_adv, 
+                       "average probabilities": average_logits,
+                       "average log probabilities": average_logs,
+                       "time": total_time}, step=episode_number)
+            
             reward_sum = [0] * num_envs
             observations, info = envs.reset()
             prev_x = [None] * num_envs
             done = [False] * num_envs
 
+    torch.save(model.state_dict(), 'PG_FinalModel.pth')
     envs.close()
-    wandb.finish()
+    if plotting: wandb.finish()

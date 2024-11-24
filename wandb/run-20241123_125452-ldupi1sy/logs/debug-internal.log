@@ -1,0 +1,16 @@
+{"time":"2024-11-23T12:54:52.0498227-07:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-23T12:54:52.0498227-07:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Elene2004\\Python\\Files\\PingPong-PPO\\wandb\\run-20241123_125452-ldupi1sy\\logs\\debug-core.log"}
+{"time":"2024-11-23T12:54:53.2651185-07:00","level":"INFO","msg":"created new stream","id":"ldupi1sy"}
+{"time":"2024-11-23T12:54:53.2651185-07:00","level":"INFO","msg":"stream: started","id":"ldupi1sy"}
+{"time":"2024-11-23T12:54:53.2651185-07:00","level":"INFO","msg":"handler: started","stream_id":"ldupi1sy"}
+{"time":"2024-11-23T12:54:53.2651185-07:00","level":"INFO","msg":"sender: started","stream_id":"ldupi1sy"}
+{"time":"2024-11-23T12:54:53.2651185-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"ldupi1sy"}
+{"time":"2024-11-23T12:54:53.5015957-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-23T15:39:11.2050059-07:00","level":"INFO","msg":"stream: closing","id":"ldupi1sy"}
+{"time":"2024-11-23T15:39:11.2050059-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-23T15:39:11.2055222-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-23T15:39:14.8811825-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-23T15:39:15.041141-07:00","level":"INFO","msg":"handler: closed","stream_id":"ldupi1sy"}
+{"time":"2024-11-23T15:39:15.041141-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ldupi1sy"}
+{"time":"2024-11-23T15:39:15.041141-07:00","level":"INFO","msg":"sender: closed","stream_id":"ldupi1sy"}
+{"time":"2024-11-23T15:39:15.041141-07:00","level":"INFO","msg":"stream: closed","id":"ldupi1sy"}

@@ -1,0 +1,14 @@
+Using device: cuda
+torch.Size([764, 16])
+tensor([[1, 1, 0,  ..., 0, 1, 1],
+        [0, 1, 1,  ..., 0, 1, 1],
+        [1, 1, 1,  ..., 0, 1, 1],
+        ...,
+        [0, 0, 1,  ..., 0, 1, 1],
+        [0, 1, 1,  ..., 1, 0, 0],
+        [1, 0, 0,  ..., 0, 0, 1]], device='cuda:0')
+torch.Size([16, 1])
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\PG.py", line 142, in <module>
+    log_probs = eys * torch.log(policy_probs) + (1 - eys) * torch.log(1 - policy_probs)
+RuntimeError: The size of tensor a (764) must match the size of tensor b (16) at non-singleton dimension 0

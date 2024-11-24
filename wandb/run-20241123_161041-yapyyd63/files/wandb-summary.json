@@ -1,0 +1,1 @@
+{"loss":-1.3730552936701642e-07,"average probabilities":-0.701171875,"_timestamp":1.732403484144022e+09,"average advantage":-2.004868762915331e-16,"_step":32,"average logits":0.49609375,"_runtime":45.1725087,"_wandb":{"runtime":45},"average reward":-16.6875}

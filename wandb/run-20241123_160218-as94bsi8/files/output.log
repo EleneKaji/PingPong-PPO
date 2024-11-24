@@ -1,0 +1,20 @@
+Using device: cuda
+Episode: 16, Reward: -17.6875, Advantage: -2.565369707386284e-16, Probabilites: 0.495361328125, Loss: -0.00000140, Time: 19.24s
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\PG.py", line 161, in <module>
+    wandb.log({"average reward over time": average_reward}, step=total_time)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\wandb\sdk\wandb_run.py", line 451, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\wandb\sdk\wandb_run.py", line 403, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\wandb\sdk\wandb_run.py", line 393, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\wandb\sdk\wandb_run.py", line 1922, in log
+    self._log(data=data, step=step, commit=commit)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\wandb\sdk\wandb_run.py", line 1641, in _log
+    self._partial_history_callback(data, step, commit)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\wandb\sdk\wandb_run.py", line 1513, in _partial_history_callback
+    self._backend.interface.publish_partial_history(
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\wandb\sdk\interface\interface.py", line 646, in publish_partial_history
+    partial_history.step.num = step
+TypeError: 'float' object cannot be interpreted as an integer

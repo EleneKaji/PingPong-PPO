@@ -1,0 +1,16 @@
+{"time":"2024-11-23T18:48:39.0233081-07:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-23T18:48:39.0238249-07:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Elene2004\\Python\\Files\\PingPong-PPO\\wandb\\run-20241123_184839-ztcuahp9\\logs\\debug-core.log"}
+{"time":"2024-11-23T18:48:39.143174-07:00","level":"INFO","msg":"created new stream","id":"ztcuahp9"}
+{"time":"2024-11-23T18:48:39.143174-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"ztcuahp9"}
+{"time":"2024-11-23T18:48:39.143174-07:00","level":"INFO","msg":"handler: started","stream_id":"ztcuahp9"}
+{"time":"2024-11-23T18:48:39.143174-07:00","level":"INFO","msg":"sender: started","stream_id":"ztcuahp9"}
+{"time":"2024-11-23T18:48:39.143174-07:00","level":"INFO","msg":"stream: started","id":"ztcuahp9"}
+{"time":"2024-11-23T18:48:39.4764224-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-23T18:48:56.8779036-07:00","level":"INFO","msg":"stream: closing","id":"ztcuahp9"}
+{"time":"2024-11-23T18:48:56.8784507-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-23T18:48:56.8784507-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-23T18:48:57.2941327-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-23T18:48:57.4486277-07:00","level":"INFO","msg":"handler: closed","stream_id":"ztcuahp9"}
+{"time":"2024-11-23T18:48:57.4486277-07:00","level":"INFO","msg":"sender: closed","stream_id":"ztcuahp9"}
+{"time":"2024-11-23T18:48:57.4486277-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ztcuahp9"}
+{"time":"2024-11-23T18:48:57.4486277-07:00","level":"INFO","msg":"stream: closed","id":"ztcuahp9"}

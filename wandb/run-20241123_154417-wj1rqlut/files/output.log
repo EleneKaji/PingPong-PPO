@@ -1,0 +1,9 @@
+Using device: cuda
+Episode: 16, Reward: -15.0, Loss: -0.00000020, Time: 38573.58ms
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 16 that is less than the current step 825. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Episode: 32, Reward: -16.0625, Loss: -0.00000951, Time: 36581.96ms
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 32 that is less than the current step 1651. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\PG.py", line 113, in <module>
+    actions = torch.where(random_values.unsqueeze(1) < policy_probs, torch.tensor(2).to(device), torch.tensor(3).to(device))
+KeyboardInterrupt

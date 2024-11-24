@@ -1,0 +1,18 @@
+{"time":"2024-11-23T18:03:57.8013548-07:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-23T18:03:57.8013548-07:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Elene2004\\Python\\Files\\PingPong-PPO\\wandb\\run-20241123_180357-wkn04oz6\\logs\\debug-core.log"}
+{"time":"2024-11-23T18:03:58.6185329-07:00","level":"INFO","msg":"created new stream","id":"wkn04oz6"}
+{"time":"2024-11-23T18:03:58.6185329-07:00","level":"INFO","msg":"stream: started","id":"wkn04oz6"}
+{"time":"2024-11-23T18:03:58.6185329-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"wkn04oz6"}
+{"time":"2024-11-23T18:03:58.6191941-07:00","level":"INFO","msg":"sender: started","stream_id":"wkn04oz6"}
+{"time":"2024-11-23T18:03:58.6191941-07:00","level":"INFO","msg":"handler: started","stream_id":"wkn04oz6"}
+{"time":"2024-11-23T18:03:58.8859301-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-23T18:11:03.4894204-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.5.89:56728->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2024-11-23T18:11:05.3115881-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/kajaiaelene-models/PG-Pong/wkn04oz6/file_stream\": dial tcp 35.186.228.49:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2024-11-23T18:40:10.6063924-07:00","level":"INFO","msg":"stream: closing","id":"wkn04oz6"}
+{"time":"2024-11-23T18:40:10.6063924-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-23T18:40:10.6070068-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-23T18:40:10.9990855-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-23T18:40:11.2066063-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"wkn04oz6"}
+{"time":"2024-11-23T18:40:11.2066063-07:00","level":"INFO","msg":"handler: closed","stream_id":"wkn04oz6"}
+{"time":"2024-11-23T18:40:11.2066063-07:00","level":"INFO","msg":"sender: closed","stream_id":"wkn04oz6"}
+{"time":"2024-11-23T18:40:11.2066063-07:00","level":"INFO","msg":"stream: closed","id":"wkn04oz6"}

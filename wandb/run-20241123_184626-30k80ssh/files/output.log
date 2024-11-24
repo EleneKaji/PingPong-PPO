@@ -1,0 +1,5 @@
+Using device: cuda
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\PG.py", line 139, in <module>
+    log_probs = eys * torch.log(policy_probs) + (1 - eys) * torch.log(1 - policy_probs)
+RuntimeError: The size of tensor a (824) must match the size of tensor b (16) at non-singleton dimension 0

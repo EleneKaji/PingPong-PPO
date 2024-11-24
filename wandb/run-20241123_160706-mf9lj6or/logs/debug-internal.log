@@ -1,0 +1,19 @@
+{"time":"2024-11-23T16:07:06.0625163-07:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-23T16:07:06.0625163-07:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Elene2004\\Python\\Files\\PingPong-PPO\\wandb\\run-20241123_160706-mf9lj6or\\logs\\debug-core.log"}
+{"time":"2024-11-23T16:07:06.1710954-07:00","level":"INFO","msg":"created new stream","id":"mf9lj6or"}
+{"time":"2024-11-23T16:07:06.1710954-07:00","level":"INFO","msg":"stream: started","id":"mf9lj6or"}
+{"time":"2024-11-23T16:07:06.1710954-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"mf9lj6or"}
+{"time":"2024-11-23T16:07:06.1710954-07:00","level":"INFO","msg":"handler: started","stream_id":"mf9lj6or"}
+{"time":"2024-11-23T16:07:06.1710954-07:00","level":"INFO","msg":"sender: started","stream_id":"mf9lj6or"}
+{"time":"2024-11-23T16:07:06.4404394-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-23T16:08:41.1286579-07:00","level":"WARN","msg":"handler: ignoring partial history record","step":64,"current":65}
+{"time":"2024-11-23T16:09:07.2036144-07:00","level":"WARN","msg":"handler: ignoring partial history record","step":80,"current":92}
+{"time":"2024-11-23T16:09:29.7871027-07:00","level":"WARN","msg":"handler: ignoring partial history record","step":96,"current":118}
+{"time":"2024-11-23T16:09:51.6437615-07:00","level":"INFO","msg":"stream: closing","id":"mf9lj6or"}
+{"time":"2024-11-23T16:09:51.6437615-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-23T16:09:51.6442654-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-23T16:09:53.7000043-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-23T16:09:54.0772748-07:00","level":"INFO","msg":"handler: closed","stream_id":"mf9lj6or"}
+{"time":"2024-11-23T16:09:54.0772748-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mf9lj6or"}
+{"time":"2024-11-23T16:09:54.0772748-07:00","level":"INFO","msg":"sender: closed","stream_id":"mf9lj6or"}
+{"time":"2024-11-23T16:09:54.0777774-07:00","level":"INFO","msg":"stream: closed","id":"mf9lj6or"}

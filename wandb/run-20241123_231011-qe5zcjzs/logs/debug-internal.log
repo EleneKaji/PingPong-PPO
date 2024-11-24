@@ -1,0 +1,24 @@
+{"time":"2024-11-23T23:10:11.8930443-07:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-23T23:10:11.8930443-07:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Elene2004\\Python\\Files\\PingPong-PPO\\wandb\\run-20241123_231011-qe5zcjzs\\logs\\debug-core.log"}
+{"time":"2024-11-23T23:10:12.0051456-07:00","level":"INFO","msg":"created new stream","id":"qe5zcjzs"}
+{"time":"2024-11-23T23:10:12.0051456-07:00","level":"INFO","msg":"stream: started","id":"qe5zcjzs"}
+{"time":"2024-11-23T23:10:12.0051456-07:00","level":"INFO","msg":"handler: started","stream_id":"qe5zcjzs"}
+{"time":"2024-11-23T23:10:12.0051456-07:00","level":"INFO","msg":"sender: started","stream_id":"qe5zcjzs"}
+{"time":"2024-11-23T23:10:12.0051456-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"qe5zcjzs"}
+{"time":"2024-11-23T23:10:12.2176798-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-23T23:11:57.3291275-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-23T23:11:57.5215464-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/kajaiaelene-models/PG-Pong/qe5zcjzs/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-23T23:11:59.58077-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-23T23:11:59.8484501-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/kajaiaelene-models/PG-Pong/qe5zcjzs/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-23T23:12:04.0286034-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-23T23:12:04.7549881-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/kajaiaelene-models/PG-Pong/qe5zcjzs/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-23T23:12:12.9813613-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-23T23:12:14.3828893-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/kajaiaelene-models/PG-Pong/qe5zcjzs/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-24T11:12:48.1180563-07:00","level":"INFO","msg":"stream: closing","id":"qe5zcjzs"}
+{"time":"2024-11-24T11:12:48.118578-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-24T11:12:48.1238659-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-24T11:12:51.3061125-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-24T11:12:51.7070109-07:00","level":"INFO","msg":"handler: closed","stream_id":"qe5zcjzs"}
+{"time":"2024-11-24T11:12:51.7070109-07:00","level":"INFO","msg":"sender: closed","stream_id":"qe5zcjzs"}
+{"time":"2024-11-24T11:12:51.7070109-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"qe5zcjzs"}
+{"time":"2024-11-24T11:12:51.7075207-07:00","level":"INFO","msg":"stream: closed","id":"qe5zcjzs"}
