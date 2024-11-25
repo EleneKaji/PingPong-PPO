@@ -75,7 +75,7 @@ if __name__ == "__main__":
 
     if plotting: wandb.init(
         project="PG-Pong",
-        name="PG-final-run2",
+        name="PG-final-async",
     )
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -87,11 +87,11 @@ if __name__ == "__main__":
 
     num_envs = 16
     gym.register_envs(ale_py)
-    envs = gym.make_vec("ALE/Pong-v5", num_envs=num_envs, vectorization_mode="sync")
+    envs = gym.make_vec("ALE/Pong-v5", num_envs=num_envs, vectorization_mode="async")
     observations, info = envs.reset()
 
     dprops, drs, dys, drprops = [], [], [], []
-    done = [False] * num_envs
+    dones = [False] * num_envs
     prev_x = [None] * num_envs
     reward_sum = [0] * num_envs
     episode_number = 0
@@ -100,6 +100,7 @@ if __name__ == "__main__":
     total_time = 0
 
     start_time = time.time()
+
     while episode_number < (5000 * num_envs):
 
         # process the observation and get the difference
@@ -126,14 +127,16 @@ if __name__ == "__main__":
         
         dprops.append(log_prob) 
 
-        observations, rewards, terminateds, truncateds, _ = envs.step(actions)
-        done = any(terminateds) or any(truncateds) 
+        envs.step_async(actions)
+        observations, rewards, terminated, truncateds, _ = envs.step_wait()
+        dones = terminated | truncateds
 
         reward_sum += rewards
         drs.append(rewards)
 
-        if done:
-            episode_number += num_envs
+        if np.any(dones):
+            done_envs = np.sum(dones)
+            episode_number += done_envs
 
             epprops = torch.stack(dprops).squeeze(-1).to(device)
             erprops = torch.stack(drprops).squeeze(-1).to(device)
@@ -161,7 +164,7 @@ if __name__ == "__main__":
             scaler.update()
 
             # save the model periodically
-            if episode_number % (100 * num_envs) == 0:
+            if episode_number % 500 == 0:
                 torch.save(model.state_dict(), 'PGmodel.pth')
 
             end_time = time.time()
@@ -173,22 +176,24 @@ if __name__ == "__main__":
             average_logs = epprops.mean()
             average_logits = erprops.mean()
 
-            # reset the environment and variables
             average_reward = reward_sum.mean()
             print(f"Episode: {episode_number}, Reward: {average_reward}, Advantage: {average_adv}, Logits: {average_logits}, BCE: {average_logs}, Loss: {loss.item():.8f}, Time: {time_diff:.2f}s, Total Time: {total_time:.2f}m")
- 
+
             if plotting: wandb.log({"loss": loss, 
-                       "average reward": average_reward, 
-                       "average advantage": average_adv, 
-                       "average probabilities": average_logits,
-                       "average log probabilities": average_logs,
-                       "time": total_time}, step=episode_number)
+                    "average reward": average_reward, 
+                    "average advantage": average_adv, 
+                    "average probabilities": average_logits,
+                    "average log probabilities": average_logs,
+                    "time": total_time}, step=episode_number)
             
             reward_sum = [0] * num_envs
-            observations, info = envs.reset()
-            prev_x = [None] * num_envs
-            done = [False] * num_envs
+            done_indices = torch.tensor(np.where(dones)[0], device=device)
+            prev_x[done_indices] = torch.zeros_like(prev_x[done_indices], device=device)
 
+            observations, rewards, terminated, truncateds, _ = envs.step(actions)
+            dones = terminated | truncateds
+            
+            
     torch.save(model.state_dict(), 'PG_FinalModel.pth')
     envs.close()
     if plotting: wandb.finish()

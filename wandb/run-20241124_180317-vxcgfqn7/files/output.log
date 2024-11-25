@@ -1,0 +1,24 @@
+Using device: cuda
+Episode: 2, Reward: -15.25, Advantage: 1.4473588122076648e-16, Logits: 0.375, BCE: -0.5029296875, Loss: 0.00150631, Time: 10.14s, Total Time: 0.17m
+Episode: 3, Reward: -1.375, Advantage: -3.640075490574284e-18, Logits: 0.383056640625, BCE: -0.693359375, Loss: 0.00000000, Time: 0.50s, Total Time: 0.18m
+Episode: 4, Reward: -0.9375, Advantage: 6.508203937457814e-17, Logits: 0.390625, BCE: -0.693359375, Loss: 0.00000000, Time: 0.55s, Total Time: 0.19m
+Episode: 5, Reward: -0.5, Advantage: -1.469412826709766e-17, Logits: 0.394775390625, BCE: -0.693359375, Loss: 0.00000000, Time: 0.33s, Total Time: 0.19m
+Episode: 7, Reward: -0.5, Advantage: 9.654113257610057e-18, Logits: 0.3974609375, BCE: -0.693359375, Loss: -0.00000000, Time: 0.22s, Total Time: 0.20m
+Episode: 8, Reward: -1.4375, Advantage: -3.640075490574284e-18, Logits: 0.402099609375, BCE: -0.68212890625, Loss: 0.00014816, Time: 0.56s, Total Time: 0.20m
+Episode: 9, Reward: -0.5625, Advantage: -1.6326809185664067e-17, Logits: 0.4052734375, BCE: -0.693359375, Loss: 0.00000000, Time: 0.31s, Total Time: 0.21m
+Episode: 10, Reward: -0.5, Advantage: -2.05596856412066e-17, Logits: 0.40771484375, BCE: -0.693359375, Loss: 0.00000000, Time: 0.26s, Total Time: 0.21m
+Episode: 11, Reward: -1.125, Advantage: 3.828355257328126e-17, Logits: 0.41259765625, BCE: -0.693359375, Loss: 0.00000000, Time: 0.52s, Total Time: 0.22m
+Episode: 12, Reward: -0.5, Advantage: 2.0354088784794535e-17, Logits: 0.414794921875, BCE: -0.693359375, Loss: 0.00000000, Time: 0.28s, Total Time: 0.23m
+Episode: 13, Reward: -0.1875, Advantage: -4.394632805807911e-17, Logits: 0.415771484375, BCE: -0.693359375, Loss: -0.00000000, Time: 0.12s, Total Time: 0.23m
+Episode: 14, Reward: -2.0, Advantage: -6.033820786006285e-17, Logits: 0.421875, BCE: -0.693359375, Loss: -0.00000000, Time: 0.82s, Total Time: 0.24m
+Episode: 15, Reward: -1.875, Advantage: -2.416367759478282e-17, Logits: 0.4267578125, BCE: -0.693359375, Loss: 0.00000000, Time: 0.76s, Total Time: 0.26m
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\PG.py", line 131, in <module>
+    observations, rewards, terminated, truncateds, _ = envs.step_wait()
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\vector\async_vector_env.py", line 412, in step_wait
+    env_step_return, success = pipe.recv()
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\multiprocessing\connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\multiprocessing\connection.py", line 305, in _recv_bytes
+    waitres = _winapi.WaitForMultipleObjects(
+KeyboardInterrupt
