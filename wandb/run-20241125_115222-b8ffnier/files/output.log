@@ -1,0 +1,17 @@
+Using device: cuda
+Epoch: 0 | Loss: -3.7253e-08 | Reward: -0.022095 | Advantage: 3.7253e-09 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 73.764 | Total Time (m): 1.2294
+Epoch: 1 | Loss: 4.8429e-08 | Reward: -0.020142 | Advantage: -6.4261e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 100.13 | Total Time (m): 2.8982
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 182, in <module>
+    loss, reward, prob, advantage, logprob = train_one_epoch()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 128, in train_one_epoch
+    obs, rewards, _, _, _ = envs.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\vector\async_vector_env.py", line 353, in step
+    return self.step_wait()
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\vector\async_vector_env.py", line 412, in step_wait
+    env_step_return, success = pipe.recv()
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\multiprocessing\connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\multiprocessing\connection.py", line 305, in _recv_bytes
+    waitres = _winapi.WaitForMultipleObjects(
+KeyboardInterrupt

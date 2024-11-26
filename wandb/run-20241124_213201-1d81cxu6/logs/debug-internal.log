@@ -1,0 +1,16 @@
+{"time":"2024-11-24T21:32:01.7451434-07:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-24T21:32:01.7451434-07:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Elene2004\\Python\\Files\\PingPong-PPO\\wandb\\run-20241124_213201-1d81cxu6\\logs\\debug-core.log"}
+{"time":"2024-11-24T21:32:01.8544202-07:00","level":"INFO","msg":"created new stream","id":"1d81cxu6"}
+{"time":"2024-11-24T21:32:01.8544202-07:00","level":"INFO","msg":"stream: started","id":"1d81cxu6"}
+{"time":"2024-11-24T21:32:01.8544202-07:00","level":"INFO","msg":"handler: started","stream_id":"1d81cxu6"}
+{"time":"2024-11-24T21:32:01.8544202-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"1d81cxu6"}
+{"time":"2024-11-24T21:32:01.8544202-07:00","level":"INFO","msg":"sender: started","stream_id":"1d81cxu6"}
+{"time":"2024-11-24T21:32:02.1074342-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-24T21:32:04.5926447-07:00","level":"INFO","msg":"stream: closing","id":"1d81cxu6"}
+{"time":"2024-11-24T21:32:04.5926447-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-24T21:32:04.5931473-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-24T21:32:06.2284989-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-24T21:32:06.3812108-07:00","level":"INFO","msg":"handler: closed","stream_id":"1d81cxu6"}
+{"time":"2024-11-24T21:32:06.3812108-07:00","level":"INFO","msg":"sender: closed","stream_id":"1d81cxu6"}
+{"time":"2024-11-24T21:32:06.3812108-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"1d81cxu6"}
+{"time":"2024-11-24T21:32:06.3812108-07:00","level":"INFO","msg":"stream: closed","id":"1d81cxu6"}

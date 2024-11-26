@@ -11,7 +11,7 @@ from torch.nn import functional as F
 from torch.amp import GradScaler, autocast
 from torch.nn.utils import clip_grad_norm_
 
-import matplotlib.pyplot as plt
+"""------------------------------------------------------------------------------------------------------------------"""
 
 class PolicyGradient(nn.Module):
     def __init__(self):
@@ -71,7 +71,7 @@ def discount_rewards(rewards, gamma=0.99):
 
 if __name__ == "__main__":
 
-    plotting = True
+    plotting = False
 
     if plotting: wandb.init(
         project="PG-Pong",
@@ -89,6 +89,7 @@ if __name__ == "__main__":
     gym.register_envs(ale_py)
     envs = gym.make_vec("ALE/Pong-v5", num_envs=num_envs, vectorization_mode="async")
     observations, info = envs.reset()
+    
 
     dprops, drs, dys, drprops = [], [], [], []
     dones = [False] * num_envs

@@ -1,0 +1,55 @@
+Using device: cuda
+Epoch: 0 | Loss: 9.5248e-09 | Reward: -0.0075 | Time (s): 1.4679 | Total Time (m): 0.024466
+Epoch: 1 | Loss: 4.2856e-08 | Reward: -0.0075 | Time (s): 1.1456 | Total Time (m): 0.043559
+Epoch: 2 | Loss: -4.1258e-08 | Reward: -0.0175 | Time (s): 1.0341 | Total Time (m): 0.060794
+Epoch: 3 | Loss: -2.3627e-07 | Reward: -0.02 | Time (s): 1.6919 | Total Time (m): 0.088993
+Epoch: 4 | Loss: -1.2767e-08 | Reward: -0.01 | Time (s): 1.5418 | Total Time (m): 0.11469
+Epoch: 5 | Loss: -3.5602e-08 | Reward: -0.015 | Time (s): 4.7799 | Total Time (m): 0.19436
+Epoch: 6 | Loss: 1.6958e-09 | Reward: -0.01 | Time (s): 8.4167 | Total Time (m): 0.33463
+Epoch: 7 | Loss: -2.3627e-07 | Reward: -0.02 | Time (s): 7.9667 | Total Time (m): 0.46741
+Epoch: 8 | Loss: 3.2258e-08 | Reward: -0.005 | Time (s): 2.6963 | Total Time (m): 0.51235
+Epoch: 9 | Loss: -3.5602e-08 | Reward: -0.015 | Time (s): 6.69 | Total Time (m): 0.62385
+Epoch: 10 | Loss: -6.777e-08 | Reward: -0.0175 | Time (s): 8.4141 | Total Time (m): 0.76409
+Epoch: 11 | Loss: 1.3816e-08 | Reward: -0.015 | Time (s): 7.9827 | Total Time (m): 0.89713
+Epoch: 12 | Loss: -2.3627e-07 | Reward: -0.02 | Time (s): 8.5515 | Total Time (m): 1.0397
+Epoch: 13 | Loss: -3.5602e-08 | Reward: -0.015 | Time (s): 8.4024 | Total Time (m): 1.1797
+Epoch: 14 | Loss: -3.5602e-08 | Reward: -0.015 | Time (s): 8.6294 | Total Time (m): 1.3235
+Epoch: 15 | Loss: -4.0877e-08 | Reward: -0.0175 | Time (s): 8.7865 | Total Time (m): 1.47
+Epoch: 16 | Loss: -2.3627e-07 | Reward: -0.02 | Time (s): 8.995 | Total Time (m): 1.6199
+Epoch: 17 | Loss: -3.5602e-08 | Reward: -0.015 | Time (s): 8.3926 | Total Time (m): 1.7598
+Epoch: 18 | Loss: -2.3627e-07 | Reward: -0.02 | Time (s): 3.5224 | Total Time (m): 1.8185
+Epoch: 19 | Loss: -3.5602e-08 | Reward: -0.015 | Time (s): 8.667 | Total Time (m): 1.9629
+Epoch: 20 | Loss: -7.1335e-08 | Reward: -0.01 | Time (s): 8.5233 | Total Time (m): 2.105
+Epoch: 21 | Loss: -3.5602e-08 | Reward: -0.015 | Time (s): 8.5527 | Total Time (m): 2.2475
+Epoch: 22 | Loss: -2.3627e-07 | Reward: -0.02 | Time (s): 9.6588 | Total Time (m): 2.4085
+Epoch: 23 | Loss: -3.5602e-08 | Reward: -0.015 | Time (s): 9.1391 | Total Time (m): 2.5608
+Epoch: 24 | Loss: -2.3627e-07 | Reward: -0.02 | Time (s): 9.3236 | Total Time (m): 2.7162
+Epoch: 25 | Loss: -3.5602e-08 | Reward: -0.015 | Time (s): 9.4078 | Total Time (m): 2.873
+Epoch: 26 | Loss: -1.6358e-08 | Reward: -0.005 | Time (s): 9.5127 | Total Time (m): 3.0315
+Epoch: 27 | Loss: -3.5602e-08 | Reward: -0.015 | Time (s): 9.5961 | Total Time (m): 3.1915
+Epoch: 28 | Loss: -3.5602e-08 | Reward: -0.015 | Time (s): 8.9849 | Total Time (m): 3.3412
+Epoch: 29 | Loss: -1.3679e-08 | Reward: -0.0125 | Time (s): 9.6266 | Total Time (m): 3.5017
+Epoch: 30 | Loss: -2.3627e-07 | Reward: -0.02 | Time (s): 9.4683 | Total Time (m): 3.6595
+Epoch: 31 | Loss: -7.6282e-08 | Reward: -0.0175 | Time (s): 9.3387 | Total Time (m): 3.8151
+Epoch: 32 | Loss: -3.5602e-08 | Reward: -0.015 | Time (s): 10.562 | Total Time (m): 3.9912
+Epoch: 33 | Loss: -3.5602e-08 | Reward: -0.015 | Time (s): 9.1414 | Total Time (m): 4.1435
+Epoch: 34 | Loss: -2.3627e-07 | Reward: -0.02 | Time (s): 9.682 | Total Time (m): 4.3049
+Epoch: 35 | Loss: -4.1258e-08 | Reward: -0.0175 | Time (s): 9.3551 | Total Time (m): 4.4608
+Epoch: 36 | Loss: -1.6904e-08 | Reward: -0.005 | Time (s): 9.2899 | Total Time (m): 4.6156
+Epoch: 37 | Loss: -2.3627e-07 | Reward: -0.02 | Time (s): 9.5546 | Total Time (m): 4.7749
+Epoch: 38 | Loss: -2.3627e-07 | Reward: -0.02 | Time (s): 8.7985 | Total Time (m): 4.9215
+Epoch: 39 | Loss: 6.7353e-08 | Reward: -0.015 | Time (s): 9.1926 | Total Time (m): 5.0747
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 182, in <module>
+    loss, reward = train_one_epoch()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 128, in train_one_epoch
+    obs, rewards, _, _, _ = envs.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\vector\async_vector_env.py", line 353, in step
+    return self.step_wait()
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\vector\async_vector_env.py", line 412, in step_wait
+    env_step_return, success = pipe.recv()
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\multiprocessing\connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\multiprocessing\connection.py", line 305, in _recv_bytes
+    waitres = _winapi.WaitForMultipleObjects(
+KeyboardInterrupt

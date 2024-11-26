@@ -1,0 +1,8 @@
+{"time":"2024-11-25T15:54:31.6463415-07:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-25T15:54:31.6463415-07:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Elene2004\\Python\\Files\\PingPong-PPO\\wandb\\run-20241125_155431-ihd685v4\\logs\\debug-core.log"}
+{"time":"2024-11-25T15:54:31.7584406-07:00","level":"INFO","msg":"created new stream","id":"ihd685v4"}
+{"time":"2024-11-25T15:54:31.7584406-07:00","level":"INFO","msg":"stream: started","id":"ihd685v4"}
+{"time":"2024-11-25T15:54:31.7584406-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"ihd685v4"}
+{"time":"2024-11-25T15:54:31.7584406-07:00","level":"INFO","msg":"sender: started","stream_id":"ihd685v4"}
+{"time":"2024-11-25T15:54:31.7584406-07:00","level":"INFO","msg":"handler: started","stream_id":"ihd685v4"}
+{"time":"2024-11-25T15:54:32.0651918-07:00","level":"INFO","msg":"Starting system monitor"}

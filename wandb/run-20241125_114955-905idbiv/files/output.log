@@ -1,0 +1,8 @@
+Using device: cuda
+Epoch: 0 | Loss: -2.9802e-07 | Reward: -0.020386 | Advantage: -4.0606e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 60.437 | Total Time (m): 1.0073
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 182, in <module>
+    loss, reward, prob, advantage, logprob = train_one_epoch()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 126, in train_one_epoch
+    action = torch.where(random_value < nograd_probs, 2, 3) # 2 is UP, 3 is DOWN
+KeyboardInterrupt

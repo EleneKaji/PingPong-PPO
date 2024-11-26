@@ -1,0 +1,21 @@
+Using device: cuda
+Episode:  0 Loss:  0.1310100555419922 Reward:  -21.0
+Episode:  1 Loss:  -0.15401840209960938 Reward:  -21.0
+Episode:  2 Loss:  -0.04825782775878906 Reward:  -21.0
+Episode:  3 Loss:  -0.009578704833984375 Reward:  -20.0
+Episode:  4 Loss:  -0.0003032684326171875 Reward:  -19.0
+Episode:  5 Loss:  0.06375503540039062 Reward:  -21.0
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 125, in <module>
+    loss, reward = train_one_episode()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 67, in train_one_episode
+    obs, _ = envs.reset()
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\wrappers\common.py", line 400, in reset
+    return super().reset(seed=seed, options=options)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\core.py", line 328, in reset
+    return self.env.reset(seed=seed, options=options)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\wrappers\common.py", line 295, in reset
+    return self.env.reset(seed=seed, options=options)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\ale_py\env.py", line 239, in reset
+    self.ale.reset_game()
+KeyboardInterrupt

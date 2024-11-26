@@ -1,0 +1,31 @@
+Using device: cuda
+Episode:  0 Loss:  0.0477294921875 Reward:  -20.0 Time (s):  2.015592575073242 Total Time (m):  0.033593209584554036
+Episode:  1 Loss:  -0.07416152954101562 Reward:  -21.0 Time (s):  1.3446462154388428 Total Time (m):  0.056003979841868085
+Episode:  2 Loss:  -0.11990928649902344 Reward:  -21.0 Time (s):  1.9080729484558105 Total Time (m):  0.08780519564946493
+Episode:  3 Loss:  0.119598388671875 Reward:  -21.0 Time (s):  1.7530949115753174 Total Time (m):  0.11702344417572022
+Episode:  4 Loss:  -0.058411598205566406 Reward:  -21.0 Time (s):  3.073827028274536 Total Time (m):  0.1682538946469625
+Episode:  5 Loss:  0.1286773681640625 Reward:  -21.0 Time (s):  3.4324214458465576 Total Time (m):  0.22546091874440513
+Episode:  6 Loss:  0.046141624450683594 Reward:  -20.0 Time (s):  7.192818641662598 Total Time (m):  0.34534122943878176
+Episode:  7 Loss:  0.3588895797729492 Reward:  -20.0 Time (s):  6.4428935050964355 Total Time (m):  0.45272278785705566
+Episode:  8 Loss:  0.267120361328125 Reward:  -20.0 Time (s):  6.76663875579834 Total Time (m):  0.5655001004536947
+Episode:  9 Loss:  -0.084136962890625 Reward:  -21.0 Time (s):  4.816157102584839 Total Time (m):  0.6457693854967753
+Episode:  10 Loss:  -0.06899070739746094 Reward:  -21.0 Time (s):  7.456325531005859 Total Time (m):  0.7700414776802063
+Episode:  11 Loss:  -0.041469573974609375 Reward:  -19.0 Time (s):  7.291083097457886 Total Time (m):  0.8915595293045043
+Episode:  12 Loss:  3.814697265625e-06 Reward:  -20.0 Time (s):  6.9023730754852295 Total Time (m):  1.0065990805625915
+Episode:  13 Loss:  -0.008503913879394531 Reward:  -21.0 Time (s):  6.70169472694397 Total Time (m):  1.1182939926783244
+Episode:  14 Loss:  -0.02577686309814453 Reward:  -20.0 Time (s):  5.505527973175049 Total Time (m):  1.2100527922312418
+Episode:  15 Loss:  -0.035968780517578125 Reward:  -20.0 Time (s):  4.447503566741943 Total Time (m):  1.2841778516769409
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 128, in <module>
+    loss, reward = train_one_episode()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 78, in train_one_episode
+    nograd_probs = model(delta_obs)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\nn\modules\module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\nn\modules\module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 32, in forward
+    x = F.relu(self.fc1(x.view(x.size(0), -1)))
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\nn\functional.py", line 1500, in relu
+    result = torch.relu(input)
+KeyboardInterrupt

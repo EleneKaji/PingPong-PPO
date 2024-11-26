@@ -1,0 +1,35 @@
+Using device: cuda
+Episode:  0 Loss:  -3.7816040276084095e-05
+Episode:  1 Loss:  -4.520965012488887e-05
+Episode:  2 Loss:  -0.00024173232668545097
+Episode:  3 Loss:  2.26428201131057e-05
+Episode:  4 Loss:  -0.0001323393953498453
+Episode:  5 Loss:  0.0004310866934247315
+Episode:  6 Loss:  -0.000200467009562999
+Episode:  7 Loss:  0.00011615452240221202
+Episode:  8 Loss:  -0.00032793465652503073
+Episode:  9 Loss:  3.795723750954494e-05
+Episode:  10 Loss:  -0.00012460179277695715
+Episode:  11 Loss:  4.09995554946363e-05
+Episode:  12 Loss:  -0.00018504705803934485
+Episode:  13 Loss:  -0.0001451082935091108
+Episode:  14 Loss:  0.0003842644509859383
+Episode:  15 Loss:  0.00030885424348525703
+Episode:  16 Loss:  -9.948090155376121e-05
+Episode:  17 Loss:  3.204887889296515e-06
+Episode:  18 Loss:  5.822314051329158e-05
+Episode:  19 Loss:  0.0005292742280289531
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 125, in <module>
+    loss, reward = train_one_episode()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 77, in train_one_episode
+    nograd_probs = model(delta_obs)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\nn\modules\module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\nn\modules\module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 31, in forward
+    x = F.relu(self.fc1(x.view(x.size(0), -1)))
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\nn\functional.py", line 1500, in relu
+    result = torch.relu(input)
+KeyboardInterrupt

@@ -1,0 +1,27 @@
+Using device: cuda
+Episode:  0 Loss:  0.14261531829833984
+Episode:  1 Loss:  -0.06390190124511719
+Episode:  2 Loss:  -0.011714935302734375
+Episode:  3 Loss:  -0.04106903076171875
+Episode:  4 Loss:  0.04910087585449219
+Episode:  5 Loss:  -0.042817115783691406
+Episode:  6 Loss:  -0.01881122589111328
+Episode:  7 Loss:  -0.04740715026855469
+Episode:  8 Loss:  0.051578521728515625
+Episode:  9 Loss:  -0.03713226318359375
+Episode:  10 Loss:  -0.0844411849975586
+Episode:  11 Loss:  -0.03668212890625
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 125, in <module>
+    loss, reward = train_one_episode()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 81, in train_one_episode
+    obs, rewards, terminated, truncated, _ = envs.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\wrappers\common.py", line 393, in step
+    return super().step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\core.py", line 322, in step
+    return self.env.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\wrappers\common.py", line 285, in step
+    return self.env.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\ale_py\env.py", line 299, in step
+    reward += self.ale.act(action_idx, strength)
+KeyboardInterrupt

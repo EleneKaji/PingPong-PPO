@@ -1,0 +1,25 @@
+Using device: cuda
+Episode:  0 Loss:  -4.7302248276537284e-05
+Episode:  1 Loss:  -9.273510659113526e-05
+Episode:  2 Loss:  0.00028119911439716816
+Episode:  3 Loss:  5.32590456714388e-05
+Episode:  4 Loss:  -0.00012135130964452401
+Episode:  5 Loss:  0.0001106977288145572
+Episode:  6 Loss:  6.25925968051888e-05
+Episode:  7 Loss:  -4.266128235030919e-05
+Episode:  8 Loss:  1.4736924640601501e-05
+Episode:  9 Loss:  5.4363321396522224e-05
+Episode:  10 Loss:  -1.27093437640724e-06
+Episode:  11 Loss:  4.145011189393699e-05
+Episode:  12 Loss:  -4.795202403329313e-05
+Episode:  13 Loss:  -3.46417109540198e-05
+Episode:  14 Loss:  -7.786972673784476e-06
+Episode:  15 Loss:  -2.5489600375294685e-05
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 125, in <module>
+    loss = train_one_episode()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 72, in train_one_episode
+    curr_obs = pre_process(obs)
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 36, in pre_process
+    observation = torch.tensor(observation, dtype=torch.float32, device=device)
+KeyboardInterrupt

@@ -1,0 +1,13 @@
+Using device: cuda
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 125, in <module>
+    loss, reward = train_one_episode()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 99, in train_one_episode
+    loss.backward()
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\autograd\__init__.py", line 282, in backward
+    grad_tensors_ = _make_grads(tensors, grad_tensors_, is_grads_batched=False)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\autograd\__init__.py", line 151, in _make_grads
+    raise RuntimeError(
+RuntimeError: grad can be implicitly created only for scalar outputs

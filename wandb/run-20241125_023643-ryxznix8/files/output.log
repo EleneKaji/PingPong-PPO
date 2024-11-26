@@ -1,0 +1,11 @@
+Using device: cuda
+Epoch: 0 | Loss: 2.5841e-08 | Reward: -0.021 | Time (s): 36.342 | Total Time (m): 0.6057
+Epoch: 1 | Loss: 7.4425e-08 | Reward: -0.0195 | Time (s): 43.368 | Total Time (m): 1.3285
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 182, in <module>
+    loss, reward = train_one_epoch()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 119, in train_one_epoch
+    curr_obs = pre_process(obs) # [N, 1, 80, 80]
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 40, in pre_process
+    observation = torch.tensor(observation, dtype=torch.float32, device=device)
+KeyboardInterrupt

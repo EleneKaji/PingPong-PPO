@@ -1,0 +1,67 @@
+Using device: cuda
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 0 | Loss: 5.2154e-08 | Reward: -0.020142 | Advantage: -1.2852e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 10.657 | Total Time (m): 0.17761
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 1 | Loss: -1.0058e-07 | Reward: -0.018555 | Advantage: -1.844e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 52.748 | Total Time (m): 1.0568
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 2 | Loss: -2.7008e-07 | Reward: -0.019775 | Advantage: -1.8626e-09 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 62.106 | Total Time (m): 2.0919
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 3 | Loss: -9.4995e-08 | Reward: -0.020752 | Advantage: -9.5461e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 59.415 | Total Time (m): 3.0821
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 4 | Loss: 9.6858e-08 | Reward: -0.020264 | Advantage: -6.5658e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 63.392 | Total Time (m): 4.1386
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 5 | Loss: -1.6019e-07 | Reward: -0.020508 | Advantage: 5.5879e-09 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 51.162 | Total Time (m): 4.9913
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 6 | Loss: -1.7881e-07 | Reward: -0.018921 | Advantage: -2.5332e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 66.755 | Total Time (m): 6.1039
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 7 | Loss: -1.7136e-07 | Reward: -0.019043 | Advantage: -2.3656e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 66.598 | Total Time (m): 7.2139
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 8 | Loss: -2.3842e-07 | Reward: -0.019287 | Advantage: -1.7881e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 60.016 | Total Time (m): 8.2142
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 9 | Loss: -4.6566e-08 | Reward: -0.019653 | Advantage: 2.2002e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 59.771 | Total Time (m): 9.2104
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 10 | Loss: 3.688e-07 | Reward: -0.020996 | Advantage: 3.9022e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 68.361 | Total Time (m): 10.35
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 11 | Loss: 8.5682e-08 | Reward: -0.021484 | Advantage: -2.2352e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 68.156 | Total Time (m): 11.486
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 12 | Loss: -2.5146e-07 | Reward: -0.019287 | Advantage: -3.3341e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 54.822 | Total Time (m): 12.399
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 13 | Loss: -1.4156e-07 | Reward: -0.018433 | Advantage: -5.425e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 68.741 | Total Time (m): 13.545
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 14 | Loss: -4.0978e-07 | Reward: -0.019653 | Advantage: -5.886e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 51.005 | Total Time (m): 14.395
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 15 | Loss: -1.0058e-07 | Reward: -0.020752 | Advantage: -2.6822e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 52.015 | Total Time (m): 15.262
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 16 | Loss: 2.0117e-07 | Reward: -0.02002 | Advantage: 2.5891e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 58.922 | Total Time (m): 16.244
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 17 | Loss: 2.4587e-07 | Reward: -0.016846 | Advantage: 1.7602e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 52.054 | Total Time (m): 17.112
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 18 | Loss: -4.4703e-08 | Reward: -0.019653 | Advantage: -1.6997e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 55.337 | Total Time (m): 18.034
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 19 | Loss: -5.9605e-08 | Reward: -0.018677 | Advantage: -5.4948e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 51.006 | Total Time (m): 18.884
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 20 | Loss: 4.4703e-08 | Reward: -0.019531 | Advantage: -1.3504e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 52.565 | Total Time (m): 19.76
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 21 | Loss: 4.8429e-08 | Reward: -0.020996 | Advantage: -1.0245e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 57.362 | Total Time (m): 20.716
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 22 | Loss: -8.9407e-08 | Reward: -0.018921 | Advantage: 1.071e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 65.402 | Total Time (m): 21.806
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 23 | Loss: 4.8429e-08 | Reward: -0.019043 | Advantage: -6.0536e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 65.154 | Total Time (m): 22.892
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 24 | Loss: 1.4156e-07 | Reward: -0.02002 | Advantage: 1.1083e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 51.376 | Total Time (m): 23.748
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 25 | Loss: -1.3411e-07 | Reward: -0.018799 | Advantage: -1.5646e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 61.372 | Total Time (m): 24.771
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 182, in <module>
+    total_time = 0
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 127, in train_one_epoch
+    obs, rewards, _, _, _ = envs.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\vector\async_vector_env.py", line 353, in step
+    return self.step_wait()
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\vector\async_vector_env.py", line 412, in step_wait
+    env_step_return, success = pipe.recv()
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\multiprocessing\connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\multiprocessing\connection.py", line 305, in _recv_bytes
+    waitres = _winapi.WaitForMultipleObjects(
+KeyboardInterrupt

@@ -1,0 +1,143 @@
+Using device: cuda
+Episode: 0 Loss: -0.015848 Reward: -21 Time (s): 1.8085 Total Time (m): 0.030142
+Episode: 1 Loss: -0.021885 Reward: -19 Time (s): 1.6558 Total Time (m): 0.057738
+Episode: 2 Loss: 0.00040436 Reward: -21 Time (s): 1.6451 Total Time (m): 0.085157
+Episode: 3 Loss: 0.022101 Reward: -21 Time (s): 2.6045 Total Time (m): 0.12856
+Episode: 4 Loss: -0.017342 Reward: -21 Time (s): 4.3466 Total Time (m): 0.20101
+Episode: 5 Loss: -0.016943 Reward: -21 Time (s): 5.4991 Total Time (m): 0.29266
+Episode: 6 Loss: 0.04026 Reward: -20 Time (s): 6.6156 Total Time (m): 0.40292
+Episode: 7 Loss: -0.015812 Reward: -21 Time (s): 3.7756 Total Time (m): 0.46585
+Episode: 8 Loss: -0.020707 Reward: -20 Time (s): 4.2149 Total Time (m): 0.5361
+Episode: 9 Loss: 0.07317 Reward: -21 Time (s): 3.6471 Total Time (m): 0.59688
+Episode: 10 Loss: -0.03701 Reward: -20 Time (s): 6.3373 Total Time (m): 0.7025
+Episode: 11 Loss: -0.048952 Reward: -21 Time (s): 3.2304 Total Time (m): 0.75634
+Episode: 12 Loss: -0.16238 Reward: -21 Time (s): 3.7635 Total Time (m): 0.81907
+Episode: 13 Loss: 0.18505 Reward: -21 Time (s): 4.0638 Total Time (m): 0.8868
+Episode: 14 Loss: -0.047752 Reward: -20 Time (s): 4.6608 Total Time (m): 0.96447
+Episode: 15 Loss: -0.292 Reward: -21 Time (s): 4.3291 Total Time (m): 1.0366
+Episode: 16 Loss: -0.081667 Reward: -20 Time (s): 4.5693 Total Time (m): 1.1128
+Episode: 17 Loss: -0.14978 Reward: -21 Time (s): 3.3286 Total Time (m): 1.1683
+Episode: 18 Loss: -0.21758 Reward: -21 Time (s): 4.1589 Total Time (m): 1.2376
+Episode: 19 Loss: 0.1898 Reward: -20 Time (s): 4.9422 Total Time (m): 1.3199
+Episode: 20 Loss: -0.042259 Reward: -21 Time (s): 3.325 Total Time (m): 1.3754
+Episode: 21 Loss: -0.060474 Reward: -21 Time (s): 5.0035 Total Time (m): 1.4588
+Episode: 22 Loss: -0.51495 Reward: -21 Time (s): 4.7624 Total Time (m): 1.5381
+Episode: 23 Loss: 0.011074 Reward: -18 Time (s): 5.3451 Total Time (m): 1.6272
+Episode: 24 Loss: 0.21005 Reward: -21 Time (s): 3.9148 Total Time (m): 1.6925
+Episode: 25 Loss: 0.11555 Reward: -20 Time (s): 7.8281 Total Time (m): 1.8229
+Episode: 26 Loss: -0.065435 Reward: -20 Time (s): 7.0673 Total Time (m): 1.9407
+Episode: 27 Loss: -0.016018 Reward: -20 Time (s): 3.4694 Total Time (m): 1.9985
+Episode: 28 Loss: -0.39877 Reward: -20 Time (s): 5.2599 Total Time (m): 2.0862
+Episode: 29 Loss: -0.23565 Reward: -21 Time (s): 4.2278 Total Time (m): 2.1567
+Episode: 30 Loss: -0.63921 Reward: -21 Time (s): 4.8581 Total Time (m): 2.2376
+Episode: 31 Loss: -0.12489 Reward: -20 Time (s): 6.7913 Total Time (m): 2.3508
+Episode: 32 Loss: 0.39054 Reward: -21 Time (s): 5.6325 Total Time (m): 2.4447
+Episode: 33 Loss: -0.40104 Reward: -21 Time (s): 5.2997 Total Time (m): 2.533
+Episode: 34 Loss: 0.14723 Reward: -21 Time (s): 6.0903 Total Time (m): 2.6345
+Episode: 35 Loss: -0.01062 Reward: -18 Time (s): 5.0436 Total Time (m): 2.7186
+Episode: 36 Loss: -0.5505 Reward: -20 Time (s): 4.5806 Total Time (m): 2.7949
+Episode: 37 Loss: -0.51433 Reward: -21 Time (s): 3.0664 Total Time (m): 2.846
+Episode: 38 Loss: 0.11971 Reward: -21 Time (s): 4.821 Total Time (m): 2.9264
+Episode: 39 Loss: -0.19687 Reward: -21 Time (s): 4.793 Total Time (m): 3.0063
+Episode: 40 Loss: 0.32223 Reward: -20 Time (s): 5.3372 Total Time (m): 3.0952
+Episode: 41 Loss: 0.10664 Reward: -21 Time (s): 3.5598 Total Time (m): 3.1546
+Episode: 42 Loss: -0.22805 Reward: -21 Time (s): 5.2933 Total Time (m): 3.2428
+Episode: 43 Loss: -0.092186 Reward: -21 Time (s): 4.7923 Total Time (m): 3.3226
+Episode: 44 Loss: -0.45364 Reward: -21 Time (s): 4.4605 Total Time (m): 3.397
+Episode: 45 Loss: -0.63532 Reward: -20 Time (s): 5.1298 Total Time (m): 3.4825
+Episode: 46 Loss: -0.5341 Reward: -21 Time (s): 5.1184 Total Time (m): 3.5678
+Episode: 47 Loss: 0.47179 Reward: -19 Time (s): 4.2626 Total Time (m): 3.6388
+Episode: 48 Loss: 0.60769 Reward: -19 Time (s): 5.3427 Total Time (m): 3.7279
+Episode: 49 Loss: -0.24655 Reward: -20 Time (s): 6.3289 Total Time (m): 3.8334
+Episode: 50 Loss: -0.088267 Reward: -21 Time (s): 4.9899 Total Time (m): 3.9165
+Episode: 51 Loss: -0.20125 Reward: -20 Time (s): 6.8011 Total Time (m): 4.0299
+Episode: 52 Loss: -0.66692 Reward: -21 Time (s): 7.2467 Total Time (m): 4.1507
+Episode: 53 Loss: -0.20303 Reward: -21 Time (s): 5.5717 Total Time (m): 4.2435
+Episode: 54 Loss: 0.74903 Reward: -18 Time (s): 8.479 Total Time (m): 4.3848
+Episode: 55 Loss: -0.48922 Reward: -19 Time (s): 6.2741 Total Time (m): 4.4894
+Episode: 56 Loss: -0.39039 Reward: -19 Time (s): 7.287 Total Time (m): 4.6109
+Episode: 57 Loss: 0.13111 Reward: -21 Time (s): 7.5485 Total Time (m): 4.7367
+Episode: 58 Loss: -0.95647 Reward: -17 Time (s): 8.9006 Total Time (m): 4.885
+Episode: 59 Loss: -0.32561 Reward: -20 Time (s): 7.0865 Total Time (m): 5.0031
+Episode: 60 Loss: -0.05735 Reward: -21 Time (s): 3.6375 Total Time (m): 5.0637
+Episode: 61 Loss: -0.25863 Reward: -21 Time (s): 4.9704 Total Time (m): 5.1466
+Episode: 62 Loss: 0.38194 Reward: -21 Time (s): 3.7558 Total Time (m): 5.2092
+Episode: 63 Loss: -0.99061 Reward: -20 Time (s): 5.8863 Total Time (m): 5.3073
+Episode: 64 Loss: 0.26153 Reward: -21 Time (s): 3.3282 Total Time (m): 5.3627
+Episode: 65 Loss: -0.19572 Reward: -20 Time (s): 4.6698 Total Time (m): 5.4406
+Episode: 66 Loss: -1.323 Reward: -20 Time (s): 4.1023 Total Time (m): 5.5089
+Episode: 67 Loss: -1.1385 Reward: -21 Time (s): 4.0091 Total Time (m): 5.5758
+Episode: 68 Loss: -0.32547 Reward: -20 Time (s): 5.3166 Total Time (m): 5.6644
+Episode: 69 Loss: 0.28578 Reward: -21 Time (s): 3.3239 Total Time (m): 5.7198
+Episode: 70 Loss: -0.53739 Reward: -21 Time (s): 4.1406 Total Time (m): 5.7888
+Episode: 71 Loss: -0.4333 Reward: -21 Time (s): 6.2582 Total Time (m): 5.8931
+Episode: 72 Loss: -0.42412 Reward: -21 Time (s): 4.1232 Total Time (m): 5.9618
+Episode: 73 Loss: 0.046284 Reward: -18 Time (s): 5.6816 Total Time (m): 6.0565
+Episode: 74 Loss: -0.34332 Reward: -21 Time (s): 3.116 Total Time (m): 6.1084
+Episode: 75 Loss: -1.0452 Reward: -20 Time (s): 4.9467 Total Time (m): 6.1909
+Episode: 76 Loss: -0.38203 Reward: -21 Time (s): 4.053 Total Time (m): 6.2584
+Episode: 77 Loss: -1.3214 Reward: -21 Time (s): 5.3488 Total Time (m): 6.3476
+Episode: 78 Loss: -1.1028 Reward: -19 Time (s): 5.4484 Total Time (m): 6.4384
+Episode: 79 Loss: -0.24042 Reward: -18 Time (s): 4.6275 Total Time (m): 6.5155
+Episode: 80 Loss: 0.18031 Reward: -20 Time (s): 8.2815 Total Time (m): 6.6535
+Episode: 81 Loss: 1.392 Reward: -16 Time (s): 10.994 Total Time (m): 6.8368
+Episode: 82 Loss: 1.0516 Reward: -21 Time (s): 6.9585 Total Time (m): 6.9527
+Episode: 83 Loss: -1.2034 Reward: -20 Time (s): 5.4529 Total Time (m): 7.0436
+Episode: 84 Loss: -1.4746 Reward: -20 Time (s): 5.9783 Total Time (m): 7.1433
+Episode: 85 Loss: -1.741 Reward: -20 Time (s): 8.512 Total Time (m): 7.2851
+Episode: 86 Loss: -1.1236 Reward: -21 Time (s): 5.6864 Total Time (m): 7.3799
+Episode: 87 Loss: -1.8585 Reward: -20 Time (s): 4.494 Total Time (m): 7.4548
+Episode: 88 Loss: -0.45076 Reward: -21 Time (s): 3.5942 Total Time (m): 7.5147
+Episode: 89 Loss: -0.39241 Reward: -21 Time (s): 3.3673 Total Time (m): 7.5708
+Episode: 90 Loss: -1.9255 Reward: -19 Time (s): 6.9393 Total Time (m): 7.6865
+Episode: 91 Loss: -0.13662 Reward: -19 Time (s): 5.4656 Total Time (m): 7.7776
+Episode: 92 Loss: -2.8561 Reward: -20 Time (s): 4.318 Total Time (m): 7.8495
+Episode: 93 Loss: 0.34682 Reward: -21 Time (s): 5.1567 Total Time (m): 7.9355
+Episode: 94 Loss: 0.43275 Reward: -21 Time (s): 5.6842 Total Time (m): 8.0302
+Episode: 95 Loss: -0.71759 Reward: -20 Time (s): 4.2846 Total Time (m): 8.1016
+Episode: 96 Loss: 0.50813 Reward: -20 Time (s): 4.796 Total Time (m): 8.1816
+Episode: 97 Loss: -0.89855 Reward: -21 Time (s): 4.293 Total Time (m): 8.2531
+Episode: 98 Loss: -0.46077 Reward: -20 Time (s): 4.0196 Total Time (m): 8.3201
+Episode: 99 Loss: -1.5279 Reward: -19 Time (s): 5.4703 Total Time (m): 8.4113
+Episode: 100 Loss: 1.1199 Reward: -21 Time (s): 3.9469 Total Time (m): 8.4771
+Episode: 101 Loss: -2.134 Reward: -21 Time (s): 4.2491 Total Time (m): 8.5479
+Episode: 102 Loss: -1.0603 Reward: -20 Time (s): 4.7046 Total Time (m): 8.6263
+Episode: 103 Loss: -1.703 Reward: -21 Time (s): 2.7853 Total Time (m): 8.6727
+Episode: 104 Loss: 1.3854 Reward: -20 Time (s): 1.6167 Total Time (m): 8.6997
+Episode: 105 Loss: -0.34261 Reward: -21 Time (s): 1.9246 Total Time (m): 8.7317
+Episode: 106 Loss: -2.173 Reward: -21 Time (s): 3.0743 Total Time (m): 8.783
+Episode: 107 Loss: -1.999 Reward: -19 Time (s): 3.4477 Total Time (m): 8.8404
+Episode: 108 Loss: -1.1647 Reward: -21 Time (s): 4.0939 Total Time (m): 8.9087
+Episode: 109 Loss: -1.0332 Reward: -19 Time (s): 6.116 Total Time (m): 9.0106
+Episode: 110 Loss: -1.7524 Reward: -20 Time (s): 4.0853 Total Time (m): 9.0787
+Episode: 111 Loss: -2.4862 Reward: -21 Time (s): 5.0286 Total Time (m): 9.1625
+Episode: 112 Loss: 1.5891 Reward: -21 Time (s): 4.0367 Total Time (m): 9.2298
+Episode: 113 Loss: 3.523 Reward: -21 Time (s): 4.8821 Total Time (m): 9.3111
+Episode: 114 Loss: -1.6178 Reward: -21 Time (s): 3.6067 Total Time (m): 9.3713
+Episode: 115 Loss: -2.9673 Reward: -20 Time (s): 4.4022 Total Time (m): 9.4446
+Episode: 116 Loss: -2.3221 Reward: -20 Time (s): 5.7485 Total Time (m): 9.5404
+Episode: 117 Loss: 0.95194 Reward: -21 Time (s): 3.2288 Total Time (m): 9.5943
+Episode: 118 Loss: 0.43731 Reward: -21 Time (s): 2.5845 Total Time (m): 9.6373
+Episode: 119 Loss: -0.73377 Reward: -20 Time (s): 5.5146 Total Time (m): 9.7292
+Episode: 120 Loss: -2.1444 Reward: -21 Time (s): 7.0503 Total Time (m): 9.8467
+Episode: 121 Loss: 2.1377 Reward: -21 Time (s): 5.5896 Total Time (m): 9.9399
+Episode: 122 Loss: -0.61034 Reward: -21 Time (s): 8.1997 Total Time (m): 10.077
+Episode: 123 Loss: -2.2031 Reward: -20 Time (s): 7.2985 Total Time (m): 10.198
+Episode: 124 Loss: 2.5209 Reward: -21 Time (s): 6.9594 Total Time (m): 10.314
+Episode: 125 Loss: 0.28412 Reward: -20 Time (s): 5.7277 Total Time (m): 10.41
+Episode: 126 Loss: -2.5797 Reward: -21 Time (s): 5.3684 Total Time (m): 10.499
+Episode: 127 Loss: -2.3627 Reward: -21 Time (s): 5.4605 Total Time (m): 10.59
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 135, in <module>
+    loss, reward = train_one_episode()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 84, in train_one_episode
+    obs, rewards, terminated, truncated, _ = envs.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\wrappers\common.py", line 393, in step
+    return super().step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\core.py", line 322, in step
+    return self.env.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\wrappers\common.py", line 285, in step
+    return self.env.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\ale_py\env.py", line 298, in step
+    for _ in range(frameskip):
+KeyboardInterrupt

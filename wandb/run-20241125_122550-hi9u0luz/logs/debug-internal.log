@@ -1,0 +1,19 @@
+{"time":"2024-11-25T12:25:50.3910565-07:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-25T12:25:50.3910565-07:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Elene2004\\Python\\Files\\PingPong-PPO\\wandb\\run-20241125_122550-hi9u0luz\\logs\\debug-core.log"}
+{"time":"2024-11-25T12:25:50.4983487-07:00","level":"INFO","msg":"created new stream","id":"hi9u0luz"}
+{"time":"2024-11-25T12:25:50.4983487-07:00","level":"INFO","msg":"stream: started","id":"hi9u0luz"}
+{"time":"2024-11-25T12:25:50.4988484-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"hi9u0luz"}
+{"time":"2024-11-25T12:25:50.4988484-07:00","level":"INFO","msg":"sender: started","stream_id":"hi9u0luz"}
+{"time":"2024-11-25T12:25:50.4988484-07:00","level":"INFO","msg":"handler: started","stream_id":"hi9u0luz"}
+{"time":"2024-11-25T12:25:50.7267573-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-25T13:00:06.8622087-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2024-11-25T15:05:25.9804542-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2024-11-25T15:08:00.134355-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/kajaiaelene-models/PG-Pong/hi9u0luz/file_stream\": unexpected EOF"}
+{"time":"2024-11-25T15:53:38.5447417-07:00","level":"INFO","msg":"stream: closing","id":"hi9u0luz"}
+{"time":"2024-11-25T15:53:38.5447417-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-25T15:53:38.5452578-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-25T15:53:39.8744222-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-25T15:53:40.602064-07:00","level":"INFO","msg":"handler: closed","stream_id":"hi9u0luz"}
+{"time":"2024-11-25T15:53:40.602064-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hi9u0luz"}
+{"time":"2024-11-25T15:53:40.602064-07:00","level":"INFO","msg":"sender: closed","stream_id":"hi9u0luz"}
+{"time":"2024-11-25T15:53:40.602064-07:00","level":"INFO","msg":"stream: closed","id":"hi9u0luz"}

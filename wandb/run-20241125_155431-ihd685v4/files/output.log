@@ -1,0 +1,217 @@
+Using device: cuda
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 0 | Loss: 7.8231e-08 | Reward: -0.020264 | Advantage: 6.007e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 14.389 | Total Time (m): 0.23981
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 1 | Loss: -3.7253e-09 | Reward: -0.019409 | Advantage: 0 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 53.767 | Total Time (m): 1.1359
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 2 | Loss: 2.794e-08 | Reward: -0.02002 | Advantage: -1.099e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 53.589 | Total Time (m): 2.0291
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 3 | Loss: -8.9407e-08 | Reward: -0.021484 | Advantage: -1.9185e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 67.508 | Total Time (m): 3.1542
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 4 | Loss: 5.2154e-08 | Reward: -0.020508 | Advantage: 1.1176e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 49.487 | Total Time (m): 3.979
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 5 | Loss: 2.8312e-07 | Reward: -0.020874 | Advantage: 3.9861e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 63.707 | Total Time (m): 5.0408
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 6 | Loss: -6.7055e-08 | Reward: -0.020874 | Advantage: -1.5087e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 59.773 | Total Time (m): 6.037
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 7 | Loss: -1.4901e-07 | Reward: -0.018799 | Advantage: -9.872e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 61.239 | Total Time (m): 7.0576
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 8 | Loss: 3.7253e-08 | Reward: -0.020752 | Advantage: 1.3644e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 64.171 | Total Time (m): 8.1272
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 9 | Loss: -2.5332e-07 | Reward: -0.019775 | Advantage: -6.2864e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 67.157 | Total Time (m): 9.2464
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 10 | Loss: -4.8429e-08 | Reward: -0.020508 | Advantage: -5.0291e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 66.544 | Total Time (m): 10.356
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 11 | Loss: -3.0547e-07 | Reward: -0.020508 | Advantage: -4.6566e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 62.426 | Total Time (m): 11.396
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 12 | Loss: 5.2154e-08 | Reward: -0.020142 | Advantage: 2.4214e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 64.384 | Total Time (m): 12.469
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 13 | Loss: 2.3842e-07 | Reward: -0.020264 | Advantage: 5.1223e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 54.167 | Total Time (m): 13.372
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 14 | Loss: 2.2352e-08 | Reward: -0.0177 | Advantage: 2.0023e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 52.946 | Total Time (m): 14.254
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 15 | Loss: -6.7055e-08 | Reward: -0.019043 | Advantage: -1.6391e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 58.384 | Total Time (m): 15.227
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 16 | Loss: -3.39e-07 | Reward: -0.021484 | Advantage: -3.3062e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 59.033 | Total Time (m): 16.211
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 17 | Loss: 1.099e-07 | Reward: -0.020142 | Advantage: 2.2235e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 50.349 | Total Time (m): 17.05
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 18 | Loss: 9.3132e-08 | Reward: -0.020874 | Advantage: -8.4285e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 51.162 | Total Time (m): 17.903
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 19 | Loss: -2.3097e-07 | Reward: -0.018799 | Advantage: -4.0606e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 58.39 | Total Time (m): 18.876
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 20 | Loss: -1.0431e-07 | Reward: -0.018555 | Advantage: -1.2107e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 59.798 | Total Time (m): 19.873
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 21 | Loss: 5.9605e-08 | Reward: -0.020264 | Advantage: 1.248e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 66.978 | Total Time (m): 20.989
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 22 | Loss: 2.2352e-08 | Reward: -0.018311 | Advantage: -1.0896e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 49.558 | Total Time (m): 21.815
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 23 | Loss: 1.4715e-07 | Reward: -0.020508 | Advantage: 9.5926e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 60.836 | Total Time (m): 22.829
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 24 | Loss: -8.9407e-08 | Reward: -0.019287 | Advantage: -3.5577e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 54.359 | Total Time (m): 23.735
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 25 | Loss: -6.333e-08 | Reward: -0.019775 | Advantage: 4.9593e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 57.965 | Total Time (m): 24.701
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 26 | Loss: 1.1921e-07 | Reward: -0.019287 | Advantage: 7.8231e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 58.588 | Total Time (m): 25.678
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 27 | Loss: -5.2154e-08 | Reward: -0.019775 | Advantage: 1.9465e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 50.992 | Total Time (m): 26.527
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 28 | Loss: -6.8918e-08 | Reward: -0.019897 | Advantage: 4.8429e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 49.332 | Total Time (m): 27.35
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 29 | Loss: -5.4017e-08 | Reward: -0.02002 | Advantage: 1.4156e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 61.429 | Total Time (m): 28.373
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 30 | Loss: 1.844e-07 | Reward: -0.02124 | Advantage: 4.7963e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 56.741 | Total Time (m): 29.319
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 31 | Loss: 1.3411e-07 | Reward: -0.019409 | Advantage: 2.1467e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 58.763 | Total Time (m): 30.299
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 32 | Loss: -2.5332e-07 | Reward: -0.020264 | Advantage: -5.3272e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 57.43 | Total Time (m): 31.256
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 33 | Loss: -1.9372e-07 | Reward: -0.020264 | Advantage: -1.8999e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 49.803 | Total Time (m): 32.086
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 34 | Loss: 5.2154e-08 | Reward: -0.02002 | Advantage: 2.142e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 54.549 | Total Time (m): 32.995
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 35 | Loss: -3.3528e-07 | Reward: -0.019531 | Advantage: -3.688e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 49.156 | Total Time (m): 33.814
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 36 | Loss: 3.7253e-07 | Reward: -0.019775 | Advantage: 2.9523e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 47.445 | Total Time (m): 34.605
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 37 | Loss: 9.6858e-08 | Reward: -0.019775 | Advantage: 2.5239e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 55.13 | Total Time (m): 35.524
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 38 | Loss: -5.5879e-08 | Reward: -0.018799 | Advantage: -3.7951e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 50.413 | Total Time (m): 36.364
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 39 | Loss: -8.9407e-08 | Reward: -0.019897 | Advantage: 5.5879e-09 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 50.762 | Total Time (m): 37.21
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 40 | Loss: -1.8254e-07 | Reward: -0.019531 | Advantage: -2.8126e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 61.207 | Total Time (m): 38.23
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 41 | Loss: -1.4156e-07 | Reward: -0.017456 | Advantage: -7.1712e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 58.56 | Total Time (m): 39.206
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 42 | Loss: -1.4901e-07 | Reward: -0.019043 | Advantage: -2.0862e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 60.157 | Total Time (m): 40.209
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 43 | Loss: 3.3528e-08 | Reward: -0.021729 | Advantage: 2.0862e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 61.645 | Total Time (m): 41.236
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 44 | Loss: 1.6764e-07 | Reward: -0.019775 | Advantage: 2.7474e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 62.176 | Total Time (m): 42.272
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 45 | Loss: -1.4901e-08 | Reward: -0.019775 | Advantage: -1.2107e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 51.319 | Total Time (m): 43.128
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 46 | Loss: 2.9802e-08 | Reward: -0.019653 | Advantage: -3.0734e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 59.415 | Total Time (m): 44.118
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 47 | Loss: -1.6764e-08 | Reward: -0.020874 | Advantage: -8.0094e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 57.346 | Total Time (m): 45.074
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 48 | Loss: -1.7136e-07 | Reward: -0.021851 | Advantage: -1.6764e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 62.246 | Total Time (m): 46.111
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 49 | Loss: 1.8626e-08 | Reward: -0.019287 | Advantage: -9.3132e-09 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 54.692 | Total Time (m): 47.023
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 50 | Loss: 3.8743e-07 | Reward: -0.01709 | Advantage: 5.7369e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 59.012 | Total Time (m): 48.006
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 51 | Loss: -6.333e-08 | Reward: -0.02002 | Advantage: -1.3504e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 57.996 | Total Time (m): 48.973
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 52 | Loss: 4.4703e-08 | Reward: -0.019531 | Advantage: 5.5879e-09 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 60.017 | Total Time (m): 49.973
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 53 | Loss: 7.4506e-08 | Reward: -0.020508 | Advantage: 1.0431e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 67.117 | Total Time (m): 51.092
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 54 | Loss: -1.0803e-07 | Reward: -0.022583 | Advantage: -4.6566e-10 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 58.584 | Total Time (m): 52.068
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 55 | Loss: -2.3842e-07 | Reward: -0.021729 | Advantage: -2.0955e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 49.824 | Total Time (m): 52.899
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 56 | Loss: -5.9605e-08 | Reward: -0.022827 | Advantage: -7.2643e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 49.386 | Total Time (m): 53.722
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 57 | Loss: -8.1956e-08 | Reward: -0.019043 | Advantage: -2.5518e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 64.977 | Total Time (m): 54.805
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 58 | Loss: 1.1176e-08 | Reward: -0.018799 | Advantage: 1.3784e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 55.557 | Total Time (m): 55.731
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 59 | Loss: -2.6077e-08 | Reward: -0.021606 | Advantage: -3.9535e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 61.785 | Total Time (m): 56.76
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 60 | Loss: 1.4529e-07 | Reward: -0.019409 | Advantage: -4.2841e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 61.21 | Total Time (m): 57.78
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 61 | Loss: 7.0781e-08 | Reward: -0.019409 | Advantage: 1.397e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 61.929 | Total Time (m): 58.813
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 62 | Loss: 3.1665e-08 | Reward: -0.021729 | Advantage: 2.9802e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 63.612 | Total Time (m): 59.873
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 63 | Loss: -4.4703e-08 | Reward: -0.02124 | Advantage: -6.1467e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 55.806 | Total Time (m): 60.803
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 64 | Loss: 6.8918e-08 | Reward: -0.021851 | Advantage: 2.1886e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 57.985 | Total Time (m): 61.769
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 65 | Loss: 2.2724e-07 | Reward: -0.019653 | Advantage: 7.73e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 67.492 | Total Time (m): 62.894
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 66 | Loss: -8.9407e-08 | Reward: -0.019897 | Advantage: -2.1886e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 48.662 | Total Time (m): 63.705
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 67 | Loss: 9.9652e-08 | Reward: -0.019409 | Advantage: -4.2142e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 47.934 | Total Time (m): 64.504
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 68 | Loss: -3.0547e-07 | Reward: -0.021362 | Advantage: -3.1386e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 49.747 | Total Time (m): 65.333
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 69 | Loss: 1.2293e-07 | Reward: -0.019043 | Advantage: 2.2165e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 49.806 | Total Time (m): 66.163
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 70 | Loss: 6.7055e-08 | Reward: -0.018311 | Advantage: 9.2201e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 53.411 | Total Time (m): 67.054
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 71 | Loss: -4.4703e-08 | Reward: -0.020874 | Advantage: 7.6834e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 53.161 | Total Time (m): 67.94
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 72 | Loss: -6.1467e-08 | Reward: -0.019775 | Advantage: -3.3528e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 62.555 | Total Time (m): 68.982
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 73 | Loss: 1.2293e-07 | Reward: -0.019897 | Advantage: 1.7043e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 53.39 | Total Time (m): 69.872
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 74 | Loss: -1.1921e-07 | Reward: -0.018677 | Advantage: -7.4506e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 54.621 | Total Time (m): 70.782
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 75 | Loss: 6.7055e-08 | Reward: -0.019653 | Advantage: 4.7497e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 56.928 | Total Time (m): 71.731
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 76 | Loss: 1.6764e-07 | Reward: -0.020996 | Advantage: 3.3155e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 54.478 | Total Time (m): 72.639
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 77 | Loss: 2.0489e-08 | Reward: -0.018677 | Advantage: 3.0966e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 57.373 | Total Time (m): 73.595
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 78 | Loss: -4.4331e-07 | Reward: -0.018555 | Advantage: -4.163e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 66.491 | Total Time (m): 74.703
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 79 | Loss: -7.4506e-08 | Reward: -0.019897 | Advantage: -2.943e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 60.26 | Total Time (m): 75.708
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 80 | Loss: -8.1956e-08 | Reward: -0.020386 | Advantage: -2.8405e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 61.115 | Total Time (m): 76.726
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 81 | Loss: 2.4401e-07 | Reward: -0.020752 | Advantage: -2.142e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 63.578 | Total Time (m): 77.786
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 82 | Loss: -1.1921e-07 | Reward: -0.021606 | Advantage: -9.872e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 64.641 | Total Time (m): 78.863
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 83 | Loss: 3.5763e-07 | Reward: -0.02002 | Advantage: 5.9232e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 68.1 | Total Time (m): 79.998
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 84 | Loss: -6.333e-08 | Reward: -0.020752 | Advantage: -1.2014e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 53.829 | Total Time (m): 80.896
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 85 | Loss: 1.0245e-07 | Reward: -0.016846 | Advantage: 3.9116e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 61.156 | Total Time (m): 81.915
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 86 | Loss: -1.0617e-07 | Reward: -0.018433 | Advantage: -1.6764e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 63.371 | Total Time (m): 82.971
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 87 | Loss: 2.7567e-07 | Reward: -0.019043 | Advantage: 1.7323e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 64.616 | Total Time (m): 84.048
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 88 | Loss: -2.9802e-07 | Reward: -0.020508 | Advantage: -2.2445e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 55.391 | Total Time (m): 84.971
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 89 | Loss: -4.2468e-07 | Reward: -0.020386 | Advantage: -5.9791e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 68.911 | Total Time (m): 86.12
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 90 | Loss: 1.7881e-07 | Reward: -0.020264 | Advantage: 1.8626e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 60.458 | Total Time (m): 87.127
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 91 | Loss: -3.837e-07 | Reward: -0.020386 | Advantage: -5.5507e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 55.169 | Total Time (m): 88.047
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 92 | Loss: 1.3039e-07 | Reward: -0.018677 | Advantage: 2.3283e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 53.808 | Total Time (m): 88.944
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 93 | Loss: -2.6077e-08 | Reward: -0.019775 | Advantage: -1.0896e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 61.553 | Total Time (m): 89.969
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 94 | Loss: 2.6822e-07 | Reward: -0.019409 | Advantage: 3.6694e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 67.601 | Total Time (m): 91.096
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 95 | Loss: -3.2037e-07 | Reward: -0.019653 | Advantage: -2.6263e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 58.365 | Total Time (m): 92.069
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 96 | Loss: -3.7253e-08 | Reward: -0.02124 | Advantage: -4.5169e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 74.708 | Total Time (m): 93.314
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 97 | Loss: 2.2352e-08 | Reward: -0.020142 | Advantage: -7.0781e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 64.992 | Total Time (m): 94.397
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 98 | Loss: 1.5646e-07 | Reward: -0.021606 | Advantage: 6.8918e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 62.379 | Total Time (m): 95.437
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 99 | Loss: 9.6858e-08 | Reward: -0.02124 | Advantage: 6.7055e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 60.329 | Total Time (m): 96.442
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 100 | Loss: 2.9057e-07 | Reward: -0.019409 | Advantage: 3.4552e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 60.665 | Total Time (m): 97.453
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 101 | Loss: 1.5646e-07 | Reward: -0.016968 | Advantage: -3.0268e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 69.107 | Total Time (m): 98.605
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 102 | Loss: -9.872e-08 | Reward: -0.019653 | Advantage: 6.8918e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 62.17 | Total Time (m): 99.641
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 103 | Loss: 1.1176e-07 | Reward: -0.019409 | Advantage: 2.4028e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 62.788 | Total Time (m): 100.69
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 104 | Loss: -3.5018e-07 | Reward: -0.019775 | Advantage: -3.9954e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 54.022 | Total Time (m): 101.59
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 105 | Loss: 6.7055e-08 | Reward: -0.018799 | Advantage: 1.844e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 58.739 | Total Time (m): 102.57
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 106 | Loss: 9.6858e-08 | Reward: -0.021362 | Advantage: 3.0175e-07 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 54.578 | Total Time (m): 103.48
+torch.Size([8192, 1]) torch.Size([8192])
+Epoch: 107 | Loss: -8.1956e-08 | Reward: -0.020264 | Advantage: 3.2131e-08 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 58.227 | Total Time (m): 104.45

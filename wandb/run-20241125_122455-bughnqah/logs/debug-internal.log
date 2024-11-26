@@ -1,0 +1,16 @@
+{"time":"2024-11-25T12:24:55.7949705-07:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-25T12:24:55.7949705-07:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Elene2004\\Python\\Files\\PingPong-PPO\\wandb\\run-20241125_122455-bughnqah\\logs\\debug-core.log"}
+{"time":"2024-11-25T12:24:55.9036691-07:00","level":"INFO","msg":"created new stream","id":"bughnqah"}
+{"time":"2024-11-25T12:24:55.9041771-07:00","level":"INFO","msg":"stream: started","id":"bughnqah"}
+{"time":"2024-11-25T12:24:55.9041771-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"bughnqah"}
+{"time":"2024-11-25T12:24:55.9041771-07:00","level":"INFO","msg":"handler: started","stream_id":"bughnqah"}
+{"time":"2024-11-25T12:24:55.9041771-07:00","level":"INFO","msg":"sender: started","stream_id":"bughnqah"}
+{"time":"2024-11-25T12:24:56.1075384-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-25T12:25:38.9964589-07:00","level":"INFO","msg":"stream: closing","id":"bughnqah"}
+{"time":"2024-11-25T12:25:38.9964589-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-25T12:25:38.9969591-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-25T12:25:39.3900692-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-25T12:25:39.5875801-07:00","level":"INFO","msg":"handler: closed","stream_id":"bughnqah"}
+{"time":"2024-11-25T12:25:39.5875801-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"bughnqah"}
+{"time":"2024-11-25T12:25:39.5875801-07:00","level":"INFO","msg":"sender: closed","stream_id":"bughnqah"}
+{"time":"2024-11-25T12:25:39.5875801-07:00","level":"INFO","msg":"stream: closed","id":"bughnqah"}
