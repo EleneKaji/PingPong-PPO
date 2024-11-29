@@ -1,0 +1,42 @@
+Using cuda device
+Step: 0 | Reward: -20 | Advantage: 0.00047609 | Loss: 7.368e-08 | Prob: 0.52588 | Log Prob: -0.64268 | Grad Norm: 29641 | Time: 8.552 | Total Time: 0.14253
+Step: 4 | Reward: -21 | Advantage: -0.0081904 | Loss: 2.147e-07 | Prob: 0.003664 | Log Prob: -0.0034238 | Grad Norm: 4294.1 | Time: 12.687 | Total Time: 0.35398
+Step: 8 | Reward: -21 | Advantage: -0 | Loss: 2.147e-07 | Prob: 1.2219e-05 | Log Prob: 0 | Grad Norm: 0.24358 | Time: 10.47 | Total Time: 0.52849
+Step: 12 | Reward: -21 | Advantage: -0 | Loss: 2.147e-07 | Prob: 1.1921e-07 | Log Prob: 0 | Grad Norm: 0.016403 | Time: 8.8511 | Total Time: 0.676
+Step: 16 | Reward: -21 | Advantage: nan | Loss: 2.147e-07 | Prob: 0 | Log Prob: nan | Grad Norm: nan | Time: 11.786 | Total Time: 0.87243
+Step: 20 | Reward: -21 | Advantage: nan | Loss: 2.147e-07 | Prob: 0 | Log Prob: nan | Grad Norm: nan | Time: 12.061 | Total Time: 1.0734
+Step: 24 | Reward: -21 | Advantage: nan | Loss: 2.147e-07 | Prob: 0 | Log Prob: nan | Grad Norm: nan | Time: 9.5091 | Total Time: 1.2319
+Step: 28 | Reward: -21 | Advantage: nan | Loss: 2.147e-07 | Prob: 0 | Log Prob: nan | Grad Norm: nan | Time: 9.5113 | Total Time: 1.3905
+Step: 32 | Reward: -21 | Advantage: nan | Loss: 2.147e-07 | Prob: 0 | Log Prob: nan | Grad Norm: nan | Time: 6.4846 | Total Time: 1.4985
+Step: 36 | Reward: -21 | Advantage: nan | Loss: 2.147e-07 | Prob: 0 | Log Prob: nan | Grad Norm: nan | Time: 7.8062 | Total Time: 1.6286
+Step: 40 | Reward: -21 | Advantage: nan | Loss: 2.147e-07 | Prob: 0 | Log Prob: nan | Grad Norm: nan | Time: 8.0716 | Total Time: 1.7632
+Step: 44 | Reward: -21 | Advantage: nan | Loss: 2.147e-07 | Prob: 0 | Log Prob: nan | Grad Norm: nan | Time: 11.568 | Total Time: 1.956
+Step: 48 | Reward: -21 | Advantage: nan | Loss: 2.147e-07 | Prob: 0 | Log Prob: nan | Grad Norm: nan | Time: 8.6232 | Total Time: 2.0997
+Step: 52 | Reward: -21 | Advantage: nan | Loss: 2.147e-07 | Prob: 0 | Log Prob: nan | Grad Norm: nan | Time: 7.1392 | Total Time: 2.2187
+Step: 56 | Reward: -21 | Advantage: nan | Loss: 2.147e-07 | Prob: 0 | Log Prob: nan | Grad Norm: nan | Time: 6.5691 | Total Time: 2.3282
+Step: 60 | Reward: -21 | Advantage: nan | Loss: 2.147e-07 | Prob: 0 | Log Prob: nan | Grad Norm: nan | Time: 6.8849 | Total Time: 2.4429
+Step: 64 | Reward: -21 | Advantage: nan | Loss: 2.147e-07 | Prob: 0 | Log Prob: nan | Grad Norm: nan | Time: 11.021 | Total Time: 2.6266
+Step: 68 | Reward: -21 | Advantage: nan | Loss: 2.147e-07 | Prob: 0 | Log Prob: nan | Grad Norm: nan | Time: 10.513 | Total Time: 2.8018
+Step: 72 | Reward: -21 | Advantage: nan | Loss: 2.147e-07 | Prob: 0 | Log Prob: nan | Grad Norm: nan | Time: 10.788 | Total Time: 2.9816
+Step: 76 | Reward: -21 | Advantage: nan | Loss: 2.147e-07 | Prob: 0 | Log Prob: nan | Grad Norm: nan | Time: 9.2918 | Total Time: 3.1365
+Step: 80 | Reward: -21 | Advantage: nan | Loss: 2.147e-07 | Prob: 0 | Log Prob: nan | Grad Norm: nan | Time: 7.554 | Total Time: 3.2624
+Step: 84 | Reward: -21 | Advantage: nan | Loss: 2.147e-07 | Prob: 0 | Log Prob: nan | Grad Norm: nan | Time: 9.2998 | Total Time: 3.4174
+Step: 88 | Reward: -21 | Advantage: nan | Loss: 2.147e-07 | Prob: 0 | Log Prob: nan | Grad Norm: nan | Time: 6.0205 | Total Time: 3.5177
+Step: 92 | Reward: -21 | Advantage: nan | Loss: 2.147e-07 | Prob: 0 | Log Prob: nan | Grad Norm: nan | Time: 6.2912 | Total Time: 3.6226
+Step: 96 | Reward: -21 | Advantage: nan | Loss: 2.147e-07 | Prob: 0 | Log Prob: nan | Grad Norm: nan | Time: 11.604 | Total Time: 3.816
+Step: 100 | Reward: -21 | Advantage: nan | Loss: 2.147e-07 | Prob: 0 | Log Prob: nan | Grad Norm: nan | Time: 8.5269 | Total Time: 3.9581
+Step: 104 | Reward: -21 | Advantage: nan | Loss: 2.147e-07 | Prob: 0 | Log Prob: nan | Grad Norm: nan | Time: 7.5421 | Total Time: 4.0838
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 117, in <module>
+    reward, discounted_reward, loss, prob, log_prob, grad_norm = train_episode()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 63, in train_episode
+    obs, reward, terminated, truncated, info = env.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\wrappers\common.py", line 393, in step
+    return super().step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\core.py", line 322, in step
+    return self.env.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\wrappers\common.py", line 285, in step
+    return self.env.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\ale_py\env.py", line 298, in step
+    for _ in range(frameskip):
+KeyboardInterrupt

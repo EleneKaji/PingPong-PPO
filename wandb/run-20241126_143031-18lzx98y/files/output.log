@@ -1,0 +1,21 @@
+Using device: cuda
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 281, in <module>
+    loss, sum_reward, prob, advantage, logprob, norm = train_one_epoch()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 240, in train_one_epoch
+    probs = model(e_deltas) # [T * N]
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\nn\modules\module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\nn\modules\module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 32, in forward
+    x = F.relu(self.conv1(x))
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\nn\modules\module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\nn\modules\module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\nn\modules\conv.py", line 458, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\nn\modules\conv.py", line 454, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: Given groups=1, weight of size [8, 1, 5, 5], expected input[1, 2783, 80, 80] to have 1 channels, but got 2783 channels instead

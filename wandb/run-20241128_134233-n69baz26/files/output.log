@@ -1,0 +1,9 @@
+Using cuda device
+Step: 0 | Reward: -20.5 | Advantage: 0.00036969 | Loss: -8.2553e-08 | Prob: 0.49219 | Log Prob: -0.63344 | Grad Norm: 13962 | Time: 6.9625 | Total Time: 0.11604
+Step: 4 | Reward: -21 | Advantage: 0.0085208 | Loss: 2.147e-07 | Prob: 0.96582 | Log Prob: -0.034777 | Grad Norm: 5572.7 | Time: 11.186 | Total Time: 0.30247
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 117, in <module>
+    reward, discounted_reward, loss, prob, log_prob, grad_norm = train_episode()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 58, in train_episode
+    prob = agent(delta_x.unsqueeze(0).to(device))
+KeyboardInterrupt

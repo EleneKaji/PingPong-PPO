@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\play.py", line 6, in <module>
+    from VanillaPG import PGAgent, preprocess_obs
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\VanillaPG.py", line 56, in <module>
+    optimizer = torch.optim.Adam(agent.parameters(), lr=1e-3)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\optim\adam.py", line 73, in __init__
+    super().__init__(params, defaults)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\optim\optimizer.py", line 367, in __init__
+    self.add_param_group(cast(dict, param_group))
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\_compile.py", line 26, in inner
+    import torch._dynamo
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\_dynamo\__init__.py", line 2, in <module>
+    from . import convert_frame, eval_frame, resume_execution
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\_dynamo\convert_frame.py", line 39, in <module>
+    from torch.fx.experimental.symbolic_shapes import (
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\fx\experimental\symbolic_shapes.py", line 64, in <module>
+    from torch.utils._sympy.functions import (
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\utils\_sympy\functions.py", line 6, in <module>
+    import sympy
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\sympy\__init__.py", line 22, in <module>
+    import mpmath
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\mpmath\__init__.py", line 5, in <module>
+    from .ctx_fp import FPContext
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\mpmath\ctx_fp.py", line 1, in <module>
+    from .ctx_base import StandardBaseContext
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\mpmath\ctx_base.py", line 12, in <module>
+    from .matrices.matrices import MatrixMethods
+  File "<frozen importlib._bootstrap>", line 1024, in _find_and_load
+KeyboardInterrupt

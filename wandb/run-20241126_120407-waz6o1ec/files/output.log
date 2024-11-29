@@ -1,0 +1,21 @@
+Using device: cuda
+Epoch: 0 | Loss: -0.51845 | Reward: -20.344 | Advantage: -0.74796 | Prob: 0.5 | LogProb: -0.69315 | GradNorm: 0.0057297 | Time (s): 9.7805 | Total Time (m): 0.16301
+Epoch: 1 | Loss: -0.47735 | Reward: -19.688 | Advantage: -0.68868 | Prob: 0.5 | LogProb: -0.69315 | GradNorm: 0.0030632 | Time (s): 37.067 | Total Time (m): 0.78079
+Epoch: 2 | Loss: -0.49026 | Reward: -20.344 | Advantage: -0.70729 | Prob: 0.5 | LogProb: -0.69315 | GradNorm: 0.0096741 | Time (s): 16.765 | Total Time (m): 1.0602
+Epoch: 3 | Loss: -0.53554 | Reward: -21 | Advantage: -0.77262 | Prob: 0.5 | LogProb: -0.69315 | GradNorm: 0.010452 | Time (s): 15.254 | Total Time (m): 1.3144
+Epoch: 4 | Loss: -0.49022 | Reward: -19.688 | Advantage: -0.70724 | Prob: 0.5 | LogProb: -0.69315 | GradNorm: 0.0067139 | Time (s): 28.602 | Total Time (m): 1.7911
+Epoch: 5 | Loss: -0.51394 | Reward: -20.344 | Advantage: -0.74145 | Prob: 0.5 | LogProb: -0.69315 | GradNorm: 0.0042419 | Time (s): 38.114 | Total Time (m): 2.4264
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 285, in <module>
+    loss, sum_reward, prob, advantage, logprob, norm = train_one_epoch()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 222, in train_one_epoch
+    obs, rewards, _, _, _ = envs.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\vector\async_vector_env.py", line 353, in step
+    return self.step_wait()
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\vector\async_vector_env.py", line 412, in step_wait
+    env_step_return, success = pipe.recv()
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\multiprocessing\connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\multiprocessing\connection.py", line 305, in _recv_bytes
+    waitres = _winapi.WaitForMultipleObjects(
+KeyboardInterrupt

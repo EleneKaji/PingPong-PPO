@@ -1,0 +1,1 @@
+{"_step":180,"_timestamp":1.7327872215218818e+09,"loss":2.147015436548827e-07,"_wandb":{"runtime":461},"max logprob":-4.64917320641689e-06,"max prob":0.9999953508377075,"time":7.532272847493491,"average reward":-21,"_runtime":461.1154838,"average advantage":1.706231156362037e-09,"grad norm":2.9198724860179937e-07}

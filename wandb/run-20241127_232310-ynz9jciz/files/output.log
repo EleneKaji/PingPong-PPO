@@ -1,0 +1,28 @@
+Using device: cuda
+Epoch: 0 | Loss: 0.00031329 | Reward: -19.875 | Advantage: -7.0806e-08 | Prob: 0.47949 | LogProb: -0.63069 | Time (s): 15.946 | Total Time (m): 0.26577
+Epoch: 8 | Loss: nan | Reward: -21 | Advantage: -1.5593e-07 | Prob: 1 | LogProb: nan | Time (s): 12.393 | Total Time (m): 0.47233
+Epoch: 16 | Loss: nan | Reward: -21 | Advantage: -1.5593e-07 | Prob: 1 | LogProb: nan | Time (s): 9.995 | Total Time (m): 0.63891
+Epoch: 24 | Loss: nan | Reward: -21 | Advantage: -1.5593e-07 | Prob: 1 | LogProb: nan | Time (s): 10.84 | Total Time (m): 0.81957
+Epoch: 32 | Loss: nan | Reward: -21 | Advantage: -1.5593e-07 | Prob: 1 | LogProb: nan | Time (s): 12.479 | Total Time (m): 1.0276
+Epoch: 40 | Loss: nan | Reward: -21 | Advantage: -1.5593e-07 | Prob: 1 | LogProb: nan | Time (s): 10.531 | Total Time (m): 1.2031
+Epoch: 48 | Loss: nan | Reward: -21 | Advantage: -1.5593e-07 | Prob: 1 | LogProb: nan | Time (s): 10.889 | Total Time (m): 1.3846
+Epoch: 56 | Loss: nan | Reward: -21 | Advantage: -1.5593e-07 | Prob: 1 | LogProb: nan | Time (s): 10.407 | Total Time (m): 1.558
+Epoch: 64 | Loss: nan | Reward: -21 | Advantage: -1.5593e-07 | Prob: 1 | LogProb: nan | Time (s): 12.037 | Total Time (m): 1.7586
+Epoch: 72 | Loss: nan | Reward: -21 | Advantage: -1.5593e-07 | Prob: 1 | LogProb: nan | Time (s): 11.346 | Total Time (m): 1.9477
+Epoch: 80 | Loss: nan | Reward: -21 | Advantage: -1.5593e-07 | Prob: 1 | LogProb: nan | Time (s): 13.01 | Total Time (m): 2.1646
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 279, in <module>
+    loss, reward, prob, advantage, logprob = train_one_episode()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 106, in train_one_episode
+    obs, rewards, terminated, truncated, _ = envs.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\vector\sync_vector_env.py", line 222, in step
+    ) = self.envs[i].step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\wrappers\common.py", line 393, in step
+    return super().step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\core.py", line 322, in step
+    return self.env.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\wrappers\common.py", line 285, in step
+    return self.env.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\ale_py\env.py", line 299, in step
+    reward += self.ale.act(action_idx, strength)
+KeyboardInterrupt

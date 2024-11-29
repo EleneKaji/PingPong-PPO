@@ -1,0 +1,31 @@
+Using device: cuda
+Epoch: 0 | Loss: 0.00042055 | Reward: -20.5 | Advantage: -1.2851e-07 | Prob: 0.5293 | LogProb: -0.63621  | GradNorm: 1199 | Time (s): 12.079 | Total Time (m): 0.20132
+Epoch: 8 | Loss: 0.0067795 | Reward: -21 | Advantage: -9.8794e-08 | Prob: 0.0083771 | LogProb: -0.0073512  | GradNorm: 2730.5 | Time (s): 10.025 | Total Time (m): 0.36839
+Epoch: 16 | Loss: 0.0020329 | Reward: -21 | Advantage: -1.0373e-07 | Prob: 0.0034828 | LogProb: -0.002934  | GradNorm: 882.58 | Time (s): 10.712 | Total Time (m): 0.54692
+Epoch: 24 | Loss: 0.0067082 | Reward: -21 | Advantage: -1.5593e-07 | Prob: 0.0068779 | LogProb: -0.0053856  | GradNorm: 3413.1 | Time (s): 10.3 | Total Time (m): 0.71859
+Epoch: 32 | Loss: -0.0012443 | Reward: -21 | Advantage: 3.5403e-07 | Prob: 0.027847 | LogProb: -0.02122  | GradNorm: 664.5 | Time (s): 18.456 | Total Time (m): 1.0262
+Epoch: 40 | Loss: -0.00012449 | Reward: -21 | Advantage: 2.966e-07 | Prob: 0.037262 | LogProb: -0.025218  | GradNorm: 138.89 | Time (s): 11.701 | Total Time (m): 1.2212
+Epoch: 48 | Loss: 0.0041759 | Reward: -21 | Advantage: 1.8642e-07 | Prob: 0.076294 | LogProb: -0.053145  | GradNorm: 3952.1 | Time (s): 14.487 | Total Time (m): 1.4627
+Epoch: 56 | Loss: 0.0042346 | Reward: -21 | Advantage: 1.9865e-07 | Prob: 0.20654 | LogProb: -0.13801  | GradNorm: 5886 | Time (s): 14.692 | Total Time (m): 1.7075
+Epoch: 64 | Loss: 0.00014774 | Reward: -20.5 | Advantage: 1.1517e-07 | Prob: 0.5249 | LogProb: -0.389  | GradNorm: 6286.5 | Time (s): 22.466 | Total Time (m): 2.082
+Epoch: 72 | Loss: -0.0012438 | Reward: -21 | Advantage: -1.5593e-07 | Prob: 0.83496 | LogProb: -0.18037  | GradNorm: 1330.7 | Time (s): 10.225 | Total Time (m): 2.2524
+Epoch: 80 | Loss: 0.0031595 | Reward: -21 | Advantage: -1.5593e-07 | Prob: 0.9502 | LogProb: -0.051088  | GradNorm: 2422.5 | Time (s): 10.988 | Total Time (m): 2.4355
+Epoch: 88 | Loss: -0.0085857 | Reward: -21 | Advantage: -1.5593e-07 | Prob: 0.97852 | LogProb: -0.021719  | GradNorm: 6205.6 | Time (s): 12.806 | Total Time (m): 2.649
+Epoch: 96 | Loss: 0.0076166 | Reward: -21 | Advantage: -1.5593e-07 | Prob: 0.9917 | LogProb: -0.0083354  | GradNorm: 4975.8 | Time (s): 11.357 | Total Time (m): 2.8382
+Epoch: 104 | Loss: -0.0023979 | Reward: -21 | Advantage: -1.5593e-07 | Prob: 0.99561 | LogProb: -0.0044042  | GradNorm: 1476.2 | Time (s): 12.446 | Total Time (m): 3.0457
+Epoch: 112 | Loss: 0.00019659 | Reward: -21 | Advantage: -1.5593e-07 | Prob: 0.99805 | LogProb: -0.001955  | GradNorm: 53.628 | Time (s): 11.214 | Total Time (m): 3.2326
+Epoch: 120 | Loss: -0.0012325 | Reward: -21 | Advantage: -1.5593e-07 | Prob: 0.99902 | LogProb: -0.00097704  | GradNorm: 647.75 | Time (s): 11.518 | Total Time (m): 3.4245
+Epoch: 128 | Loss: -0.0012662 | Reward: -21 | Advantage: -1.5593e-07 | Prob: 0.99951 | LogProb: -0.0004884  | GradNorm: 625.56 | Time (s): 12.633 | Total Time (m): 3.6351
+Epoch: 136 | Loss: nan | Reward: -21 | Advantage: -1.5593e-07 | Prob: 1 | LogProb: nan  | GradNorm: nan | Time (s): 12.75 | Total Time (m): 3.8476
+Epoch: 144 | Loss: nan | Reward: -21 | Advantage: -1.5593e-07 | Prob: 1 | LogProb: nan  | GradNorm: nan | Time (s): 12.813 | Total Time (m): 4.0611
+Epoch: 152 | Loss: nan | Reward: -21 | Advantage: -1.5593e-07 | Prob: 1 | LogProb: nan  | GradNorm: nan | Time (s): 13.199 | Total Time (m): 4.2811
+Epoch: 160 | Loss: nan | Reward: -21 | Advantage: -1.5593e-07 | Prob: 1 | LogProb: nan  | GradNorm: nan | Time (s): 12.421 | Total Time (m): 4.4881
+Epoch: 168 | Loss: nan | Reward: -21 | Advantage: -1.5593e-07 | Prob: 1 | LogProb: nan  | GradNorm: nan | Time (s): 10.945 | Total Time (m): 4.6705
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 280, in <module>
+    loss, reward, prob, advantage, logprob, norm = train_one_episode()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 97, in train_one_episode
+    curr_obs = pre_process(obs)
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 41, in pre_process
+    observation = torch.tensor(observation, dtype=torch.float32, device=device)
+KeyboardInterrupt

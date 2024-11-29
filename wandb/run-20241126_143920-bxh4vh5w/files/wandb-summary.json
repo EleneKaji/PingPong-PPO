@@ -1,0 +1,1 @@
+{"average advantage":-0.688922643661499,"average reward":-20.34375,"_timestamp":1.7326606855877445e+09,"grad norm":0.002123389160260558,"average logprob":-0.6932106614112854,"_step":155,"time":58.68397290309272,"_runtime":3547.1032139,"_wandb":{"runtime":3547},"average loss":-0.4775685966014862,"actual average reward":-0.96875,"average prob":0.49658203125}

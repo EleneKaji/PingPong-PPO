@@ -1,0 +1,19 @@
+Using device: cuda
+tensor([[0],
+        [1],
+        [0],
+        [1]], device='cuda:0')
+tensor([[0.6941],
+        [0.6931],
+        [0.6931],
+        [0.6931]], device='cuda:0', grad_fn=<SliceBackward0>)
+Epoch: 0 | Loss: 0.47777 | Reward: -19.688 | Advantage: -0.68925 | Prob: 0.50098 | LogProb: 0.6951 | GradNorm: 0.0089963 | Time (s): 11.581 | Total Time (m): 0.19301
+tensor([[0],
+        [0],
+        [1],
+        [0]], device='cuda:0')
+tensor([[0.5607],
+        [0.5607],
+        [0.8498],
+        [0.5633]], device='cuda:0', grad_fn=<SliceBackward0>)
+Epoch: 1 | Loss: 0.46999 | Reward: -19.688 | Advantage: -0.68481 | Prob: 0.43359 | LogProb: 0.87001 | GradNorm: 0.12173 | Time (s): 27.28 | Total Time (m): 0.64767

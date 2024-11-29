@@ -1,0 +1,6 @@
+Using cuda device
+Step: 0 | Reward: -20.125 | Advantage: 7.5913e-05 | Loss: 3.7606e-09 | Prob: 0.50209 | Log Prob: -0.68898 | Grad Norm: 0.011656 | Time: 21.538 | Total Time: 0.35896
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 124, in <module>
+    "time": total_time}, step=i)
+NameError: name 'i' is not defined

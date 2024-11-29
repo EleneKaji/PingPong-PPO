@@ -1,0 +1,9 @@
+Using cuda device
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 119, in <module>
+    reward, discounted_reward, loss, prob, log_prob, grad_norm = train_episode()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 79, in train_episode
+    with autocast(device_type=device):
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\amp\autocast_mode.py", line 225, in __init__
+    raise ValueError(
+ValueError: Expected `device_type` of type `str`, got: `<class 'torch.device'>`

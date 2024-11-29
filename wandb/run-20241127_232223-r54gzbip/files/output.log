@@ -1,0 +1,6 @@
+Using device: cuda
+torch.Size([7987]) torch.Size([7987])
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 280, in <module>
+    loss, reward, prob, advantage, logprob, norm = train_one_episode()
+ValueError: not enough values to unpack (expected 6, got 5)

@@ -1,0 +1,15 @@
+Using cuda device
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 118, in <module>
+    reward, discounted_reward, loss, prob, log_prob, grad_norm = train_episode()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 59, in train_episode
+    prob = agent(delta_x.unsqueeze(0).to(device))
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\nn\modules\module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\nn\modules\module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 22, in forward
+    x = self.relu(self.conv2(x))
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\nn\modules\module.py", line 1729, in __getattr__
+    raise AttributeError(f"'{type(self).__name__}' object has no attribute '{name}'")
+AttributeError: 'PGAgent' object has no attribute 'conv2'

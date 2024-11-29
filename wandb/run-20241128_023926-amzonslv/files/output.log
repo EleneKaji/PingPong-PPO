@@ -1,0 +1,61 @@
+Using cuda device
+Step: 0 | Reward: -20.75 | Advantage: 5.8074e-05 | Loss: -4.5619e-08 | Prob: 0.49165 | Log Prob: -0.65955 | Grad Norm: 0.0093782 | Time: 7.3109 | Total Time: 0.12185
+Step: 4 | Reward: -19.75 | Advantage: -0.00016035 | Loss: 0 | Prob: 0.46015 | Log Prob: -0.59815 | Grad Norm: 0.0065405 | Time: 17.663 | Total Time: 0.41623
+Step: 8 | Reward: -20.75 | Advantage: 0.00040037 | Loss: -1.8435e-07 | Prob: 0.4692 | Log Prob: -0.75673 | Grad Norm: 0.011061 | Time: 20.663 | Total Time: 0.76061
+Step: 12 | Reward: -20.5 | Advantage: -0.00041517 | Loss: 3.2146e-08 | Prob: 0.50335 | Log Prob: -0.67338 | Grad Norm: 0.011257 | Time: 13.258 | Total Time: 0.98159
+Step: 16 | Reward: -20.25 | Advantage: -0.00035338 | Loss: -3.7868e-08 | Prob: 0.54006 | Log Prob: -0.74429 | Grad Norm: 0.012095 | Time: 17.753 | Total Time: 1.2775
+Step: 20 | Reward: -21 | Advantage: -0.0015716 | Loss: 7.952e-08 | Prob: 0.57818 | Log Prob: -0.82301 | Grad Norm: 0.035023 | Time: 21.357 | Total Time: 1.6334
+Step: 24 | Reward: -21 | Advantage: 0.0013784 | Loss: 2.147e-07 | Prob: 0.61775 | Log Prob: -0.48167 | Grad Norm: 0.030251 | Time: 13.564 | Total Time: 1.8595
+Step: 28 | Reward: -21 | Advantage: 0.0011474 | Loss: 2.147e-07 | Prob: 0.66814 | Log Prob: -0.40325 | Grad Norm: 0.026378 | Time: 9.7723 | Total Time: 2.0224
+Step: 32 | Reward: -21 | Advantage: 0.00077993 | Loss: 2.147e-07 | Prob: 0.73065 | Log Prob: -0.31382 | Grad Norm: 0.020929 | Time: 8.1692 | Total Time: 2.1585
+Step: 36 | Reward: -21 | Advantage: 0.00042973 | Loss: 2.147e-07 | Prob: 0.80071 | Log Prob: -0.22225 | Grad Norm: 0.014464 | Time: 10.001 | Total Time: 2.3252
+Step: 40 | Reward: -21 | Advantage: 0.00021675 | Loss: 2.147e-07 | Prob: 0.86635 | Log Prob: -0.14347 | Grad Norm: 0.0095423 | Time: 7.6195 | Total Time: 2.4522
+Step: 44 | Reward: -21 | Advantage: 8.7883e-05 | Loss: 2.147e-07 | Prob: 0.91843 | Log Prob: -0.085091 | Grad Norm: 0.0055161 | Time: 7.8127 | Total Time: 2.5824
+Step: 48 | Reward: -21 | Advantage: 1.8548e-05 | Loss: 2.147e-07 | Prob: 0.95332 | Log Prob: -0.047806 | Grad Norm: 0.0029231 | Time: 7.4065 | Total Time: 2.7058
+Step: 52 | Reward: -21 | Advantage: 0.00017467 | Loss: 2.147e-07 | Prob: 0.97411 | Log Prob: -3.6011 | Grad Norm: 0.059401 | Time: 7.162 | Total Time: 2.8252
+Step: 56 | Reward: -21 | Advantage: 1.5273e-06 | Loss: 2.147e-07 | Prob: 0.98535 | Log Prob: -0.014759 | Grad Norm: 0.00089262 | Time: 7.4019 | Total Time: 2.9486
+Step: 60 | Reward: -21 | Advantage: 2.3969e-06 | Loss: 2.147e-07 | Prob: 0.99164 | Log Prob: -0.008397 | Grad Norm: 0.00051374 | Time: 9.4013 | Total Time: 3.1053
+Step: 64 | Reward: -21 | Advantage: 2.3068e-06 | Loss: 2.147e-07 | Prob: 0.99516 | Log Prob: -0.0048548 | Grad Norm: 0.00030131 | Time: 7.1579 | Total Time: 3.2246
+Step: 68 | Reward: -21 | Advantage: 1.7989e-06 | Loss: 2.147e-07 | Prob: 0.99714 | Log Prob: -0.0028629 | Grad Norm: 0.00018524 | Time: 7.0382 | Total Time: 3.3419
+Step: 72 | Reward: -21 | Advantage: 1.3156e-06 | Loss: 2.147e-07 | Prob: 0.99827 | Log Prob: -0.0017272 | Grad Norm: 0.00011702 | Time: 8.1914 | Total Time: 3.4784
+Step: 76 | Reward: -21 | Advantage: 9.5189e-07 | Loss: 2.147e-07 | Prob: 0.99893 | Log Prob: -0.0010683 | Grad Norm: 7.6937e-05 | Time: 9.3804 | Total Time: 3.6347
+Step: 80 | Reward: -21 | Advantage: 6.6964e-07 | Loss: 2.147e-07 | Prob: 0.99932 | Log Prob: -0.00067531 | Grad Norm: 5.1623e-05 | Time: 6.9379 | Total Time: 3.7504
+Step: 84 | Reward: -21 | Advantage: 4.6877e-07 | Loss: 2.147e-07 | Prob: 0.99956 | Log Prob: -0.00044183 | Grad Norm: 3.5058e-05 | Time: 7.8158 | Total Time: 3.8806
+Step: 88 | Reward: -21 | Advantage: 3.355e-07 | Loss: 2.147e-07 | Prob: 0.9997 | Log Prob: -0.00029562 | Grad Norm: 2.4586e-05 | Time: 7.8299 | Total Time: 4.0111
+Step: 92 | Reward: -21 | Advantage: 2.3897e-07 | Loss: 2.147e-07 | Prob: 0.9998 | Log Prob: -0.00020297 | Grad Norm: 1.747e-05 | Time: 7.0071 | Total Time: 4.1279
+Step: 96 | Reward: -21 | Advantage: 1.7224e-07 | Loss: 2.147e-07 | Prob: 0.99986 | Log Prob: -0.00014294 | Grad Norm: 1.2713e-05 | Time: 8.7891 | Total Time: 4.2744
+Step: 100 | Reward: -21 | Advantage: 1.3274e-07 | Loss: 2.147e-07 | Prob: 0.9999 | Log Prob: -0.00010288 | Grad Norm: 9.6825e-06 | Time: 8.0375 | Total Time: 4.4083
+Step: 104 | Reward: -21 | Advantage: 9.668e-08 | Loss: 2.147e-07 | Prob: 0.99992 | Log Prob: -7.6178e-05 | Grad Norm: 7.1631e-06 | Time: 9.5479 | Total Time: 4.5675
+Step: 108 | Reward: -21 | Advantage: 7.9193e-08 | Loss: 2.147e-07 | Prob: 0.99994 | Log Prob: -5.7341e-05 | Grad Norm: 5.8032e-06 | Time: 9.5692 | Total Time: 4.727
+Step: 112 | Reward: -21 | Advantage: 6.0484e-08 | Loss: 2.147e-07 | Prob: 0.99996 | Log Prob: -4.4347e-05 | Grad Norm: 4.4917e-06 | Time: 8.9692 | Total Time: 4.8765
+Step: 116 | Reward: -21 | Advantage: 5.3436e-08 | Loss: 2.147e-07 | Prob: 0.99997 | Log Prob: -3.4929e-05 | Grad Norm: 3.8632e-06 | Time: 8.8061 | Total Time: 5.0232
+Step: 120 | Reward: -21 | Advantage: 3.8546e-08 | Loss: 2.147e-07 | Prob: 0.99997 | Log Prob: -2.8015e-05 | Grad Norm: 2.897e-06 | Time: 8.2455 | Total Time: 5.1606
+Step: 124 | Reward: -21 | Advantage: 2.7169e-08 | Loss: 2.147e-07 | Prob: 0.99998 | Log Prob: -2.2769e-05 | Grad Norm: 2.1794e-06 | Time: 7.0092 | Total Time: 5.2775
+Step: 128 | Reward: -21 | Advantage: 2.9021e-08 | Loss: 2.147e-07 | Prob: 0.99998 | Log Prob: -1.8954e-05 | Grad Norm: 2.1649e-06 | Time: 8.7775 | Total Time: 5.4238
+Step: 132 | Reward: -21 | Advantage: 2.6622e-08 | Loss: 2.147e-07 | Prob: 0.99998 | Log Prob: -1.5974e-05 | Grad Norm: 1.9572e-06 | Time: 6.9819 | Total Time: 5.5401
+Step: 136 | Reward: -21 | Advantage: 1.8034e-08 | Loss: 2.147e-07 | Prob: 0.99999 | Log Prob: -1.359e-05 | Grad Norm: 1.4197e-06 | Time: 6.978 | Total Time: 5.6564
+Step: 140 | Reward: -21 | Advantage: 2.3027e-08 | Loss: 2.147e-07 | Prob: 0.99999 | Log Prob: -1.1802e-05 | Grad Norm: 1.6598e-06 | Time: 8.8328 | Total Time: 5.8036
+Step: 144 | Reward: -21 | Advantage: 1.0239e-08 | Loss: 2.147e-07 | Prob: 0.99999 | Log Prob: -1.0252e-05 | Grad Norm: 9.0575e-07 | Time: 7.0185 | Total Time: 5.9206
+Step: 148 | Reward: -21 | Advantage: 1.0688e-08 | Loss: 2.147e-07 | Prob: 0.99999 | Log Prob: -9.0599e-06 | Grad Norm: 8.9273e-07 | Time: 8.8777 | Total Time: 6.0686
+Step: 152 | Reward: -21 | Advantage: 1.5005e-08 | Loss: 2.147e-07 | Prob: 0.99999 | Log Prob: -8.1063e-06 | Grad Norm: 1.1144e-06 | Time: 14.337 | Total Time: 6.3075
+Step: 156 | Reward: -21 | Advantage: 9.0159e-09 | Loss: 2.147e-07 | Prob: 0.99999 | Log Prob: -7.391e-06 | Grad Norm: 7.4649e-07 | Time: 13.756 | Total Time: 6.5368
+Step: 160 | Reward: -21 | Advantage: 1.1093e-08 | Loss: 2.147e-07 | Prob: 0.99999 | Log Prob: -6.6757e-06 | Grad Norm: 8.491e-07 | Time: 13.648 | Total Time: 6.7643
+Step: 164 | Reward: -21 | Advantage: 1.4311e-08 | Loss: 2.147e-07 | Prob: 0.99999 | Log Prob: -6.1989e-06 | Grad Norm: 1.036e-06 | Time: 13.904 | Total Time: 6.996
+Step: 168 | Reward: -21 | Advantage: 1.345e-08 | Loss: 2.147e-07 | Prob: 0.99999 | Log Prob: -5.7221e-06 | Grad Norm: 9.7528e-07 | Time: 11.14 | Total Time: 7.1817
+Step: 172 | Reward: -21 | Advantage: 1.1349e-08 | Loss: 2.147e-07 | Prob: 0.99999 | Log Prob: -5.2452e-06 | Grad Norm: 8.3806e-07 | Time: 6.2303 | Total Time: 7.2855
+Step: 176 | Reward: -21 | Advantage: 1.3325e-08 | Loss: 2.147e-07 | Prob: 0.99999 | Log Prob: -5.0068e-06 | Grad Norm: 9.5214e-07 | Time: 7.1793 | Total Time: 7.4052
+Step: 180 | Reward: -21 | Advantage: 1.7062e-09 | Loss: 2.147e-07 | Prob: 1 | Log Prob: -4.6492e-06 | Grad Norm: 2.9199e-07 | Time: 7.627 | Total Time: 7.5323
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 113, in <module>
+    reward, discounted_reward, loss, prob, log_prob, grad_norm = train_episode()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 64, in train_episode
+    obs, reward, terminated, truncated, info = env.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\wrappers\common.py", line 393, in step
+    return super().step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\core.py", line 322, in step
+    return self.env.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\wrappers\common.py", line 285, in step
+    return self.env.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\ale_py\env.py", line 298, in step
+    for _ in range(frameskip):
+KeyboardInterrupt

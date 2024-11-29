@@ -1,0 +1,15 @@
+Using device: cuda
+Epoch: 0 | Loss: -0.50858 | Reward: -20.344 | Advantage: -0.73373 | Prob: 0.5 | LogProb: -0.69315 | GradNorm: 0.0051537 | Time (s): 4.4095 | Total Time (m): 0.073492
+Epoch: 1 | Loss: -0.47396 | Reward: -19.688 | Advantage: -0.68378 | Prob: 0.5 | LogProb: -0.69315 | GradNorm: 0.00092268 | Time (s): 6.6774 | Total Time (m): 0.18478
+Epoch: 2 | Loss: -0.51487 | Reward: -20.344 | Advantage: -0.74281 | Prob: 0.5 | LogProb: -0.69315 | GradNorm: 0.00026131 | Time (s): 31.528 | Total Time (m): 0.71026
+Epoch: 3 | Loss: -0.48143 | Reward: -19.688 | Advantage: -0.69456 | Prob: 0.5 | LogProb: -0.69315 | GradNorm: 0.0038261 | Time (s): 38.005 | Total Time (m): 1.3437
+Epoch: 4 | Loss: -0.48874 | Reward: -19.688 | Advantage: -0.70511 | Prob: 0.5 | LogProb: -0.69315 | GradNorm: 0.0089188 | Time (s): 36.385 | Total Time (m): 1.9501
+Epoch: 5 | Loss: -0.51782 | Reward: -20.344 | Advantage: -0.74706 | Prob: 0.5 | LogProb: -0.69315 | GradNorm: 0.011948 | Time (s): 33.84 | Total Time (m): 2.5141
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 285, in <module>
+    loss, sum_reward, prob, advantage, logprob, norm = train_one_epoch()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 248, in train_one_epoch
+    advantage = advantage_fn(e_rewards) # [T, N] -> [T * N]
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 76, in advantage_fn
+    if reward[t] != 0:
+KeyboardInterrupt

@@ -1,0 +1,16 @@
+{"time":"2024-11-28T12:59:53.7718295-07:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-28T12:59:53.7718295-07:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Elene2004\\Python\\Files\\PingPong-PPO\\wandb\\run-20241128_125953-jky9aplw\\logs\\debug-core.log"}
+{"time":"2024-11-28T12:59:55.5912299-07:00","level":"INFO","msg":"created new stream","id":"jky9aplw"}
+{"time":"2024-11-28T12:59:55.5912299-07:00","level":"INFO","msg":"stream: started","id":"jky9aplw"}
+{"time":"2024-11-28T12:59:55.5912299-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"jky9aplw"}
+{"time":"2024-11-28T12:59:55.5912299-07:00","level":"INFO","msg":"handler: started","stream_id":"jky9aplw"}
+{"time":"2024-11-28T12:59:55.5912299-07:00","level":"INFO","msg":"sender: started","stream_id":"jky9aplw"}
+{"time":"2024-11-28T12:59:55.8205695-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T12:59:56.6132497-07:00","level":"INFO","msg":"stream: closing","id":"jky9aplw"}
+{"time":"2024-11-28T12:59:56.613907-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-28T12:59:56.6144095-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-28T12:59:57.0075346-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-28T12:59:57.1489827-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"jky9aplw"}
+{"time":"2024-11-28T12:59:57.1489827-07:00","level":"INFO","msg":"sender: closed","stream_id":"jky9aplw"}
+{"time":"2024-11-28T12:59:57.1489827-07:00","level":"INFO","msg":"handler: closed","stream_id":"jky9aplw"}
+{"time":"2024-11-28T12:59:57.1489827-07:00","level":"INFO","msg":"stream: closed","id":"jky9aplw"}

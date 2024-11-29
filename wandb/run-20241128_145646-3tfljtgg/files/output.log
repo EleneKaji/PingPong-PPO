@@ -1,0 +1,13 @@
+Step: 0 | Reward: -20.5 | Advantage: -2.5946e-05 | Loss: 7.8277e-08 | Prob: 0.50937 | Log Prob: -0.67458 | Grad Norm: 1874.2 | Time: 6.4665 | Total Time: 0.10777
+Step: 4 | Reward: -20.5 | Advantage: -0.00048621 | Loss: -1.4158e-07 | Prob: 0.51975 | Log Prob: -0.65441 | Grad Norm: 1840.1 | Time: 6.5494 | Total Time: 0.21693
+Step: 8 | Reward: -20.75 | Advantage: -0.00099801 | Loss: -4.8197e-08 | Prob: 0.52826 | Log Prob: -0.63817 | Grad Norm: 1884.7 | Time: 6.0186 | Total Time: 0.31724
+Step: 12 | Reward: -20.25 | Advantage: -0.002811 | Loss: -1.8564e-07 | Prob: 0.5358 | Log Prob: -0.62399 | Grad Norm: 2170.6 | Time: 7.2134 | Total Time: 0.43746
+Step: 16 | Reward: -20 | Advantage: -0.0010456 | Loss: 1.166e-07 | Prob: 0.54384 | Log Prob: -0.60911 | Grad Norm: 1753.1 | Time: 8.4222 | Total Time: 0.57783
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 118, in <module>
+    reward, discounted_reward, loss, prob, log_prob, grad_norm = train_episode()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 52, in train_episode
+    curr_obs = preprocess_obs(obs)
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 26, in preprocess_obs
+    observation = torch.tensor(observation, dtype=torch.float32)
+KeyboardInterrupt

@@ -1,0 +1,18 @@
+{"time":"2024-11-28T14:59:58.5500043-07:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-28T14:59:58.5500043-07:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Elene2004\\Python\\Files\\PingPong-PPO\\wandb\\run-20241128_145958-liczg75q\\logs\\debug-core.log"}
+{"time":"2024-11-28T14:59:59.0643942-07:00","level":"INFO","msg":"created new stream","id":"liczg75q"}
+{"time":"2024-11-28T14:59:59.0649983-07:00","level":"INFO","msg":"stream: started","id":"liczg75q"}
+{"time":"2024-11-28T14:59:59.0649983-07:00","level":"INFO","msg":"handler: started","stream_id":"liczg75q"}
+{"time":"2024-11-28T14:59:59.0649983-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"liczg75q"}
+{"time":"2024-11-28T14:59:59.0649983-07:00","level":"INFO","msg":"sender: started","stream_id":"liczg75q"}
+{"time":"2024-11-28T14:59:59.4915485-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T18:35:59.019877-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/kajaiaelene-models/PG-Pong/liczg75q/file_stream\": unexpected EOF"}
+{"time":"2024-11-28T18:39:15.5419706-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/kajaiaelene-models/PG-Pong/liczg75q/file_stream\": unexpected EOF"}
+{"time":"2024-11-28T19:41:15.1820306-07:00","level":"INFO","msg":"stream: closing","id":"liczg75q"}
+{"time":"2024-11-28T19:41:15.1825939-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-28T19:41:15.1831094-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-28T19:41:15.7330905-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-28T19:41:15.9333609-07:00","level":"INFO","msg":"handler: closed","stream_id":"liczg75q"}
+{"time":"2024-11-28T19:41:15.9333609-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"liczg75q"}
+{"time":"2024-11-28T19:41:15.9338721-07:00","level":"INFO","msg":"sender: closed","stream_id":"liczg75q"}
+{"time":"2024-11-28T19:41:15.9338721-07:00","level":"INFO","msg":"stream: closed","id":"liczg75q"}

@@ -1,0 +1,17 @@
+{
+  "os":  "Windows-10-10.0.26100-SP0",
+  "python":  "3.10.15",
+  "startedAt":  "2024-11-29T02:52:49.591531Z",
+  "program":  "C:\\Users\\Elene2004\\Python\\Files\\PingPong-PPO\\play.py",
+  "codePath":  "play.py",
+  "git":  {
+    "remote":  "https://github.com/EleneKaji/PingPong-PPO.git",
+    "commit":  "fab9593713e6518716b33f59fa78decef24beb9b"
+  },
+  "email":  "kajaiaelene@gmail.com",
+  "root":  "C:\\Users\\Elene2004\\Python\\Files\\PingPong-PPO",
+  "host":  "Elene",
+  "username":  "Elene2004",
+  "executable":  "C:\\Users\\Elene2004\\anaconda3\\envs\\pong_rl\\python.exe",
+  "codePathLocal":  "play.py"
+}

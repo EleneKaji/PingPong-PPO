@@ -1,0 +1,9 @@
+{"time":"2024-11-26T13:22:40.1169341-07:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-26T13:22:40.1169341-07:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Elene2004\\Python\\Files\\PingPong-PPO\\wandb\\run-20241126_132240-nehpps5w\\logs\\debug-core.log"}
+{"time":"2024-11-26T13:22:41.563422-07:00","level":"INFO","msg":"created new stream","id":"nehpps5w"}
+{"time":"2024-11-26T13:22:41.563422-07:00","level":"INFO","msg":"stream: started","id":"nehpps5w"}
+{"time":"2024-11-26T13:22:41.563422-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"nehpps5w"}
+{"time":"2024-11-26T13:22:41.563422-07:00","level":"INFO","msg":"sender: started","stream_id":"nehpps5w"}
+{"time":"2024-11-26T13:22:41.5639303-07:00","level":"INFO","msg":"handler: started","stream_id":"nehpps5w"}
+{"time":"2024-11-26T13:22:41.7681561-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-26T14:21:43.722886-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/kajaiaelene-models/PG-Pong/nehpps5w/file_stream\": read tcp 192.168.5.89:61381->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}

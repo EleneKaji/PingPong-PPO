@@ -1,0 +1,7 @@
+Using cuda device
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 116, in <module>
+    reward, discounted_reward, loss, prob, log_prob, grad_norm = train_episode()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 93, in train_episode
+    return torch.sum(e_rewards) / batch_size, loss.item(), torch.mean(discounted_rewards).item(), torch.max(probs).item(), torch.max(log_probs).item(), grad_norm
+TypeError: sum(): argument 'input' (position 1) must be Tensor, not NoneType

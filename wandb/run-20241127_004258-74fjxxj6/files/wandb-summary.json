@@ -1,0 +1,1 @@
+{"average logprob":0.8700149059295654,"average loss":0.46998828649520874,"grad norm":0.12173070758581161,"_runtime":44.3048389,"_step":1,"time":0.6476698478062948,"_wandb":{"runtime":44},"_timestamp":1.73269342276949e+09,"average reward":-19.6875,"average advantage":-0.6848145723342896,"actual average reward":-0.9375,"average prob":0.43359375}

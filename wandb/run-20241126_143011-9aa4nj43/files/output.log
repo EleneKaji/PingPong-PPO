@@ -1,0 +1,11 @@
+Using device: cuda
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 275, in <module>
+    model = PolicyGradient().to(device)
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 22, in __init__
+    self._initialize_weights()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 27, in _initialize_weights
+    torch.nn.init.normal_(self.fc2.weight, mean=0, std=0.01)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\torch\nn\modules\module.py", line 1729, in __getattr__
+    raise AttributeError(f"'{type(self).__name__}' object has no attribute '{name}'")
+AttributeError: 'PolicyGradient' object has no attribute 'fc2'

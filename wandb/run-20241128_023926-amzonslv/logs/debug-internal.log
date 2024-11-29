@@ -1,0 +1,16 @@
+{"time":"2024-11-28T02:39:26.1611409-07:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-28T02:39:26.1611409-07:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Elene2004\\Python\\Files\\PingPong-PPO\\wandb\\run-20241128_023926-amzonslv\\logs\\debug-core.log"}
+{"time":"2024-11-28T02:39:27.7749879-07:00","level":"INFO","msg":"created new stream","id":"amzonslv"}
+{"time":"2024-11-28T02:39:27.7749879-07:00","level":"INFO","msg":"stream: started","id":"amzonslv"}
+{"time":"2024-11-28T02:39:27.7749879-07:00","level":"INFO","msg":"sender: started","stream_id":"amzonslv"}
+{"time":"2024-11-28T02:39:27.7749879-07:00","level":"INFO","msg":"handler: started","stream_id":"amzonslv"}
+{"time":"2024-11-28T02:39:27.7749879-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"amzonslv"}
+{"time":"2024-11-28T02:39:28.0910025-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T02:47:07.2755868-07:00","level":"INFO","msg":"stream: closing","id":"amzonslv"}
+{"time":"2024-11-28T02:47:07.2755868-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-28T02:47:07.2763346-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-28T02:47:07.6747702-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-28T02:47:07.8169002-07:00","level":"INFO","msg":"handler: closed","stream_id":"amzonslv"}
+{"time":"2024-11-28T02:47:07.8169002-07:00","level":"INFO","msg":"sender: closed","stream_id":"amzonslv"}
+{"time":"2024-11-28T02:47:07.8169002-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"amzonslv"}
+{"time":"2024-11-28T02:47:07.817562-07:00","level":"INFO","msg":"stream: closed","id":"amzonslv"}

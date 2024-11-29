@@ -1,0 +1,9 @@
+Using device: cuda
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 296, in <module>
+    loss, reward, prob, advantage, logprob, norm = train_one_episode()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 122, in train_one_episode
+    curr_obs = pre_process(obs)
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 37, in pre_process
+    observation = torch.tensor(observation, dtype=torch.float32, device=device)
+KeyboardInterrupt

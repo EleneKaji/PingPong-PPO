@@ -1,0 +1,6 @@
+Using cuda device
+torch.Size([4692, 1, 80, 80]) torch.Size([4692]) torch.Size([4692, 1, 1])
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 117, in <module>
+    reward, discounted_reward, loss, prob, log_prob, grad_norm = train_episode()
+TypeError: cannot unpack non-iterable NoneType object

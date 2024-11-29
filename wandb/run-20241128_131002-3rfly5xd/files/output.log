@@ -1,0 +1,7 @@
+Using cuda device
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 119, in <module>
+    reward, discounted_reward, loss, prob, log_prob, grad_norm = train_episode()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 79, in train_episode
+    with autocast():
+TypeError: autocast.__init__() missing 1 required positional argument: 'device_type'

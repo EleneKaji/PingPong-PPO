@@ -1,0 +1,137 @@
+Using device: cuda
+Epoch: 0 | Loss: 0.43175 | Reward: -19.031 | Advantage: -0.62289 | Prob: 0.50146 | LogProb: 0.69608 | GradNorm: 0.0016744 | Time (s): 6.5982 | Total Time (m): 0.10997
+Epoch: 1 | Loss: 0.55167 | Reward: -21 | Advantage: -0.80087 | Prob: 0.56738 | LogProb: 0.83227 | GradNorm: 0.081769 | Time (s): 7.8785 | Total Time (m): 0.24128
+Epoch: 2 | Loss: 0.43986 | Reward: -18.375 | Advantage: -0.63579 | Prob: 0.47021 | LogProb: 0.82891 | GradNorm: 0.16139 | Time (s): 20.369 | Total Time (m): 0.58077
+Epoch: 3 | Loss: 0.52318 | Reward: -20.344 | Advantage: -0.75509 | Prob: 0.51953 | LogProb: 0.73299 | GradNorm: 0.079672 | Time (s): 22.154 | Total Time (m): 0.95
+Epoch: 4 | Loss: 0.54598 | Reward: -21 | Advantage: -0.78925 | Prob: 0.55322 | LogProb: 0.79916 | GradNorm: 0.017498 | Time (s): 20.358 | Total Time (m): 1.2893
+Epoch: 5 | Loss: 0.54155 | Reward: -21 | Advantage: -0.78354 | Prob: 0.59277 | LogProb: 0.87938 | GradNorm: 0.24564 | Time (s): 19.682 | Total Time (m): 1.6173
+Epoch: 6 | Loss: 0.47232 | Reward: -20.344 | Advantage: -0.68226 | Prob: 0.55713 | LogProb: 0.81448 | GradNorm: 0.0081155 | Time (s): 25.476 | Total Time (m): 2.0419
+Epoch: 7 | Loss: 0.51102 | Reward: -20.344 | Advantage: -0.73599 | Prob: 0.54736 | LogProb: 0.79267 | GradNorm: 0.016806 | Time (s): 20.053 | Total Time (m): 2.3761
+Epoch: 8 | Loss: 0.52145 | Reward: -20.344 | Advantage: -0.75244 | Prob: 0.53467 | LogProb: 0.765 | GradNorm: 0.0073712 | Time (s): 19.266 | Total Time (m): 2.6972
+Epoch: 9 | Loss: 0.46298 | Reward: -19.031 | Advantage: -0.6682 | Prob: 0.52881 | LogProb: 0.74423 | GradNorm: 0.0050045 | Time (s): 21.739 | Total Time (m): 3.0596
+Epoch: 10 | Loss: 0.44568 | Reward: -19.031 | Advantage: -0.64298 | Prob: 0.53027 | LogProb: 0.7556 | GradNorm: 0.0081023 | Time (s): 23.464 | Total Time (m): 3.4506
+Epoch: 11 | Loss: 0.49651 | Reward: -20.344 | Advantage: -0.71625 | Prob: 0.53223 | LogProb: 0.75873 | GradNorm: 0.0097873 | Time (s): 19.816 | Total Time (m): 3.7809
+Epoch: 12 | Loss: 0.49037 | Reward: -19.688 | Advantage: -0.70778 | Prob: 0.54297 | LogProb: 0.783 | GradNorm: 0.0073921 | Time (s): 20.708 | Total Time (m): 4.1261
+Epoch: 13 | Loss: 0.44052 | Reward: -18.375 | Advantage: -0.63573 | Prob: 0.55469 | LogProb: 0.80898 | GradNorm: 0.0062055 | Time (s): 23.18 | Total Time (m): 4.5124
+Epoch: 14 | Loss: 0.50031 | Reward: -20.344 | Advantage: -0.72197 | Prob: 0.56299 | LogProb: 0.8278 | GradNorm: 0.017231 | Time (s): 22.265 | Total Time (m): 4.8835
+Epoch: 15 | Loss: 0.46842 | Reward: -19.688 | Advantage: -0.67676 | Prob: 0.5874 | LogProb: 0.85728 | GradNorm: 0.0075939 | Time (s): 24.065 | Total Time (m): 5.2846
+Epoch: 16 | Loss: 0.45178 | Reward: -19.031 | Advantage: -0.65256 | Prob: 0.59521 | LogProb: 0.9044 | GradNorm: 0.0084916 | Time (s): 23.587 | Total Time (m): 5.6777
+Epoch: 17 | Loss: 0.5114 | Reward: -21 | Advantage: -0.73956 | Prob: 0.625 | LogProb: 0.89839 | GradNorm: 0.0088249 | Time (s): 24.177 | Total Time (m): 6.0806
+Epoch: 18 | Loss: 0.48155 | Reward: -19.688 | Advantage: -0.69501 | Prob: 0.61572 | LogProb: 0.95639 | GradNorm: 0.020477 | Time (s): 20.553 | Total Time (m): 6.4232
+Epoch: 19 | Loss: 0.50355 | Reward: -20.344 | Advantage: -0.72891 | Prob: 0.6582 | LogProb: 1.0735 | GradNorm: 0.014359 | Time (s): 21.733 | Total Time (m): 6.7854
+Epoch: 20 | Loss: 0.48234 | Reward: -19.688 | Advantage: -0.69727 | Prob: 0.64502 | LogProb: 0.97047 | GradNorm: 0.010427 | Time (s): 20.413 | Total Time (m): 7.1256
+Epoch: 21 | Loss: 0.46209 | Reward: -19.688 | Advantage: -0.66822 | Prob: 0.67383 | LogProb: 0.96789 | GradNorm: 0.0095861 | Time (s): 24.223 | Total Time (m): 7.5293
+Epoch: 22 | Loss: 0.44443 | Reward: -19.031 | Advantage: -0.64631 | Prob: 0.71045 | LogProb: 0.99658 | GradNorm: 0.012743 | Time (s): 22.562 | Total Time (m): 7.9054
+Epoch: 23 | Loss: 0.46983 | Reward: -19.688 | Advantage: -0.67857 | Prob: 0.72852 | LogProb: 1.3039 | GradNorm: 0.011918 | Time (s): 22.258 | Total Time (m): 8.2763
+Epoch: 24 | Loss: 0.49447 | Reward: -20.344 | Advantage: -0.715 | Prob: 0.78369 | LogProb: 1.1129 | GradNorm: 0.021462 | Time (s): 19.836 | Total Time (m): 8.6069
+Epoch: 25 | Loss: 0.52372 | Reward: -21 | Advantage: -0.76379 | Prob: 0.72412 | LogProb: 1.2878 | GradNorm: 0.019734 | Time (s): 21.826 | Total Time (m): 8.9707
+Epoch: 26 | Loss: 0.54565 | Reward: -21 | Advantage: -0.79147 | Prob: 0.73535 | LogProb: 1.3003 | GradNorm: 0.020473 | Time (s): 18.978 | Total Time (m): 9.287
+Epoch: 27 | Loss: 0.41289 | Reward: -17.719 | Advantage: -0.59743 | Prob: 0.73096 | LogProb: 1.2685 | GradNorm: 0.011448 | Time (s): 21.813 | Total Time (m): 9.6505
+Epoch: 28 | Loss: 0.47624 | Reward: -19.688 | Advantage: -0.69385 | Prob: 0.73633 | LogProb: 1.2394 | GradNorm: 0.014617 | Time (s): 19.94 | Total Time (m): 9.9829
+Epoch: 29 | Loss: 0.50139 | Reward: -20.344 | Advantage: -0.73093 | Prob: 0.74951 | LogProb: 1.3843 | GradNorm: 0.01706 | Time (s): 21.023 | Total Time (m): 10.333
+Epoch: 30 | Loss: 0.47028 | Reward: -19.688 | Advantage: -0.68325 | Prob: 0.771 | LogProb: 1.1632 | GradNorm: 0.013594 | Time (s): 23.474 | Total Time (m): 10.724
+Epoch: 31 | Loss: 0.45972 | Reward: -19.031 | Advantage: -0.67131 | Prob: 0.72363 | LogProb: 1.2479 | GradNorm: 0.016171 | Time (s): 20.027 | Total Time (m): 11.058
+Epoch: 32 | Loss: 0.50487 | Reward: -20.344 | Advantage: -0.73698 | Prob: 0.74756 | LogProb: 1.1805 | GradNorm: 0.012268 | Time (s): 21.1 | Total Time (m): 11.41
+Epoch: 33 | Loss: 0.44397 | Reward: -19.031 | Advantage: -0.65108 | Prob: 0.74463 | LogProb: 1.2913 | GradNorm: 0.015828 | Time (s): 21.386 | Total Time (m): 11.766
+Epoch: 34 | Loss: 0.45569 | Reward: -19.688 | Advantage: -0.66903 | Prob: 0.7915 | LogProb: 1.3003 | GradNorm: 0.013463 | Time (s): 21.071 | Total Time (m): 12.118
+Epoch: 35 | Loss: 0.36565 | Reward: -18.375 | Advantage: -0.53871 | Prob: 0.82324 | LogProb: 1.3689 | GradNorm: 0.011711 | Time (s): 24.156 | Total Time (m): 12.52
+Epoch: 36 | Loss: 0.43392 | Reward: -19.031 | Advantage: -0.63871 | Prob: 0.81201 | LogProb: 1.5093 | GradNorm: 0.015506 | Time (s): 21.375 | Total Time (m): 12.876
+Epoch: 37 | Loss: 0.4703 | Reward: -19.688 | Advantage: -0.69615 | Prob: 0.84326 | LogProb: 1.5043 | GradNorm: 0.014464 | Time (s): 21.161 | Total Time (m): 13.229
+Epoch: 38 | Loss: 0.51867 | Reward: -21 | Advantage: -0.77251 | Prob: 0.86719 | LogProb: 1.8255 | GradNorm: 0.016826 | Time (s): 19.719 | Total Time (m): 13.558
+Epoch: 39 | Loss: 0.45782 | Reward: -19.031 | Advantage: -0.6799 | Prob: 0.89551 | LogProb: 1.6085 | GradNorm: 0.021357 | Time (s): 20.206 | Total Time (m): 13.894
+Epoch: 40 | Loss: 0.52915 | Reward: -21 | Advantage: -0.79202 | Prob: 0.89551 | LogProb: 1.784 | GradNorm: 0.019026 | Time (s): 19.483 | Total Time (m): 14.219
+Epoch: 41 | Loss: 0.4919 | Reward: -20.344 | Advantage: -0.742 | Prob: 0.89648 | LogProb: 2.0992 | GradNorm: 0.019736 | Time (s): 20.18 | Total Time (m): 14.556
+Epoch: 42 | Loss: 0.4411 | Reward: -19.688 | Advantage: -0.67481 | Prob: 0.92578 | LogProb: 2.0487 | GradNorm: 0.018415 | Time (s): 21.46 | Total Time (m): 14.913
+Epoch: 43 | Loss: 0.4704 | Reward: -19.688 | Advantage: -0.73372 | Prob: 0.91113 | LogProb: 2.2041 | GradNorm: 0.028779 | Time (s): 17.99 | Total Time (m): 15.213
+Epoch: 44 | Loss: 0.46942 | Reward: -19.688 | Advantage: -0.72519 | Prob: 0.96191 | LogProb: 2.7883 | GradNorm: 0.021173 | Time (s): 19.034 | Total Time (m): 15.53
+Epoch: 45 | Loss: 0.48836 | Reward: -21 | Advantage: -0.76059 | Prob: 0.97119 | LogProb: 2.8455 | GradNorm: 0.026672 | Time (s): 21.892 | Total Time (m): 15.895
+Epoch: 46 | Loss: 0.45582 | Reward: -20.344 | Advantage: -0.72585 | Prob: 0.97852 | LogProb: 2.9333 | GradNorm: 0.021049 | Time (s): 19.88 | Total Time (m): 16.226
+Epoch: 47 | Loss: 0.49936 | Reward: -21 | Advantage: -0.78264 | Prob: 0.97314 | LogProb: 2.9612 | GradNorm: 0.027272 | Time (s): 18.512 | Total Time (m): 16.535
+Epoch: 48 | Loss: 0.43951 | Reward: -20.344 | Advantage: -0.70232 | Prob: 0.97266 | LogProb: 3.182 | GradNorm: 0.026451 | Time (s): 21.068 | Total Time (m): 16.886
+Epoch: 49 | Loss: 0.46138 | Reward: -21 | Advantage: -0.74084 | Prob: 0.98193 | LogProb: 3.5816 | GradNorm: 0.029232 | Time (s): 22.657 | Total Time (m): 17.264
+Epoch: 50 | Loss: 0.47024 | Reward: -20.344 | Advantage: -0.74893 | Prob: 0.98047 | LogProb: 3.6356 | GradNorm: 0.025199 | Time (s): 19.738 | Total Time (m): 17.593
+Epoch: 51 | Loss: 0.40299 | Reward: -19.031 | Advantage: -0.65377 | Prob: 0.979 | LogProb: 3.0813 | GradNorm: 0.017796 | Time (s): 21.837 | Total Time (m): 17.957
+Epoch: 52 | Loss: 0.42572 | Reward: -20.344 | Advantage: -0.70298 | Prob: 0.98047 | LogProb: 3.5137 | GradNorm: 0.029129 | Time (s): 21.719 | Total Time (m): 18.319
+Epoch: 53 | Loss: 0.41529 | Reward: -19.688 | Advantage: -0.6901 | Prob: 0.98096 | LogProb: 3.2808 | GradNorm: 0.021213 | Time (s): 20.357 | Total Time (m): 18.658
+Epoch: 54 | Loss: 0.37108 | Reward: -18.375 | Advantage: -0.61164 | Prob: 0.98486 | LogProb: 3.3619 | GradNorm: 0.016776 | Time (s): 21.404 | Total Time (m): 19.015
+Epoch: 55 | Loss: 0.45126 | Reward: -20.344 | Advantage: -0.75044 | Prob: 0.99023 | LogProb: 3.4815 | GradNorm: 0.032077 | Time (s): 18.995 | Total Time (m): 19.331
+Epoch: 56 | Loss: 0.32421 | Reward: -18.375 | Advantage: -0.55669 | Prob: 0.99023 | LogProb: 3.4502 | GradNorm: 0.019656 | Time (s): 24.01 | Total Time (m): 19.731
+Epoch: 57 | Loss: 0.39474 | Reward: -19.688 | Advantage: -0.68782 | Prob: 0.9917 | LogProb: 3.9357 | GradNorm: 0.025825 | Time (s): 20.809 | Total Time (m): 20.078
+Epoch: 58 | Loss: 0.37822 | Reward: -19.688 | Advantage: -0.68045 | Prob: 0.99219 | LogProb: 3.6173 | GradNorm: 0.021089 | Time (s): 20.547 | Total Time (m): 20.421
+Epoch: 59 | Loss: 0.3643 | Reward: -20.344 | Advantage: -0.66744 | Prob: 0.99365 | LogProb: 4.3665 | GradNorm: 0.028865 | Time (s): 22.893 | Total Time (m): 20.802
+Epoch: 60 | Loss: 0.36605 | Reward: -20.344 | Advantage: -0.67565 | Prob: 0.99561 | LogProb: 3.4975 | GradNorm: 0.018898 | Time (s): 21.398 | Total Time (m): 21.159
+Epoch: 61 | Loss: 0.42109 | Reward: -21 | Advantage: -0.79756 | Prob: 0.99854 | LogProb: 3.9357 | GradNorm: 0.023873 | Time (s): 19.166 | Total Time (m): 21.478
+Epoch: 62 | Loss: 0.39771 | Reward: -21 | Advantage: -0.77422 | Prob: 0.99658 | LogProb: 3.8869 | GradNorm: 0.03627 | Time (s): 20.004 | Total Time (m): 21.812
+Epoch: 63 | Loss: 0.4184 | Reward: -21 | Advantage: -0.79442 | Prob: 0.99658 | LogProb: 4.0983 | GradNorm: 0.030705 | Time (s): 18.732 | Total Time (m): 22.124
+Epoch: 64 | Loss: 0.38535 | Reward: -21 | Advantage: -0.76336 | Prob: 0.99658 | LogProb: 3.796 | GradNorm: 0.024515 | Time (s): 20.302 | Total Time (m): 22.462
+Epoch: 65 | Loss: 0.40352 | Reward: -20.344 | Advantage: -0.76771 | Prob: 0.99805 | LogProb: 4.2924 | GradNorm: 0.035016 | Time (s): 20.582 | Total Time (m): 22.805
+Epoch: 66 | Loss: 0.33573 | Reward: -19.688 | Advantage: -0.66867 | Prob: 0.99561 | LogProb: 3.4995 | GradNorm: 0.021313 | Time (s): 22.362 | Total Time (m): 23.178
+Epoch: 67 | Loss: 0.38134 | Reward: -20.344 | Advantage: -0.74563 | Prob: 0.99756 | LogProb: 4.852 | GradNorm: 0.032141 | Time (s): 20.518 | Total Time (m): 23.52
+Epoch: 68 | Loss: 0.37572 | Reward: -20.344 | Advantage: -0.72506 | Prob: 0.99756 | LogProb: 3.7424 | GradNorm: 0.02496 | Time (s): 20.536 | Total Time (m): 23.862
+Epoch: 69 | Loss: 0.40796 | Reward: -21 | Advantage: -0.79054 | Prob: 0.99854 | LogProb: 4.5336 | GradNorm: 0.026455 | Time (s): 18.695 | Total Time (m): 24.174
+Epoch: 70 | Loss: 0.34689 | Reward: -19.688 | Advantage: -0.68392 | Prob: 0.99707 | LogProb: 4.3288 | GradNorm: 0.027442 | Time (s): 22.649 | Total Time (m): 24.551
+Epoch: 71 | Loss: 0.36128 | Reward: -19.688 | Advantage: -0.70502 | Prob: 0.99658 | LogProb: 4.7342 | GradNorm: 0.024236 | Time (s): 22.803 | Total Time (m): 24.931
+Epoch: 72 | Loss: 0.40008 | Reward: -21 | Advantage: -0.79245 | Prob: 0.99756 | LogProb: 3.974 | GradNorm: 0.031296 | Time (s): 19.494 | Total Time (m): 25.256
+Epoch: 73 | Loss: 0.39234 | Reward: -21 | Advantage: -0.76351 | Prob: 0.99902 | LogProb: 4.0837 | GradNorm: 0.021496 | Time (s): 20.102 | Total Time (m): 25.591
+Epoch: 74 | Loss: 0.37317 | Reward: -19.688 | Advantage: -0.73856 | Prob: 0.99707 | LogProb: 4.1453 | GradNorm: 0.022827 | Time (s): 17.228 | Total Time (m): 25.878
+Epoch: 75 | Loss: 0.41331 | Reward: -21 | Advantage: -0.80685 | Prob: 0.99707 | LogProb: 3.8869 | GradNorm: 0.024172 | Time (s): 17.963 | Total Time (m): 26.178
+Epoch: 76 | Loss: 0.31497 | Reward: -18.375 | Advantage: -0.63231 | Prob: 0.99854 | LogProb: 4.5801 | GradNorm: 0.019624 | Time (s): 19.769 | Total Time (m): 26.507
+Epoch: 77 | Loss: 0.36875 | Reward: -21 | Advantage: -0.74244 | Prob: 0.99805 | LogProb: 4.5727 | GradNorm: 0.019762 | Time (s): 22.192 | Total Time (m): 26.877
+Epoch: 78 | Loss: 0.38603 | Reward: -21 | Advantage: -0.79421 | Prob: 0.99756 | LogProb: 4.2573 | GradNorm: 0.03216 | Time (s): 18.991 | Total Time (m): 27.194
+Epoch: 79 | Loss: 0.38935 | Reward: -21 | Advantage: -0.7946 | Prob: 0.99854 | LogProb: 4.6802 | GradNorm: 0.035201 | Time (s): 19.338 | Total Time (m): 27.516
+Epoch: 80 | Loss: 0.34411 | Reward: -19.688 | Advantage: -0.69007 | Prob: 0.99854 | LogProb: 4.6614 | GradNorm: 0.022936 | Time (s): 18.525 | Total Time (m): 27.825
+Epoch: 81 | Loss: 0.38806 | Reward: -21 | Advantage: -0.8036 | Prob: 0.99951 | LogProb: 4.0086 | GradNorm: 0.027049 | Time (s): 18.34 | Total Time (m): 28.13
+Epoch: 82 | Loss: 0.3603 | Reward: -20.344 | Advantage: -0.74074 | Prob: 0.99951 | LogProb: 4.2924 | GradNorm: 0.041435 | Time (s): 18.763 | Total Time (m): 28.443
+Epoch: 83 | Loss: 0.36002 | Reward: -20.344 | Advantage: -0.77204 | Prob: 0.99854 | LogProb: 3.7745 | GradNorm: 0.026129 | Time (s): 17.889 | Total Time (m): 28.741
+Epoch: 84 | Loss: 0.3206 | Reward: -20.344 | Advantage: -0.69625 | Prob: 0.99902 | LogProb: 4.7342 | GradNorm: 0.022959 | Time (s): 23.764 | Total Time (m): 29.137
+Epoch: 85 | Loss: 0.33566 | Reward: -20.344 | Advantage: -0.73358 | Prob: 0.99854 | LogProb: 4.7342 | GradNorm: 0.024912 | Time (s): 21.386 | Total Time (m): 29.494
+Epoch: 86 | Loss: 0.32395 | Reward: -20.344 | Advantage: -0.70739 | Prob: 0.99854 | LogProb: 4.5343 | GradNorm: 0.020571 | Time (s): 23.668 | Total Time (m): 29.888
+Epoch: 87 | Loss: 0.33564 | Reward: -21 | Advantage: -0.74139 | Prob: 0.99902 | LogProb: 5.5452 | GradNorm: 0.022156 | Time (s): 22.933 | Total Time (m): 30.27
+Epoch: 88 | Loss: 0.31886 | Reward: -20.344 | Advantage: -0.72584 | Prob: 0.99902 | LogProb: 5.2267 | GradNorm: 0.030123 | Time (s): 22.339 | Total Time (m): 30.643
+Epoch: 89 | Loss: 0.32945 | Reward: -21 | Advantage: -0.78537 | Prob: 0.99902 | LogProb: 4.3288 | GradNorm: 0.026569 | Time (s): 21.966 | Total Time (m): 31.009
+Epoch: 90 | Loss: 0.27838 | Reward: -20.344 | Advantage: -0.65698 | Prob: 0.99902 | LogProb: 4.852 | GradNorm: 0.022467 | Time (s): 25.588 | Total Time (m): 31.435
+Epoch: 91 | Loss: 0.33063 | Reward: -21 | Advantage: -0.79635 | Prob: 0.99902 | LogProb: 5.0185 | GradNorm: 0.027684 | Time (s): 19.108 | Total Time (m): 31.754
+Epoch: 92 | Loss: 0.31562 | Reward: -21 | Advantage: -0.75113 | Prob: 0.99951 | LogProb: 5.2267 | GradNorm: 0.027165 | Time (s): 22.786 | Total Time (m): 32.134
+Epoch: 93 | Loss: 0.2829 | Reward: -20.344 | Advantage: -0.7127 | Prob: 0.99902 | LogProb: 3.8555 | GradNorm: 0.021922 | Time (s): 23.205 | Total Time (m): 32.52
+Epoch: 94 | Loss: 0.32263 | Reward: -21 | Advantage: -0.78388 | Prob: 0.99951 | LogProb: 5.322 | GradNorm: 0.031293 | Time (s): 21.567 | Total Time (m): 32.88
+Epoch: 95 | Loss: 0.31427 | Reward: -21 | Advantage: -0.7672 | Prob: 0.99902 | LogProb: 4.608 | GradNorm: 0.024124 | Time (s): 21.488 | Total Time (m): 33.238
+Epoch: 96 | Loss: 0.3132 | Reward: -21 | Advantage: -0.75184 | Prob: 0.99951 | LogProb: 6.0152 | GradNorm: 0.017673 | Time (s): 20.91 | Total Time (m): 33.586
+Epoch: 97 | Loss: 0.28724 | Reward: -19.688 | Advantage: -0.67137 | Prob: 0.99951 | LogProb: 4.9856 | GradNorm: 0.034495 | Time (s): 23.578 | Total Time (m): 33.979
+Epoch: 98 | Loss: 0.30112 | Reward: -19.688 | Advantage: -0.69507 | Prob: 0.99902 | LogProb: 4.4891 | GradNorm: 0.026775 | Time (s): 21.746 | Total Time (m): 34.342
+Epoch: 99 | Loss: 0.32232 | Reward: -21 | Advantage: -0.77579 | Prob: 0.99902 | LogProb: 4.0489 | GradNorm: 0.033603 | Time (s): 20.506 | Total Time (m): 34.684
+Epoch: 100 | Loss: 0.28755 | Reward: -20.344 | Advantage: -0.66606 | Prob: 0.99902 | LogProb: 4.7342 | GradNorm: 0.017391 | Time (s): 25.198 | Total Time (m): 35.103
+Epoch: 101 | Loss: 0.34405 | Reward: -21 | Advantage: -0.79832 | Prob: 0.99951 | LogProb: 5.0597 | GradNorm: 0.023927 | Time (s): 21.315 | Total Time (m): 35.459
+Epoch: 102 | Loss: 0.33756 | Reward: -21 | Advantage: -0.78581 | Prob: 0.99951 | LogProb: 4.2028 | GradNorm: 0.025569 | Time (s): 20.504 | Total Time (m): 35.8
+Epoch: 103 | Loss: 0.34206 | Reward: -21 | Advantage: -0.80384 | Prob: 0.99902 | LogProb: 5.1397 | GradNorm: 0.027381 | Time (s): 19.584 | Total Time (m): 36.127
+Epoch: 104 | Loss: 0.31111 | Reward: -20.344 | Advantage: -0.72901 | Prob: 0.99951 | LogProb: 5.322 | GradNorm: 0.034927 | Time (s): 21.658 | Total Time (m): 36.488
+Epoch: 105 | Loss: 0.30972 | Reward: -21 | Advantage: -0.74338 | Prob: 0.99951 | LogProb: 6.2383 | GradNorm: 0.03333 | Time (s): 22.079 | Total Time (m): 36.856
+Epoch: 106 | Loss: 0.31313 | Reward: -20.344 | Advantage: -0.72407 | Prob: 0.99951 | LogProb: 4.766 | GradNorm: 0.03403 | Time (s): 22.996 | Total Time (m): 37.239
+Epoch: 107 | Loss: 0.30813 | Reward: -20.344 | Advantage: -0.74643 | Prob: 0.99951 | LogProb: 4.4994 | GradNorm: 0.02341 | Time (s): 21.868 | Total Time (m): 37.604
+Nan in loss
+Epoch: 108 | Loss: 0 | Reward: -21 | Advantage: -0.74978 | Prob: 1 | LogProb: nan | GradNorm: nan | Time (s): 22.225 | Total Time (m): 37.974
+Nan in loss
+Epoch: 109 | Loss: 0 | Reward: -21 | Advantage: -0.83538 | Prob: nan | LogProb: nan | GradNorm: nan | Time (s): 17.269 | Total Time (m): 38.262
+Nan in loss
+Epoch: 110 | Loss: 0 | Reward: -21 | Advantage: -0.83538 | Prob: nan | LogProb: nan | GradNorm: nan | Time (s): 18.538 | Total Time (m): 38.571
+Nan in loss
+Epoch: 111 | Loss: 0 | Reward: -21 | Advantage: -0.83538 | Prob: nan | LogProb: nan | GradNorm: nan | Time (s): 18.253 | Total Time (m): 38.875
+Nan in loss
+Epoch: 112 | Loss: 0 | Reward: -21 | Advantage: -0.83538 | Prob: nan | LogProb: nan | GradNorm: nan | Time (s): 17.767 | Total Time (m): 39.171
+Nan in loss
+Epoch: 113 | Loss: 0 | Reward: -21 | Advantage: -0.83538 | Prob: nan | LogProb: nan | GradNorm: nan | Time (s): 18.151 | Total Time (m): 39.474
+Nan in loss
+Epoch: 114 | Loss: 0 | Reward: -21 | Advantage: -0.83538 | Prob: nan | LogProb: nan | GradNorm: nan | Time (s): 18.795 | Total Time (m): 39.787
+Nan in loss
+Epoch: 115 | Loss: 0 | Reward: -21 | Advantage: -0.83538 | Prob: nan | LogProb: nan | GradNorm: nan | Time (s): 17.846 | Total Time (m): 40.084
+Nan in loss
+Epoch: 116 | Loss: 0 | Reward: -21 | Advantage: -0.83538 | Prob: nan | LogProb: nan | GradNorm: nan | Time (s): 17.748 | Total Time (m): 40.38
+Nan in loss
+Epoch: 117 | Loss: 0 | Reward: -21 | Advantage: -0.83538 | Prob: nan | LogProb: nan | GradNorm: nan | Time (s): 18.944 | Total Time (m): 40.696
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 281, in <module>
+    loss, sum_reward, prob, advantage, logprob, norm = train_one_epoch()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 244, in train_one_epoch
+    advantage = advantage_fn(e_rewards) # [T, N] -> [T * N]
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 72, in advantage_fn
+    if reward[t] != 0:
+KeyboardInterrupt

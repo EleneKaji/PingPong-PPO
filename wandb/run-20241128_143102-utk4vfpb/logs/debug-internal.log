@@ -1,0 +1,16 @@
+{"time":"2024-11-28T14:31:02.5521379-07:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-28T14:31:02.5521379-07:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Elene2004\\Python\\Files\\PingPong-PPO\\wandb\\run-20241128_143102-utk4vfpb\\logs\\debug-core.log"}
+{"time":"2024-11-28T14:31:04.0674151-07:00","level":"INFO","msg":"created new stream","id":"utk4vfpb"}
+{"time":"2024-11-28T14:31:04.0674151-07:00","level":"INFO","msg":"stream: started","id":"utk4vfpb"}
+{"time":"2024-11-28T14:31:04.0674151-07:00","level":"INFO","msg":"handler: started","stream_id":"utk4vfpb"}
+{"time":"2024-11-28T14:31:04.0674151-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"utk4vfpb"}
+{"time":"2024-11-28T14:31:04.0674151-07:00","level":"INFO","msg":"sender: started","stream_id":"utk4vfpb"}
+{"time":"2024-11-28T14:31:04.2933593-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T14:49:07.8984155-07:00","level":"INFO","msg":"stream: closing","id":"utk4vfpb"}
+{"time":"2024-11-28T14:49:07.898927-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-28T14:49:07.898927-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-28T14:49:08.4210531-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-28T14:49:08.5731327-07:00","level":"INFO","msg":"handler: closed","stream_id":"utk4vfpb"}
+{"time":"2024-11-28T14:49:08.5731327-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"utk4vfpb"}
+{"time":"2024-11-28T14:49:08.5731327-07:00","level":"INFO","msg":"sender: closed","stream_id":"utk4vfpb"}
+{"time":"2024-11-28T14:49:08.5731327-07:00","level":"INFO","msg":"stream: closed","id":"utk4vfpb"}

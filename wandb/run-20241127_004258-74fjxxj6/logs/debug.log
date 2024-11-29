@@ -1,0 +1,32 @@
+2024-11-27 00:42:58,455 INFO    MainThread:27488 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2024-11-27 00:42:58,455 INFO    MainThread:27488 [wandb_setup.py:_flush():79] Configure stats pid to 27488
+2024-11-27 00:42:58,455 INFO    MainThread:27488 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Elene2004\.config\wandb\settings
+2024-11-27 00:42:58,455 INFO    MainThread:27488 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Elene2004\Python\Files\PingPong-PPO\wandb\settings
+2024-11-27 00:42:58,455 INFO    MainThread:27488 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-11-27 00:42:58,455 INFO    MainThread:27488 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-11-27 00:42:58,464 INFO    MainThread:27488 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'Policy_Gradient.py', 'program_abspath': 'C:\\Users\\Elene2004\\Python\\Files\\PingPong-PPO\\Policy_Gradient.py', 'program': 'C:\\Users\\Elene2004\\Python\\Files\\PingPong-PPO\\Policy_Gradient.py'}
+2024-11-27 00:42:58,464 INFO    MainThread:27488 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-27 00:42:58,464 INFO    MainThread:27488 [wandb_init.py:_log_setup():533] Logging user logs to C:\Users\Elene2004\Python\Files\PingPong-PPO\wandb\run-20241127_004258-74fjxxj6\logs\debug.log
+2024-11-27 00:42:58,465 INFO    MainThread:27488 [wandb_init.py:_log_setup():534] Logging internal logs to C:\Users\Elene2004\Python\Files\PingPong-PPO\wandb\run-20241127_004258-74fjxxj6\logs\debug-internal.log
+2024-11-27 00:42:58,465 INFO    MainThread:27488 [wandb_init.py:init():619] calling init triggers
+2024-11-27 00:42:58,465 INFO    MainThread:27488 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {}
+2024-11-27 00:42:58,465 INFO    MainThread:27488 [wandb_init.py:init():669] starting backend
+2024-11-27 00:42:58,465 INFO    MainThread:27488 [wandb_init.py:init():673] sending inform_init request
+2024-11-27 00:42:58,468 INFO    MainThread:27488 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-11-27 00:42:58,469 INFO    MainThread:27488 [wandb_init.py:init():686] backend started and connected
+2024-11-27 00:42:58,473 INFO    MainThread:27488 [wandb_init.py:init():781] updated telemetry
+2024-11-27 00:42:58,638 INFO    MainThread:27488 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2024-11-27 00:43:01,263 INFO    MainThread:27488 [wandb_init.py:init():867] starting run threads in backend
+2024-11-27 00:43:01,413 INFO    MainThread:27488 [wandb_run.py:_console_start():2456] atexit reg
+2024-11-27 00:43:01,414 INFO    MainThread:27488 [wandb_run.py:_redirect():2305] redirect: wrap_raw
+2024-11-27 00:43:01,414 INFO    MainThread:27488 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2024-11-27 00:43:01,414 INFO    MainThread:27488 [wandb_run.py:_redirect():2395] Redirects installed.
+2024-11-27 00:43:01,417 INFO    MainThread:27488 [wandb_init.py:init():911] run started, returning control to user process
+2024-11-27 00:43:42,773 INFO    MainThread:27488 [wandb_run.py:_finish():2155] finishing run kajaiaelene-models/PG-Pong/74fjxxj6
+2024-11-27 00:43:42,773 INFO    MainThread:27488 [wandb_run.py:_atexit_cleanup():2420] got exitcode: 0
+2024-11-27 00:43:42,774 INFO    MainThread:27488 [wandb_run.py:_restore():2402] restore
+2024-11-27 00:43:42,774 INFO    MainThread:27488 [wandb_run.py:_restore():2408] restore done
+2024-11-27 00:43:46,445 INFO    MainThread:27488 [wandb_run.py:_footer_history_summary_info():3960] rendering history
+2024-11-27 00:43:46,455 INFO    MainThread:27488 [wandb_run.py:_footer_history_summary_info():3992] rendering summary
+2024-11-27 00:43:46,468 INFO    MainThread:27488 [wandb_run.py:_footer_sync_info():3921] logging synced files

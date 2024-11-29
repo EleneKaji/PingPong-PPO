@@ -1,0 +1,2 @@
+Using device: cuda
+Epoch: 0 | Loss: -0.46257 | Reward: -19.031 | Advantage: -0.66734 | Prob: 0.5 | LogProb: -0.69315 | GradNorm: 0.0060577 | Time (s): 4.9144 | Total Time (m): 0.081907

@@ -1,0 +1,1 @@
+{"loss":3.503035657104192e-07,"time":18.02571507692337,"grad norm":80669.625,"_step":512,"max logprob":-0.5147916078567505,"average reward":-21,"_timestamp":1.7328305470431943e+09,"_runtime":1085.349381,"average advantage":-1.5787317752838135,"_wandb":{"runtime":1085},"max prob":0.5976251363754272}

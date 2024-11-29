@@ -1,0 +1,7 @@
+Using cuda device
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 117, in <module>
+    reward, discounted_reward, loss, prob, log_prob, grad_norm = train_episode()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 59, in train_episode
+    prob = agent(delta_x.unsqueeze(0))
+UnboundLocalError: local variable 'agent' referenced before assignment

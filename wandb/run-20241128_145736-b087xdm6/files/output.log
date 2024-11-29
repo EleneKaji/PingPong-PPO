@@ -1,0 +1,23 @@
+Episode: 4, Loss: -0.0005926968296989799, Reward: -19.25, Advantage: 2.4330693904062173e-08, Max Prob: 0.17834186553955078, Max Log Prob: -1.724052906036377
+Episode: 8, Loss: -0.000732178392354399, Reward: -20.25, Advantage: -7.91431009616872e-09, Max Prob: 0.1804538369178772, Max Log Prob: -1.7122802734375
+Episode: 12, Loss: -0.0005536121898330748, Reward: -19.5, Advantage: -2.0587742710631574e-07, Max Prob: 0.18344241380691528, Max Log Prob: -1.6958544254302979
+Episode: 16, Loss: -0.00020554751972667873, Reward: -20.25, Advantage: -5.701313909867167e-08, Max Prob: 0.18778297305107117, Max Log Prob: -1.6724684238433838
+Episode: 20, Loss: -0.0005686546210199594, Reward: -20.25, Advantage: -6.124295026666005e-08, Max Prob: 0.1899375021457672, Max Log Prob: -1.6610602140426636
+Episode: 24, Loss: -0.0015531601384282112, Reward: -20.75, Advantage: -2.688661204786058e-08, Max Prob: 0.1913408637046814, Max Log Prob: -1.6536988019943237
+Episode: 28, Loss: -6.264582771109417e-05, Reward: -20.25, Advantage: 7.676672453271749e-08, Max Prob: 0.19445066154003143, Max Log Prob: -1.6375768184661865
+Episode: 32, Loss: 0.0008702291524969041, Reward: -19.75, Advantage: 3.3341198246716885e-08, Max Prob: 0.1984187811613083, Max Log Prob: -1.617375373840332
+Episode: 36, Loss: 0.001535471179522574, Reward: -20.25, Advantage: 1.5757549931549875e-07, Max Prob: 0.19912759959697723, Max Log Prob: -1.6138094663619995
+Episode: 40, Loss: 0.0012104249326512218, Reward: -20.5, Advantage: 4.354371441195326e-08, Max Prob: 0.20247359573841095, Max Log Prob: -1.5971457958221436
+Episode: 44, Loss: -0.0022547219414263964, Reward: -19.75, Advantage: -1.3213973204528884e-07, Max Prob: 0.20426712930202484, Max Log Prob: -1.5883266925811768
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\VanillaPG.py", line 77, in <module>
+    observation, reward, terminated, truncated, info = envs.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\wrappers\common.py", line 393, in step
+    return super().step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\core.py", line 322, in step
+    return self.env.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\wrappers\common.py", line 285, in step
+    return self.env.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\ale_py\env.py", line 299, in step
+    reward += self.ale.act(action_idx, strength)
+KeyboardInterrupt

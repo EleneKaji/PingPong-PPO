@@ -1,0 +1,20 @@
+Using cuda device
+Step: 0 | Reward: -20.75 | Advantage: 0.0002721 | Loss: -4.97e-08 | Prob: 0.51434 | Log Prob: -0.66936 | Grad Norm: 0.050395 | Time: 6.7749 | Total Time: 0.11292
+Step: 4 | Reward: -20.75 | Advantage: 0.0048102 | Loss: -1.2631e-07 | Prob: 0.41054 | Log Prob: -0.51171 | Grad Norm: 0.10549 | Time: 10.922 | Total Time: 0.29495
+Step: 8 | Reward: -19.75 | Advantage: 0.00033717 | Loss: -2.0548e-07 | Prob: 0.44431 | Log Prob: -0.5659 | Grad Norm: 0.013283 | Time: 14.469 | Total Time: 0.5361
+Step: 12 | Reward: -20.25 | Advantage: 0.00093836 | Loss: -2.7207e-07 | Prob: 0.47019 | Log Prob: -0.61252 | Grad Norm: 0.043472 | Time: 12.591 | Total Time: 0.74596
+Step: 16 | Reward: -20.75 | Advantage: -3.6604e-05 | Loss: -3.0477e-08 | Prob: 0.49351 | Log Prob: -0.65474 | Grad Norm: 0.010071 | Time: 13.411 | Total Time: 0.96948
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 116, in <module>
+    reward, discounted_reward, loss, prob, log_prob, grad_norm = train_episode()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 64, in train_episode
+    obs, reward, terminated, truncated, info = env.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\wrappers\common.py", line 393, in step
+    return super().step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\core.py", line 322, in step
+    return self.env.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\gymnasium\wrappers\common.py", line 285, in step
+    return self.env.step(action)
+  File "C:\Users\Elene2004\anaconda3\envs\pong_rl\lib\site-packages\ale_py\env.py", line 299, in step
+    reward += self.ale.act(action_idx, strength)
+KeyboardInterrupt

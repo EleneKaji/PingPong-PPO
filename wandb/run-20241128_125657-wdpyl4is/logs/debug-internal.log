@@ -1,0 +1,16 @@
+{"time":"2024-11-28T12:56:57.538532-07:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-28T12:56:57.538532-07:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Elene2004\\Python\\Files\\PingPong-PPO\\wandb\\run-20241128_125657-wdpyl4is\\logs\\debug-core.log"}
+{"time":"2024-11-28T12:56:57.6469749-07:00","level":"INFO","msg":"created new stream","id":"wdpyl4is"}
+{"time":"2024-11-28T12:56:57.6469749-07:00","level":"INFO","msg":"stream: started","id":"wdpyl4is"}
+{"time":"2024-11-28T12:56:57.6469749-07:00","level":"INFO","msg":"sender: started","stream_id":"wdpyl4is"}
+{"time":"2024-11-28T12:56:57.6469749-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"wdpyl4is"}
+{"time":"2024-11-28T12:56:57.6469749-07:00","level":"INFO","msg":"handler: started","stream_id":"wdpyl4is"}
+{"time":"2024-11-28T12:56:57.8764576-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T12:57:57.4782997-07:00","level":"INFO","msg":"stream: closing","id":"wdpyl4is"}
+{"time":"2024-11-28T12:57:57.4782997-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-28T12:57:57.4788028-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-28T12:57:57.8289479-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-28T12:57:57.978712-07:00","level":"INFO","msg":"handler: closed","stream_id":"wdpyl4is"}
+{"time":"2024-11-28T12:57:57.978712-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"wdpyl4is"}
+{"time":"2024-11-28T12:57:57.978712-07:00","level":"INFO","msg":"sender: closed","stream_id":"wdpyl4is"}
+{"time":"2024-11-28T12:57:57.978712-07:00","level":"INFO","msg":"stream: closed","id":"wdpyl4is"}

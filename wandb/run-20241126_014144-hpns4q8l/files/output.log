@@ -1,0 +1,5 @@
+Using device: cuda
+tensor(-64., device='cuda:0')
+Epoch: 0 | Loss: -0.54097 | Reward: -21 | Advantage: -0.78046 | Prob: 0.5 | LogProg: -0.69315 | Time (s): 5.0068 | Total Time (m): 0.083447
+tensor(-62., device='cuda:0')
+Epoch: 1 | Loss: -0.51898 | Reward: -20.344 | Advantage: -0.74847 | Prob: 0.49976 | LogProg: -0.69339 | Time (s): 14.705 | Total Time (m): 0.32853

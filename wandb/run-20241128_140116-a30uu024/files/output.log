@@ -1,0 +1,7 @@
+Using cuda device
+Traceback (most recent call last):
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 117, in <module>
+    reward, discounted_reward, loss, prob, log_prob, grad_norm = train_episode()
+  File "C:\Users\Elene2004\Python\Files\PingPong-PPO\Policy_Gradient.py", line 78, in train_episode
+    action_log_probs = log_probs[torch.arange(len(selected_actions)), selected_actions]
+IndexError: too many indices for tensor of dimension 1

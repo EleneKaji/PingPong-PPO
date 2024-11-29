@@ -1,136 +1,297 @@
-# import gymnasium as gym
-# import ale_py
-
-# gym.register_envs(ale_py)
-# env = gym.make("ALE/Pong-v5", render_mode="human")
-
-# num_actions = env.action_space.n
-# print(f"Number of actions available: {num_actions}")
-
-# # Get the action meanings (if supported)
-# if hasattr(env.unwrapped, 'get_action_meanings'):
-#     action_meanings = env.unwrapped.get_action_meanings()
-#     print("Action meanings:")
-#     for idx, action in enumerate(action_meanings):
-#         print(f"Action {idx}: {action}")
-# else:
-#     print("Action meanings not available for this environment.")
+import gymnasium as gym
+import ale_py
 
 import torch
+import torch.nn as nn
+from torch.nn import functional as F
+from torch.amp import GradScaler, autocast
+from torch.nn.utils import clip_grad_norm_
 
-# def discount_rewards(rewards, gamma=0.99):
-#     # Assume rewards is a 2D tensor of shape [num_steps, num_envs]
-#     num_steps, num_envs = rewards.size()
-    
-#     # Create a discount factor tensor with shape [num_steps]
-#     discounts = torch.tensor([gamma**i for i in range(num_steps)], dtype=torch.float32, device=rewards.device)
-#     print(discounts)
-    
-#     # Reverse the rewards to use cumulative sum effectively
-#     reversed_rewards = rewards.flip(dims=[0])
-#     print(reversed_rewards)
-    
-#     # Apply cumulative sum along the time dimension (0)
-#     discounted_rewards = torch.cumsum(reversed_rewards * discounts.view(-1, 1), dim=0)
-#     print(discounted_rewards)
-    
-#     # Flip back to the original order
-#     discounted_rewards = discounted_rewards.flip(dims=[0])
-#     print(discounted_rewards)
-    
-#     # Normalize by dividing by the discount factors
-#     print(torch.mean(discounted_rewards))
-#     discounted_rewards -= torch.mean(discounted_rewards)
-#     discounted_rewards /= torch.std(discounted_rewards)
-#     print(discounted_rewards)
-    
-#     return discounted_rewards
+import wandb
+import time
+import numpy as np
+import copy
 
-# device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-# tensor = torch.tensor([
-#     [1, 2, 3, 4, 5],
-#     [6, 7, 8, 9, 10],
-#     [11, 12, 13, 14, 15],
-#     [16, 17, 18, 19, 20],
-#     [21, 22, 23, 24, 25],
-#     [26, 27, 28, 29, 30],
-#     [31, 32, 33, 34, 35],
-#     [36, 37, 38, 39, 40],
-#     [41, 42, 43, 44, 45],
-#     [46, 47, 48, 49, 50],
-#     [51, 52, 53, 54, 55],
-#     [56, 57, 58, 59, 60],
-#     [61, 62, 63, 64, 65],
-#     [66, 67, 68, 69, 70],
-#     [71, 72, 73, 74, 75],
-#     [76, 77, 78, 79, 80],
-#     [81, 82, 83, 84, 85],
-#     [86, 87, 88, 89, 90],
-#     [91, 92, 93, 94, 95],
-#     [96, 97, 98, 99, 100]
-# ])
+# Define the Policy Gradient network
+class PolicyGradient(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.conv1 = nn.Conv2d(1, 8, kernel_size=5, stride=2)
+        self.fc1 = nn.Linear(8 * 38 * 38, 128)
+        self.fc2 = nn.Linear(128, 1)
 
-# discount_rewards(tensor, gamma=0.99)
+    #     self._initialize_weights()
 
-import matplotlib.pyplot as plt
+    # def _initialize_weights(self):
+    #     torch.nn.init.normal_(self.conv1.weight, mean=0, std=0.01)
+    #     torch.nn.init.normal_(self.fc1.weight, mean=0, std=0.01)
+    #     torch.nn.init.normal_(self.fc2.weight, mean=0, std=0.01)
 
-# List of losses provided
-losses = [
-    -6.41398068, 3.84917767, -20.80338456, 3.60161982, 5.01723531, -6.73300803,
-    -4.07163446, -2.96727184, -6.67661046, 0.94222783, 11.04009719, 12.18560668,
-    -3.95145959, 3.20739586, 11.27573348, 9.74817368, -9.85942466, 7.67840353,
-    9.94652233, 9.30912470, 5.89822059, -7.48104157, -9.82382639, -4.11239441,
-    -2.22976973, 20.50706190, -9.83215618, -14.64978417, 15.36855079, -22.07929273,
-    15.03871815, 11.90582887, -3.13344116, -6.77200663, -6.29397970, -13.74697922,
-    9.58430697, -0.81539202, -7.21410014, -12.36066670, 6.15275403, -0.82628393,
-    1.57217892, -2.47360486, 14.35365696, 1.45342304, -0.71221341, -11.25543233,
-    -32.36120101, -5.05316357, 3.25217120, -7.78976531, 14.23557610, -3.36859403,
-    8.63452786, -5.35905357,
--4.21724485,
--12.03520252,
--7.03856447,
--13.72887537,
-13.91418101,
-1.86938667,
-11.56428584,
--1.64506151,
--2.22540128,
--7.31949364,
--18.37153291,
--1.76174871,
--8.86735697,
--12.78784318,
--9.79013578,
--2.16420682,
--16.31236651,
-3.11358525,
--9.89100354,
--10.48160110,
-2.35702550,
--10.60293150,
--0.37566048,
--21.26435906,
-7.95601570,
--8.65782510,
--4.73969005,
--2.83338028,
--0.10841919,
-14.32235144,
--1.69581804,
-20.31798173,
--26.27463791,
-0.02051941,
-22.42142509,
--1.19610007,
--11.50631594
-]
+    #     torch.nn.init.normal_(self.conv1.bias, mean=0, std=0.01)
+    #     torch.nn.init.normal_(self.fc1.bias, mean=0, std=0.01)
+    #     torch.nn.init.normal_(self.fc2.bias, mean=0, std=0.01)
 
-# Plot the loss values
-plt.figure(figsize=(10, 6))
-plt.plot(range(1, len(losses) + 1), losses, marker='o', linestyle='-', color='b', label='Loss')
-plt.title('Loss per Episode')
-plt.xlabel('Episode')
-plt.ylabel('Loss')
-plt.grid(True)
-plt.legend()
-plt.show()
+    def forward(self, x):
+        x = F.relu(self.conv1(x))
+        x = F.relu(self.fc1(x.view(x.size(0), -1))) # flatten based on the batches
+        x = F.sigmoid(self.fc2(x))
+        return x
+    
+def pre_process(observation):
+    observation = torch.tensor(observation, dtype=torch.float32, device=device)
+    
+    observation = observation[:, 35:195] 
+    observation = observation[:, ::2, ::2, 0] 
+
+    mask = (observation != 144) & (observation != 109)
+    observation[~mask] = 0
+    observation[mask] = 1 
+
+    return observation.unsqueeze(1)
+
+def discount_rewards(rewards, gamma=0.99):
+    num_steps, _ = rewards.size()
+
+    discounts = torch.tensor([gamma**i for i in range(num_steps)], dtype=torch.float32, device=rewards.device)
+    reversed_rewards = rewards.flip(dims=[0])
+    discounted_rewards = torch.cumsum(reversed_rewards * discounts.view(-1, 1), dim=0)
+    discounted_rewards = discounted_rewards.flip(dims=[0])
+
+    discounted_rewards -= torch.mean(discounted_rewards)
+    discounted_rewards /= torch.std(discounted_rewards)
+
+    # check for nan values
+    if torch.isnan(discounted_rewards).any():
+        print("Nan in discounted rewards")
+        discounted_rewards = torch.torch.nan_to_num(discounted_rewards, nan=0.0)
+    
+    return discounted_rewards
+
+def advantage_fn(rewards, gamma=0.99):
+    discounted_rewards = []
+    for reward in rewards:
+        discounted_r = torch.zeros_like(reward)
+        running_add = 0
+        for t in reversed(range(0, len(reward))):
+            if reward[t] != 0:
+                running_add = 0
+            running_add = running_add * gamma + reward[t]
+            discounted_r[t] = running_add
+        discounted_rewards.append(discounted_r)
+
+    discounted_rewards = torch.cat(discounted_rewards)
+    discounted_rewards -= torch.mean(discounted_rewards)
+    discounted_rewards /= (torch.std(discounted_rewards) + 1e-8)
+    return discounted_rewards
+
+def train_one_episode():
+    batch_deltas, batch_rewards, batch_actions = [], [], []
+    all_deltas = [[] for _ in range(num_envs)]
+    all_rewards = [[] for _ in range(num_envs)]
+    all_actions = [[] for _ in range(num_envs)]
+
+    obs, _ = envs.reset()
+    prev_obs = None
+
+    while len(batch_deltas) < batch_size:
+        curr_obs = pre_process(obs)
+        delta_obs = curr_obs - prev_obs if prev_obs is not None else curr_obs
+        prev_obs = curr_obs
+
+        with torch.no_grad():
+            nograd_probs = model(delta_obs)
+            random_value = torch.rand(nograd_probs.size(), device=device)
+            action = torch.where(random_value < nograd_probs, 2, 3) # 2 is UP, 3 is DOWN
+
+        obs, rewards, terminated, truncated, _ = envs.step(action)
+        indices = np.where(terminated | truncated)[0]
+
+        for i in range(num_envs):
+            all_deltas[i].append(delta_obs.squeeze(0)[i]) # T [N, 1, 80, 80]
+            all_rewards[i].append(rewards[i])
+            all_actions[i].append(action[i])
+
+        if len(indices) > 0:
+            for index in indices:
+                batch_deltas.append(copy.deepcopy(all_deltas[index]))
+                batch_rewards.append(copy.deepcopy(all_rewards[index]))
+                batch_actions.append(copy.deepcopy(all_actions[index]))
+                
+                all_deltas[index].clear()
+                all_rewards[index].clear()
+                all_actions[index].clear()
+
+    e_deltas = torch.cat([torch.stack(batch) for batch in batch_deltas]).to(device) # [N, T, 1, 80, 80]
+    e_rewards = [torch.tensor(batch, dtype=torch.float32, device=device) for batch in batch_rewards] # [each batch is [T, N]]
+    e_actions = torch.cat([torch.stack(actions) for actions in batch_actions]).to(device) # [N, T]
+
+    all_deltas.clear()
+    all_rewards.clear()
+    all_actions.clear()
+    batch_deltas.clear()
+    batch_rewards.clear()
+    batch_actions.clear()
+    
+    with autocast(device_type="cuda"):
+        probs = model(e_deltas)
+        probs = probs.view(-1)
+        e_actions = e_actions.view(-1)
+        y = torch.where(e_actions == 2, 1, 0) # 1 is UP, 0 is DOWN
+        logprobs = y * torch.log(probs) + (1 - y) * torch.log(1 - probs)
+        advantage = advantage_fn(e_rewards)
+        loss = -torch.mean(logprobs * advantage)
+
+    scaler.scale(loss).backward()
+    grad_norm = clip_grad_norm_(model.parameters(), max_norm=1)          
+    scaler.unscale_(optimizer)
+    scaler.step(optimizer)
+    scaler.update()
+    optimizer.zero_grad()
+
+    return loss.item(), sum([batch.sum() for batch in e_rewards])/len(e_rewards), torch.max(probs).item(), torch.mean(advantage).item(), torch.max(logprobs).item(), grad_norm
+        
+def train_one_epoch_on_timestep():
+    time_step = 4096
+    ep_deltas, ep_rewards = [], []
+    obs, _ = envs.reset()
+    prev_obs = None
+
+    for _ in range(time_step):
+        curr_obs = pre_process(obs) # [N, 1, 80, 80]
+        delta_obs = curr_obs - prev_obs if prev_obs is not None else curr_obs
+        prev_obs = curr_obs
+
+        with torch.no_grad():
+            nograd_probs = model(delta_obs)
+            random_value = torch.rand(nograd_probs.size(), device=device)
+            action = torch.where(random_value < nograd_probs, 2, 3) # 2 is UP, 3 is DOWN
+        obs, rewards, _, _, _ = envs.step(action) 
+
+        ep_deltas.append(delta_obs.squeeze(0)) # 1 [N, 1, 80, 80]
+        ep_rewards.append(rewards)
+
+    d_deltas = torch.cat(ep_deltas, dim=0).to(device) # [N * T, 1, 80, 80]
+    ep_rewards_np = np.array(ep_rewards)
+    d_rewards = torch.tensor(ep_rewards_np, dtype=torch.float32, device=device) # [T, N]
+    ep_deltas.clear()
+    ep_rewards.clear()
+    
+    with autocast(device_type="cuda"):
+        probs = model(d_deltas) # [T * N]
+        random_values = torch.rand(probs.size(), device=device)
+        y = torch.where(random_values < probs, 1, 0) # 1 is UP, 0 is DOWN. [T * N]
+        logprobs = y * torch.log(probs) + (1 - y) * torch.log(1 - probs) # torch.Size([T, N])
+        advantage = discount_rewards(d_rewards).view(-1) # [T, N] -> [T * N]
+        print(y.size(), advantage.size())
+        loss = -torch.mean(logprobs * advantage)
+        if torch.isnan(loss).any():
+            print("Nan in loss")
+            loss = torch.nan_to_num(loss, nan=0.0)
+
+    scaler.scale(loss).backward()
+    clip_grad_norm_(model.parameters(), max_norm=1)          
+    scaler.unscale_(optimizer)
+    scaler.step(optimizer)
+    scaler.update()
+    optimizer.zero_grad()
+
+    return loss.item(), torch.mean(d_rewards).item(), torch.mean(probs).item(), torch.mean(advantage).item(), torch.mean(logprobs).item()
+
+def train_one_epoch():
+    batch_deltas, batch_rewards = [], []
+    all_deltas = [[] for _ in range(num_envs)]
+    all_rewards = [[] for _ in range(num_envs)]
+
+    prev_obs = None
+    obs, _ = envs.reset()
+
+    while len(batch_deltas) < batch_size:
+        curr_obs = pre_process(obs) # [N, 1, 80, 80]
+        delta_obs = curr_obs - prev_obs if prev_obs is not None else curr_obs
+        prev_obs = curr_obs
+
+        with torch.no_grad():
+            nograd_probs = model(delta_obs)
+            random_value = torch.rand(nograd_probs.size(), device=device)
+            action = torch.where(random_value < nograd_probs, 2, 3) # 2 is UP, 3 is DOWN
+        obs, rewards, _, _, _ = envs.step(action) 
+
+        for i in range(num_envs):
+            all_deltas[i].append(delta_obs.squeeze(0)[i]) # T [N, 1, 80, 80]
+            all_rewards[i].append(rewards[i])
+
+        if np.any(rewards == 1) or np.any(rewards == -1):
+            indices = np.where((rewards == 1) | (rewards == -1))
+            indices = indices[0].tolist()
+            for index in indices:
+                batch_deltas.append(copy.deepcopy(all_deltas[index]))
+                batch_rewards.append(copy.deepcopy(all_rewards[index]))
+                
+                all_deltas[index].clear()
+                all_rewards[index].clear()
+
+    e_deltas = torch.cat([torch.stack(batch) for batch in batch_deltas]).to(device) # [N, T, 1, 80, 80]
+    e_rewards = [torch.tensor(batch, dtype=torch.float32, device=device) for batch in batch_rewards] # [each batch is [T, N]]
+    batch_deltas.clear()
+    batch_rewards.clear()
+    
+    with autocast(device_type="cuda"):
+        probs = model(e_deltas.unsqueeze(1)) # [T * N]
+        random_values = torch.rand(probs.size(), device=device)
+        y = torch.where(random_values < probs, 1, 0) # 1 is UP, 0 is DOWN. [T * N]
+        logprobs = y * torch.log10(probs) + (1 - y) * torch.log10(1 - probs) # torch.Size([T, N])
+        advantage = advantage_fn(e_rewards) # [T, N] -> [T * N]
+        loss = -torch.mean(logprobs * advantage)
+        if torch.isnan(loss).any():
+            print("Nan in loss")
+            loss = torch.nan_to_num(loss, nan=0.0)
+
+    loss.backward()
+    grad_norm = clip_grad_norm_(model.parameters(), max_norm=1)
+    optimizer.step()
+    optimizer.zero_grad()
+
+    return loss.item(), sum([batch.sum() for batch in e_rewards]), torch.max(probs).item(), torch.mean(advantage).item(), torch.max(logprobs).item(), grad_norm
+            
+
+if __name__ == "__main__":
+    plotting = True
+    if plotting: wandb.init(
+        project="PG-Pong",
+        name="PG-1env-8batch-episodes",
+    )
+
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print(f"Using device: {device}")
+
+    num_envs = 4
+    gym.register_envs(ale_py)
+    envs = gym.make_vec("ALE/Pong-v5", num_envs=4, vectorization_mode="sync")    
+    observations, info = envs.reset()
+
+    model = PolicyGradient().to(device)
+    scaler = GradScaler()
+    optimizer = torch.optim.Adam(model.parameters(), lr=1e-2)
+
+    total_time = 0
+    batch_size = 8
+    for i in range(0, 5000, batch_size):
+        start_time = time.time()
+        loss, reward, prob, advantage, logprob, norm = train_one_episode()
+        time_diff = time.time() - start_time
+        total_time += (time_diff / 60)
+        # reward = sum_reward * 21 / batch_size
+
+        print(f"Epoch: {i} | Loss: {loss:.5g} | Reward: {reward:.5g} | Advantage: {advantage:.5g} | Prob: {prob:.5g} | LogProb: {logprob:.5g}  | GradNorm: {norm:.5g} | Time (s): {time_diff:.5g} | Total Time (m): {total_time:.5g}")
+        if plotting: wandb.log({"average loss": loss, 
+                                "average reward": reward, 
+                                "average advantage": advantage,
+                                "average prob": prob,
+                                "average logprob": logprob,
+                                "grad norm": norm,
+                                "time": total_time}, step=i)
+            
+        if i % 100 == 0: torch.save(model.state_dict(), 'PGmodel.pth')
+
+    envs.close()
+    if plotting: wandb.finish()
